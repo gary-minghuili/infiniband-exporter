@@ -1,0 +1,2 @@
+[Mar 15 22:32:20 105105][1FD8][0x80 0x05] -> /var/tmp/ibdiagnet2/infiniband-default/ibdiagnet2.debug log file opened
+[Mar 15 22:32:20 333921][1FD8][0x02 0x01] -> (ibdiag.cpp,69,SetLastError): -E- 

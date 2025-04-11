@@ -1,0 +1,2 @@
+[Mar 31 23:43:18 740011][384BC4][0x80 0x05] -> /var/tmp/ibdiagnet2/ibdiagnet2.debug log file opened
+[Mar 31 23:43:20 055078][384BC4][0x02 0x01] -> (ibdiag.cpp,69,SetLastError): -E- 

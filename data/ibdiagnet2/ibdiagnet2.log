@@ -1,0 +1,238 @@
+Running version:   "IBDIAGNET 2.10.0.MLNX20220720.cd746c3","IBDIAG 2.1.1.cd746c3","IBDM 2.1.1.cd746c3","IBIS 7.0.0.c25850e"
+Running command:   /usr/bin/ibdiagnet 
+Running timestamp: 2025-03-31 23:43:18 UTC +0000
+
+Switch label port numbering explanation:
+  Quantum2 switch split mode: ASIC/Cage/Port/Split, e.g 1/1/1/1
+  Quantum2 switch no split mode: ASIC/Cage/Port
+  Quantum switch split mode: Port/Split
+  Quantum switch no split mode: Port
+
+
+----------
+Load Plugins from:
+/usr/share/ibdiagnet2.1.1/plugins/
+(You can specify more paths to be looked in with "IBDIAGNET_PLUGINS_PATH" env variable)
+
+Plugin Name                                   Result     Comment
+libibdiagnet_cable_diag_plugin-2.1.1          Succeeded  Plugin loaded
+libibdiagnet_phy_diag_plugin-2.1.1            Succeeded  Plugin loaded
+
+---------------------------------------------
+Discovery
+-I- Start Fabric Discover
+-I- Fill NodeDesc data
+-I- NodeDesc finished successfully 
+-I- Fabric Discover finished successfully
+
+-I- Fill PortInfo data
+-I- PortInfo finished successfully
+
+-I- No scope files. Total switches/ports [9/585], CAs/ports [263/263]
+-I- Build VS Capability GMP
+-W- VS Capability GMP finished with warnings
+-W- Sb0cf0e0300e5b940/Nb0cf0e0300e5b948 - No response for MAD VSGeneralInfo, status = 4
+-W- Sfc6a1c03008a4dc0/Nfc6a1c03008a4dc8 - No response for MAD VSGeneralInfo, status = 4
+-W- Sfc6a1c03008a5c00/Nfc6a1c03008a5c08 - No response for MAD VSGeneralInfo, status = 4
+-W- Sfc6a1c030091cf40/Nfc6a1c030091cf48 - No response for MAD VSGeneralInfo, status = 4
+-W- Sfc6a1c030091f600/Nfc6a1c030091f608 - No response for MAD VSGeneralInfo, status = 4
+-I- All other warnings can be found in ibdiagnet2.db_csv
+
+-I- Build VS Capability SMP
+-I- Build VS Capability FW Info SMP
+-I- Build VS Capability Mask SMP
+-I- VS Capability SMP finished successfully
+
+-I- Build VS Extended Port Info
+-I- VS ExtendedPortInfo finished successfully
+
+-I- Build VS Port Info Extended
+-I- Port Info Extended finished successfully
+
+-I- Build Switch Info
+-I- Switch Info retrieving finished successfully
+
+-I- Build Hierarchy Info
+-I- Hierarchy Info retrieving finished successfully
+
+-I- Build AR Info
+-I- AR Info retrieving finished successfully
+
+-I- Duplicated GUIDs detection finished successfully
+
+-W- Note: If you have unmanaged systems then duplication can occur
+-W- Duplicated Node Description detection finished with warnings
+-W- Sb0cf0e0300e5b940/Nb0cf0e0300e5b940 - Node with GUID=0xb0cf0e0300e5b940 is configured with duplicated node description - Quantum-2 Mellanox Technologies
+-W- Sfc6a1c03008a4dc0/Nfc6a1c03008a4dc0 - Node with GUID=0xfc6a1c03008a4dc0 is configured with duplicated node description - Quantum-2 Mellanox Technologies
+-W- Sfc6a1c03008a5c00/Nfc6a1c03008a5c00 - Node with GUID=0xfc6a1c03008a5c00 is configured with duplicated node description - Quantum-2 Mellanox Technologies
+-W- Sfc6a1c030091cf00/Nfc6a1c030091cf00 - Node with GUID=0xfc6a1c030091cf00 is configured with duplicated node description - Quantum-2 Mellanox Technologies
+-W- Sfc6a1c030091cf40/Nfc6a1c030091cf40 - Node with GUID=0xfc6a1c030091cf40 is configured with duplicated node description - Quantum-2 Mellanox Technologies
+-I- All other warnings can be found in ibdiagnet2.db_csv
+
+-W- Port Hierarchy Info finished with warnings
+-W- Sfc6a1c030091cf00/Nfc6a1c030091cf00/N/A - In Node Sfc6a1c030091cf00/Nfc6a1c030091cf00 Port 65 hierarchy info is missing
+-W- ib-switch-sequoia/U1/N/A - In Node ib-switch-sequoia/U1 Port 65 hierarchy info is missing
+
+---------------------------------------------
+Lids Check
+-I- Lids Check finished successfully
+
+---------------------------------------------
+Links Check
+-I- Links Check finished successfully
+
+---------------------------------------------
+Subnet Manager
+-I- SM Info retrieving finished successfully
+
+-I- Subnet Manager Check finished successfully
+
+---------------------------------------------
+Port Counters
+-I- Build PMClassPortInfo
+
+-I- Build PMPortSampleControl
+
+-I- Build Port Counters
+
+-I- Ports counters retrieving finished successfully
+
+-I- RN counters retrieving finished successfully
+
+-I- HBF counters retrieving finished successfully
+
+-I- Going to sleep for 1 seconds until next counters sample
+
+-I- Build Port Counters
+-I- Ports counters retrieving (second time) finished successfully
+
+-I- Ports counters value Check finished successfully
+
+-I- Ports counters overflow value Check finished successfully
+
+-I- pFRN Received Error check finished successfully
+
+-I- Ports counters Difference Check (during run) finished successfully
+
+-I- Ports counters delta check finished successfully
+
+---------------------------------------------
+Nodes Information
+-I- Devid: 4129(0x1021), PSID: MT_0000000970, Latest FW Version:28.41.1000
+-I- Devid: 4129(0x1021), PSID: MT_0000001120, Latest FW Version:28.40.1000
+-I- Devid: 54002(0xd2f2), PSID: MT_0000000577, Latest FW Version:31.2012.1024
+-I- Devid: 54002(0xd2f2), PSID: MT_0000000579, Latest FW Version:31.2012.1068
+-W- FW Check finished with warnings
+-W- Sfc6a1c030091cf00/Nfc6a1c030091cf00 - Node with Devid:54002(0xd2f2),PSID:MT_0000000579 has FW version 31.2012.1024 while the latest FW version for the same Devid/PSID on this fabric is 31.2012.1068
+-W- Sfc6a1c03008a4dc0/Nfc6a1c03008a4dc0 - Node with Devid:54002(0xd2f2),PSID:MT_0000000579 has FW version 31.2012.1024 while the latest FW version for the same Devid/PSID on this fabric is 31.2012.1068
+-W- Sfc6a1c03008a5c00/Nfc6a1c03008a5c00 - Node with Devid:54002(0xd2f2),PSID:MT_0000000579 has FW version 31.2012.1024 while the latest FW version for the same Devid/PSID on this fabric is 31.2012.1068
+-W- Sfc6a1c030091cf40/Nfc6a1c030091cf40 - Node with Devid:54002(0xd2f2),PSID:MT_0000000579 has FW version 31.2012.1024 while the latest FW version for the same Devid/PSID on this fabric is 31.2012.1068
+-W- Sfc6a1c030091f9c0/Nfc6a1c030091f9c0 - Node with Devid:54002(0xd2f2),PSID:MT_0000000579 has FW version 31.2012.1024 while the latest FW version for the same Devid/PSID on this fabric is 31.2012.1068
+-I- All other warnings can be found in ibdiagnet2.db_csv
+
+---------------------------------------------
+Speed / Width checks
+-I- Link Speed Check (Compare to supported link speed)
+-I- Links Speed Check finished successfully
+
+-I- Link Width Check (Compare to supported link width)
+-I- Links Width Check finished successfully
+
+---------------------------------------------
+Virtualization
+-I- Build Virtualization Info DB
+
+
+-I- Build VPort Info DB
+
+
+-I- Build VPort Info DB
+
+
+-I- Build VPort GUID Info DB
+
+
+-I- Build VNode Info DB
+
+
+-I- Build VPort PKey Table DB
+
+
+-I- Build Node Description DB
+
+
+-I- Virtualization finished successfully
+
+-I- Virtual ports retrieving finished successfully
+
+-I- Virtual ports retrieving finished successfully
+
+---------------------------------------------
+Partition Keys
+-I- Partition Keys retrieving finished successfully
+
+-I- Partition Keys finished successfully
+
+---------------------------------------------
+Temperature Sensing
+-I- Temperature Sensing finished successfully
+
+---------------------------------------------
+Routers
+-I- Build Routers Info DB finished successfully
+
+-I- Build Routers Tables finished successfully
+
+---------------------------------------------
+Post Reports Generation
+-I- Writing of IBNetdDscover file finished successfully
+---------------------------------------------
+Fabric Summary
+
+Total Nodes             : 272
+IB Switches             : 9
+IB Channel Adapters     : 256
+IB Aggregation Nodes    : 7
+IB Routers              : 0
+
+Adaptive Routing is enabled on 0 switches.
+Hashed Based Forwarding is enabled on 0 switches.
+
+Total number of links   : 271
+Links at 4x100          : 271
+
+Master SM: Port=0 LID=180 GUID=0xb0cf0e0300d33fc0 devid=54002 Priority:12 Node_Type=SW Node_Description=MF0;ib-switch-sequoia:MQM9700/U1
+Standby SM : No Standby SM
+
+---------------------------------------------
+Summary
+-I- Stage                               Warnings   Errors     Comment   
+-I- Discovery                           17         0         
+-I- Lids Check                          0          0         
+-I- Links Check                         0          0         
+-I- Subnet Manager                      0          0         
+-I- Port Counters                       0          0         
+-I- Nodes Information                   7          0         
+-I- Speed / Width checks                0          0         
+-I- Virtualization                      0          0         
+-I- Partition Keys                      0          0         
+-I- Temperature Sensing                 0          0         
+-I- Routers                             0          0         
+-I- Post Reports Generation             0          0         
+
+-I- You can find detailed errors/warnings in: /var/tmp/ibdiagnet2/ibdiagnet2.log
+
+
+-I- Database                            : /var/tmp/ibdiagnet2/ibdiagnet2.db_csv
+-I- LST                                 : /var/tmp/ibdiagnet2/ibdiagnet2.lst
+-I- Network dump                        : /var/tmp/ibdiagnet2/ibdiagnet2.net_dump
+-I- Subnet Manager                      : /var/tmp/ibdiagnet2/ibdiagnet2.sm
+-I- Ports Counters                      : /var/tmp/ibdiagnet2/ibdiagnet2.pm
+-I- RN counters 2                       : /var/tmp/ibdiagnet2/ibdiagnet2.rnc2
+-I- Nodes Information                   : /var/tmp/ibdiagnet2/ibdiagnet2.nodes_info
+-I- VPorts                              : /var/tmp/ibdiagnet2/ibdiagnet2.vports
+-I- VPorts Pkey                         : /var/tmp/ibdiagnet2/ibdiagnet2.vports_pkey
+-I- Partition keys                      : /var/tmp/ibdiagnet2/ibdiagnet2.pkey
+-I- IBNetDiscover                       : /var/tmp/ibdiagnet2/ibdiagnet2.ibnetdiscover
+
+

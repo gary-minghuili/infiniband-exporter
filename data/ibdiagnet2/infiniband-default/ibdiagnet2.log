@@ -1,0 +1,155 @@
+Running version:   "IBDIAGNET 2.10.0.MLNX20220720.cd746c3","IBDIAG 2.1.1.cd746c3","IBDM 2.1.1.cd746c3","IBIS 7.0.0.c25850e"
+Running command:   /usr/bin/ibdiagnet --output /var/tmp/ibdiagnet2/infiniband-default --skip dup_guids,dup_node_desc,lids,links,pm,nodes_info,speed_width_check --skip_plugin all 
+Running timestamp: 2025-03-15 22:32:20 UTC +0000
+
+Switch label port numbering explanation:
+  Quantum2 switch split mode: ASIC/Cage/Port/Split, e.g 1/1/1/1
+  Quantum2 switch no split mode: ASIC/Cage/Port
+  Quantum switch split mode: Port/Split
+  Quantum switch no split mode: Port
+
+
+----------
+-I- Plugins load will be skipped
+
+---------------------------------------------
+Discovery
+-W- Duplicated Node Description detection skipped
+-W- Advanced Duplicated GUIDs detection skipped (Only Basic detection will be performed)
+-I- Start Fabric Discover
+-I- Fill NodeDesc data
+-I- NodeDesc finished successfully 
+-I- Fabric Discover finished successfully
+
+-I- Fill PortInfo data
+-I- PortInfo finished successfully
+
+-I- No scope files. Total switches/ports [9/585], CAs/ports [263/263]
+-I- Build VS Capability GMP
+-W- VS Capability GMP finished with warnings
+-W- Sb0cf0e0300e5b940/Nb0cf0e0300e5b948 - No response for MAD VSGeneralInfo, status = 4
+-W- Sfc6a1c03008a5c00/Nfc6a1c03008a5c08 - No response for MAD VSGeneralInfo, status = 4
+-W- Sfc6a1c03008a4dc0/Nfc6a1c03008a4dc8 - No response for MAD VSGeneralInfo, status = 4
+-W- Sfc6a1c030091cf40/Nfc6a1c030091cf48 - No response for MAD VSGeneralInfo, status = 4
+-W- Sfc6a1c030091f600/Nfc6a1c030091f608 - No response for MAD VSGeneralInfo, status = 4
+-I- All other warnings can be found in ibdiagnet2.db_csv
+
+-I- Build VS Capability SMP
+-I- Build VS Capability FW Info SMP
+-I- Build VS Capability Mask SMP
+-I- VS Capability SMP finished successfully
+
+-I- Build VS Extended Port Info
+-I- VS ExtendedPortInfo finished successfully
+
+-I- Build VS Port Info Extended
+-I- Port Info Extended finished successfully
+
+-I- Build Switch Info
+-I- Switch Info retrieving finished successfully
+
+-I- Build Hierarchy Info
+-I- Hierarchy Info retrieving finished successfully
+
+-I- Build AR Info
+-I- AR Info retrieving finished successfully
+
+-I- Duplicated GUIDs detection finished successfully
+
+-W- Port Hierarchy Info finished with warnings
+-W- Sfc6a1c030091cf00/Nfc6a1c030091cf00/N/A - In Node Sfc6a1c030091cf00/Nfc6a1c030091cf00 Port 65 hierarchy info is missing
+-W- ib-switch-sequoia/U1/N/A - In Node ib-switch-sequoia/U1 Port 65 hierarchy info is missing
+
+---------------------------------------------
+Subnet Manager
+-I- SM Info retrieving finished successfully
+
+-I- Subnet Manager Check finished successfully
+
+---------------------------------------------
+Virtualization
+-I- Build Virtualization Info DB
+
+
+-I- Build VPort Info DB
+
+
+-I- Build VPort Info DB
+
+
+-I- Build VPort GUID Info DB
+
+
+-I- Build VNode Info DB
+
+
+-I- Build VPort PKey Table DB
+
+
+-I- Build Node Description DB
+
+
+-I- Virtualization finished successfully
+
+-I- Virtual ports retrieving finished successfully
+
+-I- Virtual ports retrieving finished successfully
+
+---------------------------------------------
+Partition Keys
+-I- Partition Keys retrieving finished successfully
+
+-I- Partition Keys finished successfully
+
+---------------------------------------------
+Temperature Sensing
+-I- Temperature Sensing finished successfully
+
+---------------------------------------------
+Routers
+-I- Build Routers Info DB finished successfully
+
+-I- Build Routers Tables finished successfully
+
+---------------------------------------------
+Post Reports Generation
+-I- Writing of IBNetdDscover file finished successfully
+---------------------------------------------
+Fabric Summary
+
+Total Nodes             : 272
+IB Switches             : 9
+IB Channel Adapters     : 256
+IB Aggregation Nodes    : 7
+IB Routers              : 0
+
+Adaptive Routing is enabled on 0 switches.
+Hashed Based Forwarding is enabled on 0 switches.
+
+Master SM: Port=0 LID=180 GUID=0xb0cf0e0300d33fc0 devid=54002 Priority:12 Node_Type=SW Node_Description=MF0;ib-switch-sequoia:MQM9700/U1
+Standby SM : No Standby SM
+
+---------------------------------------------
+Summary
+-I- Stage                               Warnings   Errors     Comment   
+-I- Discovery                           11         0         
+-I- Subnet Manager                      0          0         
+-I- Virtualization                      0          0         
+-I- Partition Keys                      0          0         
+-I- Temperature Sensing                 0          0         
+-I- Routers                             0          0         
+-I- Post Reports Generation             0          0         
+
+-I- You can find detailed errors/warnings in: /var/tmp/ibdiagnet2/infiniband-default/ibdiagnet2.log
+
+
+-I- Database                            : /var/tmp/ibdiagnet2/infiniband-default/ibdiagnet2.db_csv
+-I- LST                                 : /var/tmp/ibdiagnet2/infiniband-default/ibdiagnet2.lst
+-I- Network dump                        : /var/tmp/ibdiagnet2/infiniband-default/ibdiagnet2.net_dump
+-I- Subnet Manager                      : /var/tmp/ibdiagnet2/infiniband-default/ibdiagnet2.sm
+-I- VPorts                              : /var/tmp/ibdiagnet2/infiniband-default/ibdiagnet2.vports
+-I- VPorts Pkey                         : /var/tmp/ibdiagnet2/infiniband-default/ibdiagnet2.vports_pkey
+-I- Partition keys                      : /var/tmp/ibdiagnet2/infiniband-default/ibdiagnet2.pkey
+-I- IBNetDiscover                       : /var/tmp/ibdiagnet2/infiniband-default/ibdiagnet2.ibnetdiscover
+
+
