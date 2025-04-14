@@ -1,7 +1,7 @@
 package main
 
 import (
-	cmd "infiniband/cmd"
+	cmd "infiniband_exporter/cmd"
 	"os"
 )
 

@@ -1,4 +1,4 @@
-module infiniband
+module infiniband_exporter
 
 go 1.24.2
 
