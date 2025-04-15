@@ -1,7 +1,7 @@
 package global
 
 var (
-	Hca_mlx_map = map[string]string{
+	HcaMlxMap = map[string]string{
 		"HCA-1":  "mlx5_0",
 		"HCA-5":  "mlx5_0",
 		"HCA-2":  "mlx5_1",

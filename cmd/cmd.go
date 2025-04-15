@@ -49,21 +49,36 @@ func NewInfinibandExporterCommand() *cobra.Command {
 }
 
 func MetricsHandler(w http.ResponseWriter, r *http.Request) {
-	link_net_dump := ibdiagnet2.LinkNetDump{
+	linkNetDump := ibdiagnet2.LinkNetDump{
 		FilePath: filepath.Join(
 			"/Users/xlmh/Code/github/infiniband_exporter/data/ibdiagnet2",
 			"ibdiagnet2.net_dump",
 		),
 	}
-	var dumper ibdiagnet2.Dumper = &link_net_dump
-	file_content, err := dumper.GetContent(link_net_dump.FilePath)
+	var dumper ibdiagnet2.Dumper = &linkNetDump
+	file_content, err := dumper.GetContent(linkNetDump.FilePath)
 	if err != nil {
 		panic(err)
 	}
-	net_dumps, err := dumper.ParseContent(file_content)
+	netDumps, err := dumper.ParseContent(file_content)
 	if err != nil {
 		panic(err)
 	}
-	dumper.UpdateMetrics(net_dumps)
+	dumper.UpdateMetrics(netDumps)
+
+	linkPm := ibdiagnet2.LinkPm{
+		FilePath: filepath.Join(
+			"/Users/xlmh/Code/github/infiniband_exporter/data/ibdiagnet2",
+			"ibdiagnet2.pm",
+		),
+	}
+
+	var pmer ibdiagnet2.Pmer = &linkPm
+	fileContent, err := pmer.GetContent(linkPm.FilePath)
+	if err != nil {
+		panic(err)
+	}
+	pmer.UpdateMetrics(fileContent)
+
 	promhttp.Handler().ServeHTTP(w, r)
 }

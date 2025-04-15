@@ -12,20 +12,20 @@ import (
 )
 
 var (
-	labels                    = util.GetFieldNames(NetDump{})
-	infinibandLinkInfoCounter = prometheus.NewCounterVec(
+	netDumpLabels          = util.GetFieldNames(NetDump{})
+	netDumpLinkInfoCounter = prometheus.NewCounterVec(
 		prometheus.CounterOpts{
 			Name: "infiniband_link_info_total",
 			Help: "Total infiniband link info",
 		},
-		labels,
+		netDumpLabels,
 	)
-	infinibandLinkInfoGauge = prometheus.NewGaugeVec(
+	netDumpLinkInfoGauge = prometheus.NewGaugeVec(
 		prometheus.GaugeOpts{
 			Name: "infiniband_link_info_state",
 			Help: "Gauge infiniband link info",
 		},
-		labels,
+		netDumpLabels,
 	)
 )
 
@@ -40,33 +40,33 @@ type LinkNetDump struct {
 }
 
 type NetDump struct {
-	remote_guid string
-	remote_name string
-	remote_port string
-	state       string
-	local_guid  string
-	local_name  string
-	local_port  string
+	remoteGuid string
+	remoteName string
+	remotePort string
+	state      string
+	localGuid  string
+	localName  string
+	localPort  string
 }
 
 func init() {
-	prometheus.MustRegister(infinibandLinkInfoCounter)
-	prometheus.MustRegister(infinibandLinkInfoGauge)
+	prometheus.MustRegister(netDumpLinkInfoCounter)
+	prometheus.MustRegister(netDumpLinkInfoGauge)
 }
 
 func (d *LinkNetDump) GetContent(filepath string) (*[]string, error) {
-	file_content, err := util.ReadFileContent(filepath)
+	fileContent, err := util.ReadFileContent(filepath)
 	if err != nil {
 		log.GetLogger().Error("read file error")
 	}
 	re := regexp.MustCompile(`(?m)(.*),\s(\w+),\s(0x\w{16}),\sLID\s(\d+)`)
-	indexes := re.FindAllStringIndex(file_content, -1)
+	indexes := re.FindAllStringIndex(fileContent, -1)
 	var blocks []string
 	for i, match := range indexes {
 		if i == len(indexes)-1 {
-			blocks = append(blocks, strings.TrimSpace(file_content[match[0]:]))
+			blocks = append(blocks, strings.TrimSpace(fileContent[match[0]:]))
 		} else {
-			blocks = append(blocks, strings.TrimSpace(file_content[match[0]:indexes[i+1][0]]))
+			blocks = append(blocks, strings.TrimSpace(fileContent[match[0]:indexes[i+1][0]]))
 		}
 	}
 	return &blocks, nil
@@ -75,57 +75,57 @@ func (d *LinkNetDump) GetContent(filepath string) (*[]string, error) {
 func (d *LinkNetDump) ParseContent(blocks *[]string) (*[]NetDump, error) {
 	var netdumps []NetDump
 	for _, block := range *blocks {
-		switch_expr := `(?m)"(.*)",\s(\w+),\s(0x\w{16}),\sLID\s(\d+)`
-		switch_match, err := regexp.Compile(switch_expr)
+		switchExpr := `(?m)"(.*)",\s(\w+),\s(0x\w{16}),\sLID\s(\d+)`
+		switchMatch, err := regexp.Compile(switchExpr)
 		if err != nil {
 			log.GetLogger().Error("ReSwitch Error compiling regex")
 			return nil, err
 		}
-		sub_switch_match := switch_match.FindStringSubmatch(block)
-		remote_name := sub_switch_match[1]
-		remote_guid := sub_switch_match[3]
-		// remote_port := subSwitchMatch[4]
-		active_expr := `\s+(\d+/\d+/\d+)\s+:\s(\d+)\s+:\s(\w+)\s+:\s+(\w+\s\w+)\s+:\s+(\d+)\s+:\s+(\d+\w+)\s+:\s+(\d+)\s+:\s+(\w+)\s+:\s+(.*)\s+:\s+(\w{18})\s+:\s+(\w+/\d+/\d+/\d+)\s+:\s+(\d+)\s+:\s+"(.*)\s(\w+)"`
-		active_match, err := regexp.Compile(active_expr)
+		subSwitchMatch := switchMatch.FindStringSubmatch(block)
+		remoteName := subSwitchMatch[1]
+		remoteGuid := subSwitchMatch[3]
+		// remotePort := subSwitchMatch[4]
+		activeExpr := `\s+(\d+/\d+/\d+)\s+:\s(\d+)\s+:\s(\w+)\s+:\s+(\w+\s\w+)\s+:\s+(\d+)\s+:\s+(\d+\w+)\s+:\s+(\d+)\s+:\s+(\w+)\s+:\s+(.*)\s+:\s+(\w{18})\s+:\s+(\w+/\d+/\d+/\d+)\s+:\s+(\d+)\s+:\s+"(.*)\s(\w+)"`
+		activeMatch, err := regexp.Compile(activeExpr)
 		if err != nil {
 			log.GetLogger().Error("sub_switch_match error compiling regex")
 			return nil, err
 		}
-		sub_active_match := active_match.FindAllStringSubmatch(block, -1)
-		for _, match := range sub_active_match {
-			var local_name string
-			if value, exists := global.Hca_mlx_map[match[14]]; exists {
-				local_name = fmt.Sprintf(`%s %s`, match[13], value)
+		subActiveMatch := activeMatch.FindAllStringSubmatch(block, -1)
+		for _, match := range subActiveMatch {
+			var localName string
+			if value, exists := global.HcaMlxMap[match[14]]; exists {
+				localName = fmt.Sprintf(`%s %s`, match[13], value)
 			} else {
-				local_name = fmt.Sprintf(`%s %s`, match[13], match[14])
+				localName = fmt.Sprintf(`%s %s`, match[13], match[14])
 			}
 			netdump := NetDump{
-				remote_guid: remote_guid,
-				remote_name: remote_name,
-				remote_port: match[2],
-				state:       match[3],
-				local_guid:  match[10],
-				local_name:  local_name,
-				local_port:  "",
+				remoteGuid: remoteGuid,
+				remoteName: remoteName,
+				remotePort: match[2],
+				state:      match[3],
+				localGuid:  match[10],
+				localName:  localName,
+				localPort:  "",
 			}
 			netdumps = append(netdumps, netdump)
 		}
-		down_expr := `(\d+/\d+/\d+)\s+:\s+(\d+)\s+:\s+(\w+)\s+:\s+(\w+).*N/A.*`
-		down_match, err := regexp.Compile(down_expr)
+		downExpr := `(\d+/\d+/\d+)\s+:\s+(\d+)\s+:\s+(\w+)\s+:\s+(\w+).*N/A.*`
+		downMatch, err := regexp.Compile(downExpr)
 		if err != nil {
 			log.GetLogger().Error("netdump down error compiling regex")
 			return nil, err
 		}
-		sub_down_match := down_match.FindAllStringSubmatch(block, -1)
-		for _, match := range sub_down_match {
+		subDownMatch := downMatch.FindAllStringSubmatch(block, -1)
+		for _, match := range subDownMatch {
 			netdump := NetDump{
-				remote_guid: remote_guid,
-				remote_name: remote_name,
-				remote_port: match[2],
-				state:       match[3],
-				local_guid:  "",
-				local_name:  "", // TODO
-				local_port:  "",
+				remoteGuid: remoteGuid,
+				remoteName: remoteName,
+				remotePort: match[2],
+				state:      match[3],
+				localGuid:  "",
+				localName:  "", // TODO
+				localPort:  "",
 			}
 			netdumps = append(netdumps, netdump)
 		}
@@ -136,14 +136,14 @@ func (d *LinkNetDump) ParseContent(blocks *[]string) (*[]NetDump, error) {
 func (d *LinkNetDump) UpdateMetrics(netDump *[]NetDump) {
 	var value float64
 	for _, net := range *netDump {
-		infinibandLinkInfoCounter.WithLabelValues(
-			net.remote_guid,
-			net.remote_name,
-			net.remote_port,
+		netDumpLinkInfoCounter.WithLabelValues(
+			net.remoteGuid,
+			net.remoteName,
+			net.remotePort,
 			net.state,
-			net.local_guid,
-			net.local_name,
-			net.local_port,
+			net.localGuid,
+			net.localName,
+			net.localPort,
 		).Inc()
 
 		if net.state == "ACT" {
@@ -151,14 +151,14 @@ func (d *LinkNetDump) UpdateMetrics(netDump *[]NetDump) {
 		} else {
 			value = 0
 		}
-		infinibandLinkInfoGauge.WithLabelValues(
-			net.remote_guid,
-			net.remote_name,
-			net.remote_port,
+		netDumpLinkInfoGauge.WithLabelValues(
+			net.remoteGuid,
+			net.remoteName,
+			net.remotePort,
 			net.state,
-			net.local_guid,
-			net.local_name,
-			net.local_port,
+			net.localGuid,
+			net.localName,
+			net.localPort,
 		).Set(value)
 	}
 }
