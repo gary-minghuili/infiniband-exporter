@@ -11,4 +11,5 @@ var (
 		"HCA-3":  "mlx5_10",
 		"HCA-4":  "mlx5_10",
 	}
+	LinkMap = make(map[string]any, 0)
 )

@@ -383,8 +383,8 @@ var (
 )
 
 type Pmer interface {
-	GetContent(filepath string) (*[]string, error)
-	UpdateMetrics(blocks *[]string)
+	GetContent() (*[]string, error)
+	UpdateMetrics()
 }
 
 type LinkPm struct {
@@ -458,8 +458,8 @@ func init() {
 		prometheus.MustRegister(metric)
 	}
 }
-func (p *LinkPm) GetContent(filepath string) (*[]string, error) {
-	fileContent, err := util.ReadFileContent(filepath)
+func (p *LinkPm) GetContent() (*[]string, error) {
+	fileContent, err := util.ReadFileContent(p.FilePath)
 	if err != nil {
 		log.GetLogger().Error("read file error")
 	}
@@ -476,39 +476,50 @@ func (p *LinkPm) GetContent(filepath string) (*[]string, error) {
 	return &blocks, nil
 }
 
-func (p *LinkPm) UpdateMetrics(blocks *[]string) {
+func (p *LinkPm) UpdateMetrics() {
+	blocks, err := p.GetContent()
+	if err != nil {
+		log.GetLogger().Error("Get pm content error")
+	}
 	for _, block := range *blocks {
 		switchCaExpr := `Port=(\d+)\sLid=(\w+)\sGUID=(\w{18})\sDevice=(\d+)\sPort\sName=(.*)`
 		switchCaMatch, err := regexp.Compile(switchCaExpr)
 		if err != nil {
-			log.GetLogger().Error("switch or ca error compiling regex")
+			log.GetLogger().Error("Switch or ca error compiling regex")
 			break
 		}
 		subSwitchCaMatch := switchCaMatch.FindStringSubmatch(block)
+		guid := subSwitchCaMatch[3]
+		exists := util.GetKeysFromCache(guid)
+		compoent := global.COMPONENT_CA
+		if exists {
+			compoent = global.COMPONENT_SW
+		}
 		pm := Pm{
-			compoent: global.COMPONENT_SW,
+			compoent: compoent,
 			port:     subSwitchCaMatch[1],
 			lid:      subSwitchCaMatch[2],
-			guid:     subSwitchCaMatch[3],
+			guid:     guid,
 			device:   subSwitchCaMatch[4],
 			name:     subSwitchCaMatch[5],
 		}
-		fmt.Println(pm.compoent, pm.port, pm.lid, pm.guid, pm.device, pm.name)
 		getValue := func(repr string) (value float64) {
 			re := regexp.MustCompile(repr)
 			match := re.FindStringSubmatch(block)
+			if match == nil {
+				return 0
+			}
 			dec, err := strconv.ParseInt(match[1], 0, 64)
-			fmt.Println(err)
 			if err != nil {
-				value = 0
-				return value
+				log.GetLogger().Error(string(fmt.Sprintf("Parse error:%s", err)))
+				return 0
 			}
 			value = float64(dec)
 			return value
 		}
 		linkDownGauge.
 			WithLabelValues(pm.compoent, pm.port, pm.lid, pm.guid, pm.device, pm.name).
-			Set(getValue(`link_down_gauge=(\w+)`))
+			Set(getValue(`link_down_counter=(\w+)`))
 		linkErrorRecoveryGauge.
 			WithLabelValues(pm.compoent, pm.port, pm.lid, pm.guid, pm.device, pm.name).
 			Set(getValue(`link_error_recovery_counter=(\w+)`))

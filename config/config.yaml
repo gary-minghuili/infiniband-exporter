@@ -1,0 +1,4480 @@
+0xb0cf0e0300d33fc0_9:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "9"
+  state: DOWN
+0xb0cf0e0300d33fc0_10:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "10"
+  state: DOWN
+0xb0cf0e0300d33fc0_11:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "11"
+  state: DOWN
+0xb0cf0e0300d33fc0_12:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "12"
+  state: DOWN
+0xb0cf0e0300d33fc0_13:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "13"
+  state: DOWN
+0xb0cf0e0300d33fc0_14:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "14"
+  state: DOWN
+0xb0cf0e0300d33fc0_15:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "15"
+  state: DOWN
+0xb0cf0e0300d33fc0_16:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "16"
+  state: DOWN
+0xb0cf0e0300d33fc0_17:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "17"
+  state: DOWN
+0xb0cf0e0300d33fc0_18:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "18"
+  state: DOWN
+0xb0cf0e0300d33fc0_19:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "19"
+  state: DOWN
+0xb0cf0e0300d33fc0_20:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "20"
+  state: DOWN
+0xb0cf0e0300d33fc0_21:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "21"
+  state: DOWN
+0xb0cf0e0300d33fc0_22:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "22"
+  state: DOWN
+0xb0cf0e0300d33fc0_23:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "23"
+  state: DOWN
+0xb0cf0e0300d33fc0_24:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "24"
+  state: DOWN
+0xb0cf0e0300d33fc0_25:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "25"
+  state: DOWN
+0xb0cf0e0300d33fc0_26:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "26"
+  state: DOWN
+0xb0cf0e0300d33fc0_27:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "27"
+  state: DOWN
+0xb0cf0e0300d33fc0_28:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "28"
+  state: DOWN
+0xb0cf0e0300d33fc0_29:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "29"
+  state: DOWN
+0xb0cf0e0300d33fc0_30:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "30"
+  state: DOWN
+0xb0cf0e0300d33fc0_31:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "31"
+  state: DOWN
+0xb0cf0e0300d33fc0_32:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "32"
+  state: DOWN
+0xb0cf0e0300d33fc0_33:
+  localGuid: ""
+  localName: "DEMO"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "33"
+  state: DOWN
+0xb0cf0e0300d33fc0_34:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "34"
+  state: DOWN
+0xb0cf0e0300d33fc0_35:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "35"
+  state: DOWN
+0xb0cf0e0300d33fc0_36:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "36"
+  state: DOWN
+0xb0cf0e0300d33fc0_37:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "37"
+  state: DOWN
+0xb0cf0e0300d33fc0_38:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "38"
+  state: DOWN
+0xb0cf0e0300d33fc0_39:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "39"
+  state: DOWN
+0xb0cf0e0300d33fc0_40:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "40"
+  state: DOWN
+0xb0cf0e0300d33fc0_41:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "41"
+  state: DOWN
+0xb0cf0e0300d33fc0_42:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "42"
+  state: DOWN
+0xb0cf0e0300d33fc0_43:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "43"
+  state: DOWN
+0xb0cf0e0300d33fc0_44:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "44"
+  state: DOWN
+0xb0cf0e0300d33fc0_45:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "45"
+  state: DOWN
+0xb0cf0e0300d33fc0_46:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "46"
+  state: DOWN
+0xb0cf0e0300d33fc0_47:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "47"
+  state: DOWN
+0xb0cf0e0300d33fc0_48:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "48"
+  state: DOWN
+0xb0cf0e0300d33fc0_49:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "49"
+  state: DOWN
+0xb0cf0e0300d33fc0_50:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "50"
+  state: DOWN
+0xb0cf0e0300d33fc0_51:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "51"
+  state: DOWN
+0xb0cf0e0300d33fc0_52:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "52"
+  state: DOWN
+0xb0cf0e0300d33fc0_53:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "53"
+  state: DOWN
+0xb0cf0e0300d33fc0_54:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "54"
+  state: DOWN
+0xb0cf0e0300d33fc0_55:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "55"
+  state: DOWN
+0xb0cf0e0300d33fc0_56:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "56"
+  state: DOWN
+0xb0cf0e0300d33fc0_57:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "57"
+  state: DOWN
+0xb0cf0e0300d33fc0_58:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "58"
+  state: DOWN
+0xb0cf0e0300d33fc0_59:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "59"
+  state: DOWN
+0xb0cf0e0300d33fc0_60:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "60"
+  state: DOWN
+0xb0cf0e0300d33fc0_61:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "61"
+  state: DOWN
+0xb0cf0e0300d33fc0_62:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "62"
+  state: DOWN
+0xb0cf0e0300d33fc0_63:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "63"
+  state: DOWN
+0xb0cf0e0300d33fc0_64:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "64"
+  state: DOWN
+0xb0cf0e0300e5b940_1:
+  localGuid: "0x5c25730300c06f60"
+  localName: is-north-7-compute-1 mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "1"
+  state: ACT
+0xb0cf0e0300e5b940_2:
+  localGuid: "0x5c25730300d0c522"
+  localName: is-north-7-compute-2 mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "2"
+  state: ACT
+0xb0cf0e0300e5b940_3:
+  localGuid: "0x5c25730300e68e66"
+  localName: is-north-7-compute-3 mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "3"
+  state: ACT
+0xb0cf0e0300e5b940_4:
+  localGuid: "0x5c25730300e66e36"
+  localName: is-north-7-compute-4 mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "4"
+  state: ACT
+0xb0cf0e0300e5b940_5:
+  localGuid: "0x5c25730300c06ed8"
+  localName: is-north-7-compute-5 mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "5"
+  state: ACT
+0xb0cf0e0300e5b940_6:
+  localGuid: "0x5c25730300e670f6"
+  localName: is-north-7-compute-6 mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "6"
+  state: ACT
+0xb0cf0e0300e5b940_7:
+  localGuid: "0x5c25730300e66ade"
+  localName: is-north-7-compute-7 mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "7"
+  state: ACT
+0xb0cf0e0300e5b940_8:
+  localGuid: "0x5c25730300c08a98"
+  localName: is-north-7-compute-8 mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "8"
+  state: ACT
+0xb0cf0e0300e5b940_9:
+  localGuid: "0x5c25730300c09ca0"
+  localName: is-north-7-compute-9 mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "9"
+  state: ACT
+0xb0cf0e0300e5b940_10:
+  localGuid: "0x5c25730300c09c80"
+  localName: is-north-7-compute-10 mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "10"
+  state: ACT
+0xb0cf0e0300e5b940_11:
+  localGuid: "0x5c25730300e68dfe"
+  localName: is-north-7-compute-11 mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "11"
+  state: ACT
+0xb0cf0e0300e5b940_12:
+  localGuid: "0x5c25730300e671be"
+  localName: is-north-7-compute-12 mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "12"
+  state: ACT
+0xb0cf0e0300e5b940_13:
+  localGuid: "0x5c25730300e6712e"
+  localName: is-north-7-compute-13 mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "13"
+  state: ACT
+0xb0cf0e0300e5b940_14:
+  localGuid: "0x5c25730300c074c8"
+  localName: is-north-7-compute-14 mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "14"
+  state: ACT
+0xb0cf0e0300e5b940_15:
+  localGuid: "0x5c25730300e66d16"
+  localName: is-north-7-compute-15 mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "15"
+  state: ACT
+0xb0cf0e0300e5b940_16:
+  localGuid: "0x5c25730300e68fce"
+  localName: is-north-7-compute-16 mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "16"
+  state: ACT
+0xb0cf0e0300e5b940_17:
+  localGuid: "0xc470bd03001001d2"
+  localName: is-north-7-compute-17 mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "17"
+  state: ACT
+0xb0cf0e0300e5b940_18:
+  localGuid: "0x5c25730300f3de68"
+  localName: is-north-7-compute-18 mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "18"
+  state: ACT
+0xb0cf0e0300e5b940_19:
+  localGuid: "0x5c25730300e66cae"
+  localName: is-north-7-compute-19 mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "19"
+  state: ACT
+0xb0cf0e0300e5b940_20:
+  localGuid: "0xc470bd03001030e2"
+  localName: is-north-7-compute-20 mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "20"
+  state: ACT
+0xb0cf0e0300e5b940_21:
+  localGuid: "0xc470bd030010053a"
+  localName: is-north-7-compute-21 mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "21"
+  state: ACT
+0xb0cf0e0300e5b940_22:
+  localGuid: "0x5c25730300e66d06"
+  localName: is-north-7-compute-22 mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "22"
+  state: ACT
+0xb0cf0e0300e5b940_23:
+  localGuid: "0x5c25730300f3e638"
+  localName: is-north-7-compute-23 mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "23"
+  state: ACT
+0xb0cf0e0300e5b940_24:
+  localGuid: "0xc470bd03001005da"
+  localName: is-north-7-compute-24 mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "24"
+  state: ACT
+0xb0cf0e0300e5b940_25:
+  localGuid: "0xc470bd0300100642"
+  localName: is-north-7-compute-25 mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "25"
+  state: ACT
+0xb0cf0e0300e5b940_26:
+  localGuid: "0x5c25730300f40578"
+  localName: is-north-7-compute-26 mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "26"
+  state: ACT
+0xb0cf0e0300e5b940_27:
+  localGuid: "0x5c25730300f42316"
+  localName: is-north-7-compute-27 mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "27"
+  state: ACT
+0xb0cf0e0300e5b940_28:
+  localGuid: "0xc470bd0300103102"
+  localName: is-north-7-compute-28 mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "28"
+  state: ACT
+0xb0cf0e0300e5b940_29:
+  localGuid: "0x5c25730300f3e3a8"
+  localName: is-north-7-compute-29 mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "29"
+  state: ACT
+0xb0cf0e0300e5b940_30:
+  localGuid: "0x5c25730300f3e258"
+  localName: is-north-7-compute-30 mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "30"
+  state: ACT
+0xb0cf0e0300e5b940_31:
+  localGuid: "0x5c25730300f423ae"
+  localName: is-north-7-compute-31 mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "31"
+  state: ACT
+0xb0cf0e0300e5b940_32:
+  localGuid: "0x5c25730300f3f3b8"
+  localName: is-north-7-compute-32 mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "32"
+  state: ACT
+0xb0cf0e0300e5b940_33:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "33"
+  state: DOWN
+0xb0cf0e0300e5b940_34:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "34"
+  state: DOWN
+0xb0cf0e0300e5b940_35:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "35"
+  state: DOWN
+0xb0cf0e0300e5b940_36:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "36"
+  state: DOWN
+0xb0cf0e0300e5b940_37:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "37"
+  state: DOWN
+0xb0cf0e0300e5b940_38:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "38"
+  state: DOWN
+0xb0cf0e0300e5b940_39:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "39"
+  state: DOWN
+0xb0cf0e0300e5b940_40:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "40"
+  state: DOWN
+0xb0cf0e0300e5b940_41:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "41"
+  state: DOWN
+0xb0cf0e0300e5b940_42:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "42"
+  state: DOWN
+0xb0cf0e0300e5b940_43:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "43"
+  state: DOWN
+0xb0cf0e0300e5b940_44:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "44"
+  state: DOWN
+0xb0cf0e0300e5b940_45:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "45"
+  state: DOWN
+0xb0cf0e0300e5b940_46:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "46"
+  state: DOWN
+0xb0cf0e0300e5b940_47:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "47"
+  state: DOWN
+0xb0cf0e0300e5b940_48:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "48"
+  state: DOWN
+0xb0cf0e0300e5b940_49:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "49"
+  state: DOWN
+0xb0cf0e0300e5b940_50:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "50"
+  state: DOWN
+0xb0cf0e0300e5b940_51:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "51"
+  state: DOWN
+0xb0cf0e0300e5b940_52:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "52"
+  state: DOWN
+0xb0cf0e0300e5b940_53:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "53"
+  state: DOWN
+0xb0cf0e0300e5b940_54:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "54"
+  state: DOWN
+0xb0cf0e0300e5b940_55:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "55"
+  state: DOWN
+0xb0cf0e0300e5b940_56:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "56"
+  state: DOWN
+0xb0cf0e0300e5b940_57:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "57"
+  state: DOWN
+0xb0cf0e0300e5b940_58:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "58"
+  state: DOWN
+0xb0cf0e0300e5b940_59:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "59"
+  state: DOWN
+0xb0cf0e0300e5b940_60:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "60"
+  state: DOWN
+0xb0cf0e0300e5b940_61:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "61"
+  state: DOWN
+0xb0cf0e0300e5b940_62:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "62"
+  state: DOWN
+0xb0cf0e0300e5b940_64:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "64"
+  state: DOWN
+0xfc6a1c03008a4dc0_1:
+  localGuid: "0x5c25730300e6757e"
+  localName: is-north-7-compute-1 mlx5_9
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "1"
+  state: ACT
+0xfc6a1c03008a4dc0_2:
+  localGuid: "0x5c25730300d0db2a"
+  localName: is-north-7-compute-2 mlx5_9
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "2"
+  state: ACT
+0xfc6a1c03008a4dc0_3:
+  localGuid: "0x5c25730300c09b90"
+  localName: is-north-7-compute-3 mlx5_9
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "3"
+  state: ACT
+0xfc6a1c03008a4dc0_4:
+  localGuid: "0x5c25730300e67206"
+  localName: is-north-7-compute-4 mlx5_9
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "4"
+  state: ACT
+0xfc6a1c03008a4dc0_5:
+  localGuid: "0x5c25730300c06ec8"
+  localName: is-north-7-compute-5 mlx5_9
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "5"
+  state: ACT
+0xfc6a1c03008a4dc0_6:
+  localGuid: "0x5c25730300c06f98"
+  localName: is-north-7-compute-6 mlx5_9
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "6"
+  state: ACT
+0xfc6a1c03008a4dc0_7:
+  localGuid: "0x5c25730300e674ae"
+  localName: is-north-7-compute-7 mlx5_9
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "7"
+  state: ACT
+0xfc6a1c03008a4dc0_8:
+  localGuid: "0x5c25730300a1c5dc"
+  localName: is-north-7-compute-8 mlx5_9
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "8"
+  state: ACT
+0xfc6a1c03008a4dc0_9:
+  localGuid: "0x5c25730300d0c61a"
+  localName: is-north-7-compute-9 mlx5_9
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "9"
+  state: ACT
+0xfc6a1c03008a4dc0_10:
+  localGuid: "0x5c25730300c08a48"
+  localName: is-north-7-compute-10 mlx5_9
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "10"
+  state: ACT
+0xfc6a1c03008a4dc0_11:
+  localGuid: "0x5c25730300d0ae7a"
+  localName: is-north-7-compute-11 mlx5_9
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "11"
+  state: ACT
+0xfc6a1c03008a4dc0_12:
+  localGuid: "0x5c25730300e671de"
+  localName: is-north-7-compute-12 mlx5_9
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "12"
+  state: ACT
+0xfc6a1c03008a4dc0_13:
+  localGuid: "0x5c25730300e67086"
+  localName: is-north-7-compute-13 mlx5_9
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "13"
+  state: ACT
+0xfc6a1c03008a4dc0_14:
+  localGuid: "0x5c25730300e66b2e"
+  localName: is-north-7-compute-14 mlx5_9
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "14"
+  state: ACT
+0xfc6a1c03008a4dc0_15:
+  localGuid: "0x5c25730300c06950"
+  localName: is-north-7-compute-15 mlx5_9
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "15"
+  state: ACT
+0xfc6a1c03008a4dc0_16:
+  localGuid: "0x5c25730300e68fee"
+  localName: is-north-7-compute-16 mlx5_9
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "16"
+  state: ACT
+0xfc6a1c03008a4dc0_17:
+  localGuid: "0xc470bd030010022a"
+  localName: is-north-7-compute-17 mlx5_9
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "17"
+  state: ACT
+0xfc6a1c03008a4dc0_18:
+  localGuid: "0x5c25730300f3e570"
+  localName: is-north-7-compute-18 mlx5_9
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "18"
+  state: ACT
+0xfc6a1c03008a4dc0_19:
+  localGuid: "0x5c25730300e671f6"
+  localName: is-north-7-compute-19 mlx5_9
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "19"
+  state: ACT
+0xfc6a1c03008a4dc0_20:
+  localGuid: "0xc470bd03001001fa"
+  localName: is-north-7-compute-20 mlx5_9
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "20"
+  state: ACT
+0xfc6a1c03008a4dc0_21:
+  localGuid: "0xc470bd0300103ba2"
+  localName: is-north-7-compute-21 mlx5_9
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "21"
+  state: ACT
+0xfc6a1c03008a4dc0_22:
+  localGuid: "0x5c25730300e66ce6"
+  localName: is-north-7-compute-22 mlx5_9
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "22"
+  state: ACT
+0xfc6a1c03008a4dc0_23:
+  localGuid: "0xc470bd030010313a"
+  localName: is-north-7-compute-23 mlx5_9
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "23"
+  state: ACT
+0xfc6a1c03008a4dc0_24:
+  localGuid: "0xc470bd0300103b02"
+  localName: is-north-7-compute-24 mlx5_9
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "24"
+  state: ACT
+0xfc6a1c03008a4dc0_25:
+  localGuid: "0xc470bd0300100612"
+  localName: is-north-7-compute-25 mlx5_9
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "25"
+  state: ACT
+0xfc6a1c03008a4dc0_26:
+  localGuid: "0x5c25730300f3e598"
+  localName: is-north-7-compute-26 mlx5_9
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "26"
+  state: ACT
+0xfc6a1c03008a4dc0_27:
+  localGuid: "0x5c25730300f424ee"
+  localName: is-north-7-compute-27 mlx5_9
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "27"
+  state: ACT
+0xfc6a1c03008a4dc0_28:
+  localGuid: "0xc470bd03000fffba"
+  localName: is-north-7-compute-28 mlx5_9
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "28"
+  state: ACT
+0xfc6a1c03008a4dc0_29:
+  localGuid: "0x5c25730300f3e278"
+  localName: is-north-7-compute-29 mlx5_9
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "29"
+  state: ACT
+0xfc6a1c03008a4dc0_30:
+  localGuid: "0x5c25730300f3e208"
+  localName: is-north-7-compute-30 mlx5_9
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "30"
+  state: ACT
+0xfc6a1c03008a4dc0_31:
+  localGuid: "0x5c25730300f3c244"
+  localName: is-north-7-compute-31 mlx5_9
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "31"
+  state: ACT
+0xfc6a1c03008a4dc0_32:
+  localGuid: "0x5c25730300f424c6"
+  localName: is-north-7-compute-32 mlx5_9
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "32"
+  state: ACT
+0xfc6a1c03008a4dc0_33:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "33"
+  state: DOWN
+0xfc6a1c03008a4dc0_34:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "34"
+  state: DOWN
+0xfc6a1c03008a4dc0_35:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "35"
+  state: DOWN
+0xfc6a1c03008a4dc0_36:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "36"
+  state: DOWN
+0xfc6a1c03008a4dc0_37:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "37"
+  state: DOWN
+0xfc6a1c03008a4dc0_38:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "38"
+  state: DOWN
+0xfc6a1c03008a4dc0_39:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "39"
+  state: DOWN
+0xfc6a1c03008a4dc0_40:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "40"
+  state: DOWN
+0xfc6a1c03008a4dc0_41:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "41"
+  state: DOWN
+0xfc6a1c03008a4dc0_42:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "42"
+  state: DOWN
+0xfc6a1c03008a4dc0_43:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "43"
+  state: DOWN
+0xfc6a1c03008a4dc0_44:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "44"
+  state: DOWN
+0xfc6a1c03008a4dc0_45:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "45"
+  state: DOWN
+0xfc6a1c03008a4dc0_46:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "46"
+  state: DOWN
+0xfc6a1c03008a4dc0_47:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "47"
+  state: DOWN
+0xfc6a1c03008a4dc0_48:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "48"
+  state: DOWN
+0xfc6a1c03008a4dc0_49:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "49"
+  state: DOWN
+0xfc6a1c03008a4dc0_50:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "50"
+  state: DOWN
+0xfc6a1c03008a4dc0_51:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "51"
+  state: DOWN
+0xfc6a1c03008a4dc0_52:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "52"
+  state: DOWN
+0xfc6a1c03008a4dc0_53:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "53"
+  state: DOWN
+0xfc6a1c03008a4dc0_54:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "54"
+  state: DOWN
+0xfc6a1c03008a4dc0_55:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "55"
+  state: DOWN
+0xfc6a1c03008a4dc0_56:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "56"
+  state: DOWN
+0xfc6a1c03008a4dc0_57:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "57"
+  state: DOWN
+0xfc6a1c03008a4dc0_58:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "58"
+  state: DOWN
+0xfc6a1c03008a4dc0_59:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "59"
+  state: DOWN
+0xfc6a1c03008a4dc0_60:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "60"
+  state: DOWN
+0xfc6a1c03008a4dc0_61:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "61"
+  state: DOWN
+0xfc6a1c03008a4dc0_62:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "62"
+  state: DOWN
+0xfc6a1c03008a4dc0_64:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "64"
+  state: DOWN
+0xfc6a1c03008a5c00_1:
+  localGuid: "0x5c25730300e68e86"
+  localName: is-north-7-compute-1 mlx5_11
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "1"
+  state: ACT
+0xfc6a1c03008a5c00_2:
+  localGuid: "0x5c25730300d0c5fa"
+  localName: is-north-7-compute-2 mlx5_11
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "2"
+  state: ACT
+0xfc6a1c03008a5c00_3:
+  localGuid: "0x5c25730300e6746e"
+  localName: is-north-7-compute-3 mlx5_11
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "3"
+  state: ACT
+0xfc6a1c03008a5c00_4:
+  localGuid: "0x5c25730300d0ac9a"
+  localName: is-north-7-compute-4 mlx5_11
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "4"
+  state: ACT
+0xfc6a1c03008a5c00_5:
+  localGuid: "0x5c25730300e66ebe"
+  localName: is-north-7-compute-5 mlx5_11
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "5"
+  state: ACT
+0xfc6a1c03008a5c00_6:
+  localGuid: "0x5c25730300c06ef0"
+  localName: is-north-7-compute-6 mlx5_11
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "6"
+  state: ACT
+0xfc6a1c03008a5c00_7:
+  localGuid: "0x5c25730300e66b06"
+  localName: is-north-7-compute-7 mlx5_11
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "7"
+  state: ACT
+0xfc6a1c03008a5c00_8:
+  localGuid: "0x5c25730300d0db12"
+  localName: is-north-7-compute-8 mlx5_11
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "8"
+  state: ACT
+0xfc6a1c03008a5c00_9:
+  localGuid: "0x5c25730300d0c64a"
+  localName: is-north-7-compute-9 mlx5_11
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "9"
+  state: ACT
+0xfc6a1c03008a5c00_10:
+  localGuid: "0x5c25730300c08a10"
+  localName: is-north-7-compute-10 mlx5_11
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "10"
+  state: ACT
+0xfc6a1c03008a5c00_11:
+  localGuid: "0x5c25730300e674be"
+  localName: is-north-7-compute-11 mlx5_11
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "11"
+  state: ACT
+0xfc6a1c03008a5c00_12:
+  localGuid: "0x5c25730300c06970"
+  localName: is-north-7-compute-12 mlx5_11
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "12"
+  state: ACT
+0xfc6a1c03008a5c00_13:
+  localGuid: "0x5c25730300c06968"
+  localName: is-north-7-compute-13 mlx5_11
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "13"
+  state: ACT
+0xfc6a1c03008a5c00_14:
+  localGuid: "0x5c25730300e67096"
+  localName: is-north-7-compute-14 mlx5_11
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "14"
+  state: ACT
+0xfc6a1c03008a5c00_15:
+  localGuid: "0x5c25730300c06df8"
+  localName: is-north-7-compute-15 mlx5_11
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "15"
+  state: ACT
+0xfc6a1c03008a5c00_16:
+  localGuid: "0x5c25730300e68fa6"
+  localName: is-north-7-compute-16 mlx5_11
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "16"
+  state: ACT
+0xfc6a1c03008a5c00_17:
+  localGuid: "0xc470bd03001001da"
+  localName: is-north-7-compute-17 mlx5_11
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "17"
+  state: ACT
+0xfc6a1c03008a5c00_18:
+  localGuid: "0x5c25730300f3e4d0"
+  localName: is-north-7-compute-18 mlx5_11
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "18"
+  state: ACT
+0xfc6a1c03008a5c00_19:
+  localGuid: "0x5c25730300e67176"
+  localName: is-north-7-compute-19 mlx5_11
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "19"
+  state: ACT
+0xfc6a1c03008a5c00_20:
+  localGuid: "0x5c25730300f41078"
+  localName: is-north-7-compute-20 mlx5_11
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "20"
+  state: ACT
+0xfc6a1c03008a5c00_21:
+  localGuid: "0x5c25730300f3d5b0"
+  localName: is-north-7-compute-21 mlx5_11
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "21"
+  state: ACT
+0xfc6a1c03008a5c00_22:
+  localGuid: "0x5c25730300c06b80"
+  localName: is-north-7-compute-22 mlx5_11
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "22"
+  state: ACT
+0xfc6a1c03008a5c00_23:
+  localGuid: "0xc470bd0300103042"
+  localName: is-north-7-compute-23 mlx5_11
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "23"
+  state: ACT
+0xfc6a1c03008a5c00_24:
+  localGuid: "0xc470bd0300103b22"
+  localName: is-north-7-compute-24 mlx5_11
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "24"
+  state: ACT
+0xfc6a1c03008a5c00_25:
+  localGuid: "0x5c25730300f41138"
+  localName: is-north-7-compute-25 mlx5_11
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "25"
+  state: ACT
+0xfc6a1c03008a5c00_26:
+  localGuid: "0x5c25730300f3cb98"
+  localName: is-north-7-compute-26 mlx5_11
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "26"
+  state: ACT
+0xfc6a1c03008a5c00_27:
+  localGuid: "0x5c25730300f3df50"
+  localName: is-north-7-compute-27 mlx5_11
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "27"
+  state: ACT
+0xfc6a1c03008a5c00_28:
+  localGuid: "0xc470bd03001030aa"
+  localName: is-north-7-compute-28 mlx5_11
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "28"
+  state: ACT
+0xfc6a1c03008a5c00_29:
+  localGuid: "0x5c25730300f3e318"
+  localName: is-north-7-compute-29 mlx5_11
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "29"
+  state: ACT
+0xfc6a1c03008a5c00_30:
+  localGuid: "0x5c25730300f409d8"
+  localName: is-north-7-compute-30 mlx5_11
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "30"
+  state: ACT
+0xfc6a1c03008a5c00_31:
+  localGuid: "0x5c25730300f3dc78"
+  localName: is-north-7-compute-31 mlx5_11
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "31"
+  state: ACT
+0xfc6a1c03008a5c00_32:
+  localGuid: "0x5c25730300f42556"
+  localName: is-north-7-compute-32 mlx5_11
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "32"
+  state: ACT
+0xfc6a1c03008a5c00_33:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "33"
+  state: DOWN
+0xfc6a1c03008a5c00_34:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "34"
+  state: DOWN
+0xfc6a1c03008a5c00_35:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "35"
+  state: DOWN
+0xfc6a1c03008a5c00_36:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "36"
+  state: DOWN
+0xfc6a1c03008a5c00_37:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "37"
+  state: DOWN
+0xfc6a1c03008a5c00_38:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "38"
+  state: DOWN
+0xfc6a1c03008a5c00_39:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "39"
+  state: DOWN
+0xfc6a1c03008a5c00_40:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "40"
+  state: DOWN
+0xfc6a1c03008a5c00_41:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "41"
+  state: DOWN
+0xfc6a1c03008a5c00_42:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "42"
+  state: DOWN
+0xfc6a1c03008a5c00_43:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "43"
+  state: DOWN
+0xfc6a1c03008a5c00_44:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "44"
+  state: DOWN
+0xfc6a1c03008a5c00_45:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "45"
+  state: DOWN
+0xfc6a1c03008a5c00_46:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "46"
+  state: DOWN
+0xfc6a1c03008a5c00_47:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "47"
+  state: DOWN
+0xfc6a1c03008a5c00_48:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "48"
+  state: DOWN
+0xfc6a1c03008a5c00_49:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "49"
+  state: DOWN
+0xfc6a1c03008a5c00_50:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "50"
+  state: DOWN
+0xfc6a1c03008a5c00_51:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "51"
+  state: DOWN
+0xfc6a1c03008a5c00_52:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "52"
+  state: DOWN
+0xfc6a1c03008a5c00_53:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "53"
+  state: DOWN
+0xfc6a1c03008a5c00_54:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "54"
+  state: DOWN
+0xfc6a1c03008a5c00_55:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "55"
+  state: DOWN
+0xfc6a1c03008a5c00_56:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "56"
+  state: DOWN
+0xfc6a1c03008a5c00_57:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "57"
+  state: DOWN
+0xfc6a1c03008a5c00_58:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "58"
+  state: DOWN
+0xfc6a1c03008a5c00_59:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "59"
+  state: DOWN
+0xfc6a1c03008a5c00_60:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "60"
+  state: DOWN
+0xfc6a1c03008a5c00_61:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "61"
+  state: DOWN
+0xfc6a1c03008a5c00_62:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "62"
+  state: DOWN
+0xfc6a1c03008a5c00_64:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "64"
+  state: DOWN
+0xfc6a1c030091cf00_1:
+  localGuid: "0x5c25730300e6706e"
+  localName: is-north-7-compute-1 mlx5_8
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "1"
+  state: ACT
+0xfc6a1c030091cf00_2:
+  localGuid: "0x5c25730300d0b112"
+  localName: is-north-7-compute-2 mlx5_8
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "2"
+  state: ACT
+0xfc6a1c030091cf00_3:
+  localGuid: "0x5c25730300a1f4dc"
+  localName: is-north-7-compute-3 mlx5_8
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "3"
+  state: ACT
+0xfc6a1c030091cf00_4:
+  localGuid: "0x5c25730300e66e26"
+  localName: is-north-7-compute-4 mlx5_8
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "4"
+  state: ACT
+0xfc6a1c030091cf00_5:
+  localGuid: "0x5c25730300c06940"
+  localName: is-north-7-compute-5 mlx5_8
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "5"
+  state: ACT
+0xfc6a1c030091cf00_6:
+  localGuid: "0x5c25730300c06eb8"
+  localName: is-north-7-compute-6 mlx5_8
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "6"
+  state: ACT
+0xfc6a1c030091cf00_7:
+  localGuid: "0x5c25730300e66afe"
+  localName: is-north-7-compute-7 mlx5_8
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "7"
+  state: ACT
+0xfc6a1c030091cf00_8:
+  localGuid: "0x5c25730300d0daca"
+  localName: is-north-7-compute-8 mlx5_8
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "8"
+  state: ACT
+0xfc6a1c030091cf00_9:
+  localGuid: "0x5c25730300c09c60"
+  localName: is-north-7-compute-9 mlx5_8
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "9"
+  state: ACT
+0xfc6a1c030091cf00_10:
+  localGuid: "0x5c25730300c08a50"
+  localName: is-north-7-compute-10 mlx5_8
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "10"
+  state: ACT
+0xfc6a1c030091cf00_11:
+  localGuid: "0x5c25730300e6a226"
+  localName: is-north-7-compute-11 mlx5_8
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "11"
+  state: ACT
+0xfc6a1c030091cf00_12:
+  localGuid: "0x5c25730300e66b9e"
+  localName: is-north-7-compute-12 mlx5_8
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "12"
+  state: ACT
+0xfc6a1c030091cf00_13:
+  localGuid: "0x5c25730300c06958"
+  localName: is-north-7-compute-13 mlx5_8
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "13"
+  state: ACT
+0xfc6a1c030091cf00_14:
+  localGuid: "0x5c25730300e67186"
+  localName: is-north-7-compute-14 mlx5_8
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "14"
+  state: ACT
+0xfc6a1c030091cf00_15:
+  localGuid: "0x5c25730300e67136"
+  localName: is-north-7-compute-15 mlx5_8
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "15"
+  state: ACT
+0xfc6a1c030091cf00_16:
+  localGuid: "0x5c25730300e68fd6"
+  localName: is-north-7-compute-16 mlx5_8
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "16"
+  state: ACT
+0xfc6a1c030091cf00_17:
+  localGuid: "0x5c25730300f41120"
+  localName: is-north-7-compute-17 mlx5_8
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "17"
+  state: ACT
+0xfc6a1c030091cf00_18:
+  localGuid: "0x5c25730300f410b8"
+  localName: is-north-7-compute-18 mlx5_8
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "18"
+  state: ACT
+0xfc6a1c030091cf00_19:
+  localGuid: "0x5c25730300f3e678"
+  localName: is-north-7-compute-19 mlx5_8
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "19"
+  state: ACT
+0xfc6a1c030091cf00_20:
+  localGuid: "0xc470bd030010019a"
+  localName: is-north-7-compute-20 mlx5_8
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "20"
+  state: ACT
+0xfc6a1c030091cf00_21:
+  localGuid: "0x5c25730300f3c8f0"
+  localName: is-north-7-compute-21 mlx5_8
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "21"
+  state: ACT
+0xfc6a1c030091cf00_22:
+  localGuid: "0x5c25730300e66d36"
+  localName: is-north-7-compute-22 mlx5_8
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "22"
+  state: ACT
+0xfc6a1c030091cf00_23:
+  localGuid: "0xc470bd03000ff89a"
+  localName: is-north-7-compute-23 mlx5_8
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "23"
+  state: ACT
+0xfc6a1c030091cf00_24:
+  localGuid: "0x5c25730300f3dbd8"
+  localName: is-north-7-compute-24 mlx5_8
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "24"
+  state: ACT
+0xfc6a1c030091cf00_25:
+  localGuid: "0xc470bd03000ff8e2"
+  localName: is-north-7-compute-25 mlx5_8
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "25"
+  state: ACT
+0xfc6a1c030091cf00_26:
+  localGuid: "0x5c25730300f3faa0"
+  localName: is-north-7-compute-26 mlx5_8
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "26"
+  state: ACT
+0xfc6a1c030091cf00_27:
+  localGuid: "0x5c25730300f41128"
+  localName: is-north-7-compute-27 mlx5_8
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "27"
+  state: ACT
+0xfc6a1c030091cf00_28:
+  localGuid: "0xa088c20300f7f59a"
+  localName: is-north-7-compute-28 mlx5_8
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "28"
+  state: ACT
+0xfc6a1c030091cf00_29:
+  localGuid: "0x5c25730300f40a08"
+  localName: is-north-7-compute-29 mlx5_8
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "29"
+  state: ACT
+0xfc6a1c030091cf00_30:
+  localGuid: "0xc470bd03000ff652"
+  localName: is-north-7-compute-30 mlx5_8
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "30"
+  state: ACT
+0xfc6a1c030091cf00_31:
+  localGuid: "0x5c25730300f3ddb0"
+  localName: is-north-7-compute-31 mlx5_8
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "31"
+  state: ACT
+0xfc6a1c030091cf00_32:
+  localGuid: "0x5c25730300f424be"
+  localName: is-north-7-compute-32 mlx5_8
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "32"
+  state: ACT
+0xfc6a1c030091cf00_33:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "33"
+  state: DOWN
+0xfc6a1c030091cf00_34:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "34"
+  state: DOWN
+0xfc6a1c030091cf00_35:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "35"
+  state: DOWN
+0xfc6a1c030091cf00_36:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "36"
+  state: DOWN
+0xfc6a1c030091cf00_37:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "37"
+  state: DOWN
+0xfc6a1c030091cf00_38:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "38"
+  state: DOWN
+0xfc6a1c030091cf00_39:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "39"
+  state: DOWN
+0xfc6a1c030091cf00_40:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "40"
+  state: DOWN
+0xfc6a1c030091cf00_41:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "41"
+  state: DOWN
+0xfc6a1c030091cf00_42:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "42"
+  state: DOWN
+0xfc6a1c030091cf00_43:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "43"
+  state: DOWN
+0xfc6a1c030091cf00_44:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "44"
+  state: DOWN
+0xfc6a1c030091cf00_45:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "45"
+  state: DOWN
+0xfc6a1c030091cf00_46:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "46"
+  state: DOWN
+0xfc6a1c030091cf00_47:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "47"
+  state: DOWN
+0xfc6a1c030091cf00_48:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "48"
+  state: DOWN
+0xfc6a1c030091cf00_49:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "49"
+  state: DOWN
+0xfc6a1c030091cf00_50:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "50"
+  state: DOWN
+0xfc6a1c030091cf00_51:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "51"
+  state: DOWN
+0xfc6a1c030091cf00_52:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "52"
+  state: DOWN
+0xfc6a1c030091cf00_53:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "53"
+  state: DOWN
+0xfc6a1c030091cf00_54:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "54"
+  state: DOWN
+0xfc6a1c030091cf00_55:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "55"
+  state: DOWN
+0xfc6a1c030091cf00_56:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "56"
+  state: DOWN
+0xfc6a1c030091cf00_57:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "57"
+  state: DOWN
+0xfc6a1c030091cf00_58:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "58"
+  state: DOWN
+0xfc6a1c030091cf00_59:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "59"
+  state: DOWN
+0xfc6a1c030091cf00_60:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "60"
+  state: DOWN
+0xfc6a1c030091cf00_61:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "61"
+  state: DOWN
+0xfc6a1c030091cf00_62:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "62"
+  state: DOWN
+0xfc6a1c030091cf00_64:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "64"
+  state: DOWN
+0xfc6a1c030091cf40_1:
+  localGuid: "0x5c25730300d0da3a"
+  localName: is-north-7-compute-1 mlx5_2
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "1"
+  state: ACT
+0xfc6a1c030091cf40_2:
+  localGuid: "0x5c25730300d0ac32"
+  localName: is-north-7-compute-2 mlx5_2
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "2"
+  state: ACT
+0xfc6a1c030091cf40_3:
+  localGuid: "0x5c25730300e68c3e"
+  localName: is-north-7-compute-3 mlx5_2
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "3"
+  state: ACT
+0xfc6a1c030091cf40_4:
+  localGuid: "0x5c25730300e6a096"
+  localName: is-north-7-compute-4 mlx5_2
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "4"
+  state: ACT
+0xfc6a1c030091cf40_5:
+  localGuid: "0x5c25730300c06f08"
+  localName: is-north-7-compute-5 mlx5_2
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "5"
+  state: ACT
+0xfc6a1c030091cf40_6:
+  localGuid: "0x5c25730300c09c88"
+  localName: is-north-7-compute-6 mlx5_2
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "6"
+  state: ACT
+0xfc6a1c030091cf40_7:
+  localGuid: "0x5c25730300e66c26"
+  localName: is-north-7-compute-7 mlx5_2
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "7"
+  state: ACT
+0xfc6a1c030091cf40_8:
+  localGuid: "0x5c25730300c09a58"
+  localName: is-north-7-compute-8 mlx5_2
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "8"
+  state: ACT
+0xfc6a1c030091cf40_9:
+  localGuid: "0x5c25730300e6a09e"
+  localName: is-north-7-compute-9 mlx5_2
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "9"
+  state: ACT
+0xfc6a1c030091cf40_10:
+  localGuid: "0x5c25730300c09850"
+  localName: is-north-7-compute-10 mlx5_2
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "10"
+  state: ACT
+0xfc6a1c030091cf40_11:
+  localGuid: "0x5c25730300c06e10"
+  localName: is-north-7-compute-11 mlx5_2
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "11"
+  state: ACT
+0xfc6a1c030091cf40_12:
+  localGuid: "0x5c25730300a1e4c4"
+  localName: is-north-7-compute-12 mlx5_2
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "12"
+  state: ACT
+0xfc6a1c030091cf40_13:
+  localGuid: "0x5c25730300a1ea74"
+  localName: is-north-7-compute-13 mlx5_2
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "13"
+  state: ACT
+0xfc6a1c030091cf40_14:
+  localGuid: "0x5c25730300e6709e"
+  localName: is-north-7-compute-14 mlx5_2
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "14"
+  state: ACT
+0xfc6a1c030091cf40_15:
+  localGuid: "0x5c25730300a1ee44"
+  localName: is-north-7-compute-15 mlx5_2
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "15"
+  state: ACT
+0xfc6a1c030091cf40_16:
+  localGuid: "0x5c25730300c07858"
+  localName: is-north-7-compute-16 mlx5_2
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "16"
+  state: ACT
+0xfc6a1c030091cf40_17:
+  localGuid: "0xc470bd0300103132"
+  localName: is-north-7-compute-17 mlx5_2
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "17"
+  state: ACT
+0xfc6a1c030091cf40_18:
+  localGuid: "0xc470bd0300100022"
+  localName: is-north-7-compute-18 mlx5_2
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "18"
+  state: ACT
+0xfc6a1c030091cf40_19:
+  localGuid: "0x5c25730300f3e668"
+  localName: is-north-7-compute-19 mlx5_2
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "19"
+  state: ACT
+0xfc6a1c030091cf40_20:
+  localGuid: "0xc470bd030010003a"
+  localName: is-north-7-compute-20 mlx5_2
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "20"
+  state: ACT
+0xfc6a1c030091cf40_21:
+  localGuid: "0x5c25730300f3e368"
+  localName: is-north-7-compute-21 mlx5_2
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "21"
+  state: ACT
+0xfc6a1c030091cf40_22:
+  localGuid: "0x5c25730300e66c2e"
+  localName: is-north-7-compute-22 mlx5_2
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "22"
+  state: ACT
+0xfc6a1c030091cf40_23:
+  localGuid: "0xc470bd030010315a"
+  localName: is-north-7-compute-23 mlx5_2
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "23"
+  state: ACT
+0xfc6a1c030091cf40_24:
+  localGuid: "0x5c25730300f40760"
+  localName: is-north-7-compute-24 mlx5_2
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "24"
+  state: ACT
+0xfc6a1c030091cf40_25:
+  localGuid: "0x5c25730300f42216"
+  localName: is-north-7-compute-25 mlx5_2
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "25"
+  state: ACT
+0xfc6a1c030091cf40_26:
+  localGuid: "0x5c25730300f423f6"
+  localName: is-north-7-compute-26 mlx5_2
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "26"
+  state: ACT
+0xfc6a1c030091cf40_27:
+  localGuid: "0x5c25730300f40f60"
+  localName: is-north-7-compute-27 mlx5_2
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "27"
+  state: ACT
+0xfc6a1c030091cf40_28:
+  localGuid: "0x5c25730300f3def8"
+  localName: is-north-7-compute-28 mlx5_2
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "28"
+  state: ACT
+0xfc6a1c030091cf40_29:
+  localGuid: "0x5c25730300f40df0"
+  localName: is-north-7-compute-29 mlx5_2
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "29"
+  state: ACT
+0xfc6a1c030091cf40_30:
+  localGuid: "0x5c25730300f40e58"
+  localName: is-north-7-compute-30 mlx5_2
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "30"
+  state: ACT
+0xfc6a1c030091cf40_31:
+  localGuid: "0x5c25730300f3f388"
+  localName: is-north-7-compute-31 mlx5_2
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "31"
+  state: ACT
+0xfc6a1c030091cf40_32:
+  localGuid: "0x5c25730300f41468"
+  localName: is-north-7-compute-32 mlx5_2
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "32"
+  state: ACT
+0xfc6a1c030091cf40_33:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "33"
+  state: DOWN
+0xfc6a1c030091cf40_34:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "34"
+  state: DOWN
+0xfc6a1c030091cf40_35:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "35"
+  state: DOWN
+0xfc6a1c030091cf40_36:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "36"
+  state: DOWN
+0xfc6a1c030091cf40_37:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "37"
+  state: DOWN
+0xfc6a1c030091cf40_38:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "38"
+  state: DOWN
+0xfc6a1c030091cf40_39:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "39"
+  state: DOWN
+0xfc6a1c030091cf40_40:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "40"
+  state: DOWN
+0xfc6a1c030091cf40_41:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "41"
+  state: DOWN
+0xfc6a1c030091cf40_42:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "42"
+  state: DOWN
+0xfc6a1c030091cf40_43:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "43"
+  state: DOWN
+0xfc6a1c030091cf40_44:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "44"
+  state: DOWN
+0xfc6a1c030091cf40_45:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "45"
+  state: DOWN
+0xfc6a1c030091cf40_46:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "46"
+  state: DOWN
+0xfc6a1c030091cf40_47:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "47"
+  state: DOWN
+0xfc6a1c030091cf40_48:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "48"
+  state: DOWN
+0xfc6a1c030091cf40_49:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "49"
+  state: DOWN
+0xfc6a1c030091cf40_50:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "50"
+  state: DOWN
+0xfc6a1c030091cf40_51:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "51"
+  state: DOWN
+0xfc6a1c030091cf40_52:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "52"
+  state: DOWN
+0xfc6a1c030091cf40_53:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "53"
+  state: DOWN
+0xfc6a1c030091cf40_54:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "54"
+  state: DOWN
+0xfc6a1c030091cf40_55:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "55"
+  state: DOWN
+0xfc6a1c030091cf40_56:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "56"
+  state: DOWN
+0xfc6a1c030091cf40_57:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "57"
+  state: DOWN
+0xfc6a1c030091cf40_58:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "58"
+  state: DOWN
+0xfc6a1c030091cf40_59:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "59"
+  state: DOWN
+0xfc6a1c030091cf40_60:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "60"
+  state: DOWN
+0xfc6a1c030091cf40_61:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "61"
+  state: DOWN
+0xfc6a1c030091cf40_62:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "62"
+  state: DOWN
+0xfc6a1c030091cf40_64:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "64"
+  state: DOWN
+0xfc6a1c030091f9c0_1:
+  localGuid: "0x5c25730300d0dc72"
+  localName: is-north-7-compute-1 mlx5_0
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "1"
+  state: ACT
+0xfc6a1c030091f9c0_2:
+  localGuid: "0x5c25730300d0c4f2"
+  localName: is-north-7-compute-2 mlx5_0
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "2"
+  state: ACT
+0xfc6a1c030091f9c0_3:
+  localGuid: "0x5c25730300c08a58"
+  localName: is-north-7-compute-3 mlx5_0
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "3"
+  state: ACT
+0xfc6a1c030091f9c0_4:
+  localGuid: "0x5c25730300e6a266"
+  localName: is-north-7-compute-4 mlx5_0
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "4"
+  state: ACT
+0xfc6a1c030091f9c0_5:
+  localGuid: "0x5c25730300e67116"
+  localName: is-north-7-compute-5 mlx5_0
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "5"
+  state: ACT
+0xfc6a1c030091f9c0_6:
+  localGuid: "0x5c25730300c09c48"
+  localName: is-north-7-compute-6 mlx5_0
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "6"
+  state: ACT
+0xfc6a1c030091f9c0_7:
+  localGuid: "0x5c25730300e68c76"
+  localName: is-north-7-compute-7 mlx5_0
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "7"
+  state: ACT
+0xfc6a1c030091f9c0_8:
+  localGuid: "0x5c25730300e68e76"
+  localName: is-north-7-compute-8 mlx5_0
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "8"
+  state: ACT
+0xfc6a1c030091f9c0_9:
+  localGuid: "0x5c25730300e66c46"
+  localName: is-north-7-compute-9 mlx5_0
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "9"
+  state: ACT
+0xfc6a1c030091f9c0_10:
+  localGuid: "0x5c25730300c09c68"
+  localName: is-north-7-compute-10 mlx5_0
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "10"
+  state: ACT
+0xfc6a1c030091f9c0_11:
+  localGuid: "0x5c25730300e671d6"
+  localName: is-north-7-compute-11 mlx5_0
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "11"
+  state: ACT
+0xfc6a1c030091f9c0_12:
+  localGuid: "0x5c257303009ab1c0"
+  localName: is-north-7-compute-12 mlx5_0
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "12"
+  state: ACT
+0xfc6a1c030091f9c0_13:
+  localGuid: "0x5c25730300e6715e"
+  localName: is-north-7-compute-13 mlx5_0
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "13"
+  state: ACT
+0xfc6a1c030091f9c0_14:
+  localGuid: "0x5c25730300e671c6"
+  localName: is-north-7-compute-14 mlx5_0
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "14"
+  state: ACT
+0xfc6a1c030091f9c0_15:
+  localGuid: "0x5c25730300e6719e"
+  localName: is-north-7-compute-15 mlx5_0
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "15"
+  state: ACT
+0xfc6a1c030091f9c0_16:
+  localGuid: "0x5c25730300c09b68"
+  localName: is-north-7-compute-16 mlx5_0
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "16"
+  state: ACT
+0xfc6a1c030091f9c0_17:
+  localGuid: "0xc470bd03001001b2"
+  localName: is-north-7-compute-17 mlx5_0
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "17"
+  state: ACT
+0xfc6a1c030091f9c0_18:
+  localGuid: "0xc470bd03001001a2"
+  localName: is-north-7-compute-18 mlx5_0
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "18"
+  state: ACT
+0xfc6a1c030091f9c0_19:
+  localGuid: "0xc470bd030010305a"
+  localName: is-north-7-compute-19 mlx5_0
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "19"
+  state: ACT
+0xfc6a1c030091f9c0_20:
+  localGuid: "0x5c25730300f41160"
+  localName: is-north-7-compute-20 mlx5_0
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "20"
+  state: ACT
+0xfc6a1c030091f9c0_21:
+  localGuid: "0x5c25730300f3ded8"
+  localName: is-north-7-compute-21 mlx5_0
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "21"
+  state: ACT
+0xfc6a1c030091f9c0_22:
+  localGuid: "0x5c25730300e66ad6"
+  localName: is-north-7-compute-22 mlx5_0
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "22"
+  state: ACT
+0xfc6a1c030091f9c0_23:
+  localGuid: "0x5c25730300f3ded0"
+  localName: is-north-7-compute-23 mlx5_0
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "23"
+  state: ACT
+0xfc6a1c030091f9c0_24:
+  localGuid: "0xc470bd030011486a"
+  localName: is-north-7-compute-24 mlx5_0
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "24"
+  state: ACT
+0xfc6a1c030091f9c0_25:
+  localGuid: "0x5c25730300f41f10"
+  localName: is-north-7-compute-25 mlx5_0
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "25"
+  state: ACT
+0xfc6a1c030091f9c0_26:
+  localGuid: "0x5c25730300f42356"
+  localName: is-north-7-compute-26 mlx5_0
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "26"
+  state: ACT
+0xfc6a1c030091f9c0_27:
+  localGuid: "0x5c25730300f3d7f0"
+  localName: is-north-7-compute-27 mlx5_0
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "27"
+  state: ACT
+0xfc6a1c030091f9c0_28:
+  localGuid: "0x5c25730300f40960"
+  localName: is-north-7-compute-28 mlx5_0
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "28"
+  state: ACT
+0xfc6a1c030091f9c0_29:
+  localGuid: "0x5c25730300f40e00"
+  localName: is-north-7-compute-29 mlx5_0
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "29"
+  state: ACT
+0xfc6a1c030091f9c0_30:
+  localGuid: "0x5c25730300f3e218"
+  localName: is-north-7-compute-30 mlx5_0
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "30"
+  state: ACT
+0xfc6a1c030091f9c0_31:
+  localGuid: "0x5c25730300f4241e"
+  localName: is-north-7-compute-31 mlx5_0
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "31"
+  state: ACT
+0xfc6a1c030091f9c0_32:
+  localGuid: "0x5c25730300f424d6"
+  localName: is-north-7-compute-32 mlx5_0
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "32"
+  state: ACT
+0xfc6a1c030091f9c0_33:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "33"
+  state: DOWN
+0xfc6a1c030091f9c0_34:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "34"
+  state: DOWN
+0xfc6a1c030091f9c0_35:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "35"
+  state: DOWN
+0xfc6a1c030091f9c0_36:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "36"
+  state: DOWN
+0xfc6a1c030091f9c0_37:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "37"
+  state: DOWN
+0xfc6a1c030091f9c0_38:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "38"
+  state: DOWN
+0xfc6a1c030091f9c0_39:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "39"
+  state: DOWN
+0xfc6a1c030091f9c0_40:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "40"
+  state: DOWN
+0xfc6a1c030091f9c0_41:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "41"
+  state: DOWN
+0xfc6a1c030091f9c0_42:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "42"
+  state: DOWN
+0xfc6a1c030091f9c0_43:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "43"
+  state: DOWN
+0xfc6a1c030091f9c0_44:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "44"
+  state: DOWN
+0xfc6a1c030091f9c0_45:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "45"
+  state: DOWN
+0xfc6a1c030091f9c0_46:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "46"
+  state: DOWN
+0xfc6a1c030091f9c0_47:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "47"
+  state: DOWN
+0xfc6a1c030091f9c0_48:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "48"
+  state: DOWN
+0xfc6a1c030091f9c0_49:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "49"
+  state: DOWN
+0xfc6a1c030091f9c0_50:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "50"
+  state: DOWN
+0xfc6a1c030091f9c0_51:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "51"
+  state: DOWN
+0xfc6a1c030091f9c0_52:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "52"
+  state: DOWN
+0xfc6a1c030091f9c0_53:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "53"
+  state: DOWN
+0xfc6a1c030091f9c0_54:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "54"
+  state: DOWN
+0xfc6a1c030091f9c0_55:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "55"
+  state: DOWN
+0xfc6a1c030091f9c0_56:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "56"
+  state: DOWN
+0xfc6a1c030091f9c0_57:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "57"
+  state: DOWN
+0xfc6a1c030091f9c0_58:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "58"
+  state: DOWN
+0xfc6a1c030091f9c0_59:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "59"
+  state: DOWN
+0xfc6a1c030091f9c0_60:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "60"
+  state: DOWN
+0xfc6a1c030091f9c0_61:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "61"
+  state: DOWN
+0xfc6a1c030091f9c0_62:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "62"
+  state: DOWN
+0xfc6a1c030091f9c0_64:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "64"
+  state: DOWN
+0xfc6a1c030091f600_1:
+  localGuid: "0x5c25730300e66b0e"
+  localName: is-north-7-compute-1 mlx5_3
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "1"
+  state: ACT
+0xfc6a1c030091f600_2:
+  localGuid: "0x5c25730300d0bf1a"
+  localName: is-north-7-compute-2 mlx5_3
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "2"
+  state: ACT
+0xfc6a1c030091f600_3:
+  localGuid: "0x5c25730300e67016"
+  localName: is-north-7-compute-3 mlx5_3
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "3"
+  state: ACT
+0xfc6a1c030091f600_4:
+  localGuid: "0x5c25730300e6a22e"
+  localName: is-north-7-compute-4 mlx5_3
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "4"
+  state: ACT
+0xfc6a1c030091f600_5:
+  localGuid: "0x5c25730300c09c50"
+  localName: is-north-7-compute-5 mlx5_3
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "5"
+  state: ACT
+0xfc6a1c030091f600_6:
+  localGuid: "0x5c25730300c08a40"
+  localName: is-north-7-compute-6 mlx5_3
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "6"
+  state: ACT
+0xfc6a1c030091f600_7:
+  localGuid: "0x5c25730300e6a04e"
+  localName: is-north-7-compute-7 mlx5_3
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "7"
+  state: ACT
+0xfc6a1c030091f600_8:
+  localGuid: "0x5c25730300e67056"
+  localName: is-north-7-compute-8 mlx5_3
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "8"
+  state: ACT
+0xfc6a1c030091f600_9:
+  localGuid: "0x5c25730300c06b30"
+  localName: is-north-7-compute-9 mlx5_3
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "9"
+  state: ACT
+0xfc6a1c030091f600_10:
+  localGuid: "0x5c25730300c09c70"
+  localName: is-north-7-compute-10 mlx5_3
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "10"
+  state: ACT
+0xfc6a1c030091f600_11:
+  localGuid: "0x5c25730300e66d26"
+  localName: is-north-7-compute-11 mlx5_3
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "11"
+  state: ACT
+0xfc6a1c030091f600_12:
+  localGuid: "0x5c25730300e6711e"
+  localName: is-north-7-compute-12 mlx5_3
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "12"
+  state: ACT
+0xfc6a1c030091f600_13:
+  localGuid: "0x5c25730300c06fc0"
+  localName: is-north-7-compute-13 mlx5_3
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "13"
+  state: ACT
+0xfc6a1c030091f600_14:
+  localGuid: "0x5c25730300e66c8e"
+  localName: is-north-7-compute-14 mlx5_3
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "14"
+  state: ACT
+0xfc6a1c030091f600_15:
+  localGuid: "0x5c25730300e66d3e"
+  localName: is-north-7-compute-15 mlx5_3
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "15"
+  state: ACT
+0xfc6a1c030091f600_16:
+  localGuid: "0x5c25730300e68efe"
+  localName: is-north-7-compute-16 mlx5_3
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "16"
+  state: ACT
+0xfc6a1c030091f600_17:
+  localGuid: "0xc470bd0300103152"
+  localName: is-north-7-compute-17 mlx5_3
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "17"
+  state: ACT
+0xfc6a1c030091f600_18:
+  localGuid: "0xc470bd03000ffff2"
+  localName: is-north-7-compute-18 mlx5_3
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "18"
+  state: ACT
+0xfc6a1c030091f600_19:
+  localGuid: "0xc470bd0300103112"
+  localName: is-north-7-compute-19 mlx5_3
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "19"
+  state: ACT
+0xfc6a1c030091f600_20:
+  localGuid: "0x5c25730300f3e500"
+  localName: is-north-7-compute-20 mlx5_3
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "20"
+  state: ACT
+0xfc6a1c030091f600_21:
+  localGuid: "0x5c25730300f40a60"
+  localName: is-north-7-compute-21 mlx5_3
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "21"
+  state: ACT
+0xfc6a1c030091f600_22:
+  localGuid: "0x5c25730300e66ae6"
+  localName: is-north-7-compute-22 mlx5_3
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "22"
+  state: ACT
+0xfc6a1c030091f600_23:
+  localGuid: "0x5c25730300f3e630"
+  localName: is-north-7-compute-23 mlx5_3
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "23"
+  state: ACT
+0xfc6a1c030091f600_24:
+  localGuid: "0xc470bd03000ff83a"
+  localName: is-north-7-compute-24 mlx5_3
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "24"
+  state: ACT
+0xfc6a1c030091f600_25:
+  localGuid: "0x5c25730300f40520"
+  localName: is-north-7-compute-25 mlx5_3
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "25"
+  state: ACT
+0xfc6a1c030091f600_26:
+  localGuid: "0x5c25730300f864a0"
+  localName: is-north-7-compute-26 mlx5_3
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "26"
+  state: ACT
+0xfc6a1c030091f600_27:
+  localGuid: "0x5c25730300f42030"
+  localName: is-north-7-compute-27 mlx5_3
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "27"
+  state: ACT
+0xfc6a1c030091f600_28:
+  localGuid: "0x5c25730300f40f08"
+  localName: is-north-7-compute-28 mlx5_3
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "28"
+  state: ACT
+0xfc6a1c030091f600_29:
+  localGuid: "0x5c25730300f3db48"
+  localName: is-north-7-compute-29 mlx5_3
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "29"
+  state: ACT
+0xfc6a1c030091f600_30:
+  localGuid: "0x5c25730300f40e20"
+  localName: is-north-7-compute-30 mlx5_3
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "30"
+  state: ACT
+0xfc6a1c030091f600_31:
+  localGuid: "0x5c25730300f42086"
+  localName: is-north-7-compute-31 mlx5_3
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "31"
+  state: ACT
+0xfc6a1c030091f600_32:
+  localGuid: "0x5c25730300f3dda0"
+  localName: is-north-7-compute-32 mlx5_3
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "32"
+  state: ACT
+0xfc6a1c030091f600_33:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "33"
+  state: DOWN
+0xfc6a1c030091f600_34:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "34"
+  state: DOWN
+0xfc6a1c030091f600_35:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "35"
+  state: DOWN
+0xfc6a1c030091f600_36:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "36"
+  state: DOWN
+0xfc6a1c030091f600_37:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "37"
+  state: DOWN
+0xfc6a1c030091f600_38:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "38"
+  state: DOWN
+0xfc6a1c030091f600_39:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "39"
+  state: DOWN
+0xfc6a1c030091f600_40:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "40"
+  state: DOWN
+0xfc6a1c030091f600_41:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "41"
+  state: DOWN
+0xfc6a1c030091f600_42:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "42"
+  state: DOWN
+0xfc6a1c030091f600_43:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "43"
+  state: DOWN
+0xfc6a1c030091f600_44:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "44"
+  state: DOWN
+0xfc6a1c030091f600_45:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "45"
+  state: DOWN
+0xfc6a1c030091f600_46:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "46"
+  state: DOWN
+0xfc6a1c030091f600_47:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "47"
+  state: DOWN
+0xfc6a1c030091f600_48:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "48"
+  state: DOWN
+0xfc6a1c030091f600_49:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "49"
+  state: DOWN
+0xfc6a1c030091f600_50:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "50"
+  state: DOWN
+0xfc6a1c030091f600_51:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "51"
+  state: DOWN
+0xfc6a1c030091f600_52:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "52"
+  state: DOWN
+0xfc6a1c030091f600_53:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "53"
+  state: DOWN
+0xfc6a1c030091f600_54:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "54"
+  state: DOWN
+0xfc6a1c030091f600_55:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "55"
+  state: DOWN
+0xfc6a1c030091f600_56:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "56"
+  state: DOWN
+0xfc6a1c030091f600_57:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "57"
+  state: DOWN
+0xfc6a1c030091f600_58:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "58"
+  state: DOWN
+0xfc6a1c030091f600_59:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "59"
+  state: DOWN
+0xfc6a1c030091f600_60:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "60"
+  state: DOWN
+0xfc6a1c030091f600_61:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "61"
+  state: DOWN
+0xfc6a1c030091f600_62:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "62"
+  state: DOWN
+0xfc6a1c030091f600_64:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "64"
+  state: DOWN
+0xfc6a1c030091fc00_1:
+  localGuid: "0x5c25730300d0daea"
+  localName: is-north-7-compute-1 mlx5_1
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "1"
+  state: ACT
+0xfc6a1c030091fc00_2:
+  localGuid: "0x5c25730300d0bf52"
+  localName: is-north-7-compute-2 mlx5_1
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "2"
+  state: ACT
+0xfc6a1c030091fc00_3:
+  localGuid: "0x5c25730300e68cde"
+  localName: is-north-7-compute-3 mlx5_1
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "3"
+  state: ACT
+0xfc6a1c030091fc00_4:
+  localGuid: "0x5c25730300e67226"
+  localName: is-north-7-compute-4 mlx5_1
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "4"
+  state: ACT
+0xfc6a1c030091fc00_5:
+  localGuid: "0x5c25730300c06f18"
+  localName: is-north-7-compute-5 mlx5_1
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "5"
+  state: ACT
+0xfc6a1c030091fc00_6:
+  localGuid: "0x5c25730300c09c38"
+  localName: is-north-7-compute-6 mlx5_1
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "6"
+  state: ACT
+0xfc6a1c030091fc00_7:
+  localGuid: "0x5c25730300e674d6"
+  localName: is-north-7-compute-7 mlx5_1
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "7"
+  state: ACT
+0xfc6a1c030091fc00_8:
+  localGuid: "0x5c25730300c09cb8"
+  localName: is-north-7-compute-8 mlx5_1
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "8"
+  state: ACT
+0xfc6a1c030091fc00_9:
+  localGuid: "0x5c25730300e68c66"
+  localName: is-north-7-compute-9 mlx5_1
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "9"
+  state: ACT
+0xfc6a1c030091fc00_10:
+  localGuid: "0x5c25730300c09ae0"
+  localName: is-north-7-compute-10 mlx5_1
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "10"
+  state: ACT
+0xfc6a1c030091fc00_11:
+  localGuid: "0x5c25730300e671e6"
+  localName: is-north-7-compute-11 mlx5_1
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "11"
+  state: ACT
+0xfc6a1c030091fc00_12:
+  localGuid: "0x5c25730300e6708e"
+  localName: is-north-7-compute-12 mlx5_1
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "12"
+  state: ACT
+0xfc6a1c030091fc00_13:
+  localGuid: "0x5c25730300a1e7d4"
+  localName: is-north-7-compute-13 mlx5_1
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "13"
+  state: ACT
+0xfc6a1c030091fc00_14:
+  localGuid: "0x5c25730300e671b6"
+  localName: is-north-7-compute-14 mlx5_1
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "14"
+  state: ACT
+0xfc6a1c030091fc00_15:
+  localGuid: "0x5c25730300a1f314"
+  localName: is-north-7-compute-15 mlx5_1
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "15"
+  state: ACT
+0xfc6a1c030091fc00_16:
+  localGuid: "0x5c25730300e67466"
+  localName: is-north-7-compute-16 mlx5_1
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "16"
+  state: ACT
+0xfc6a1c030091fc00_17:
+  localGuid: "0xc470bd03001001ca"
+  localName: is-north-7-compute-17 mlx5_1
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "17"
+  state: ACT
+0xfc6a1c030091fc00_18:
+  localGuid: "0xc470bd0300100012"
+  localName: is-north-7-compute-18 mlx5_1
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "18"
+  state: ACT
+0xfc6a1c030091fc00_19:
+  localGuid: "0x5c25730300f41170"
+  localName: is-north-7-compute-19 mlx5_1
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "19"
+  state: ACT
+0xfc6a1c030091fc00_20:
+  localGuid: "0x5c25730300f3e670"
+  localName: is-north-7-compute-20 mlx5_1
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "20"
+  state: ACT
+0xfc6a1c030091fc00_21:
+  localGuid: "0x5c25730300f3e490"
+  localName: is-north-7-compute-21 mlx5_1
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "21"
+  state: ACT
+0xfc6a1c030091fc00_22:
+  localGuid: "0x5c25730300e66c6e"
+  localName: is-north-7-compute-22 mlx5_1
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "22"
+  state: ACT
+0xfc6a1c030091fc00_23:
+  localGuid: "0x5c25730300f41180"
+  localName: is-north-7-compute-23 mlx5_1
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "23"
+  state: ACT
+0xfc6a1c030091fc00_24:
+  localGuid: "0xc470bd03001005ea"
+  localName: is-north-7-compute-24 mlx5_1
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "24"
+  state: ACT
+0xfc6a1c030091fc00_25:
+  localGuid: "0x5c25730300f41168"
+  localName: is-north-7-compute-25 mlx5_1
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "25"
+  state: ACT
+0xfc6a1c030091fc00_26:
+  localGuid: "0x5c25730300f42246"
+  localName: is-north-7-compute-26 mlx5_1
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "26"
+  state: ACT
+0xfc6a1c030091fc00_27:
+  localGuid: "0x5c25730300f3dc90"
+  localName: is-north-7-compute-27 mlx5_1
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "27"
+  state: ACT
+0xfc6a1c030091fc00_28:
+  localGuid: "0x5c25730300f40e28"
+  localName: is-north-7-compute-28 mlx5_1
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "28"
+  state: ACT
+0xfc6a1c030091fc00_29:
+  localGuid: "0x5c25730300f40de0"
+  localName: is-north-7-compute-29 mlx5_1
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "29"
+  state: ACT
+0xfc6a1c030091fc00_30:
+  localGuid: "0x5c25730300f3e290"
+  localName: is-north-7-compute-30 mlx5_1
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "30"
+  state: ACT
+0xfc6a1c030091fc00_31:
+  localGuid: "0x5c25730300f3f4e8"
+  localName: is-north-7-compute-31 mlx5_1
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "31"
+  state: ACT
+0xfc6a1c030091fc00_32:
+  localGuid: "0x5c25730300f413d8"
+  localName: is-north-7-compute-32 mlx5_1
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "32"
+  state: ACT
+0xfc6a1c030091fc00_33:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "33"
+  state: DOWN
+0xfc6a1c030091fc00_34:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "34"
+  state: DOWN
+0xfc6a1c030091fc00_35:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "35"
+  state: DOWN
+0xfc6a1c030091fc00_36:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "36"
+  state: DOWN
+0xfc6a1c030091fc00_37:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "37"
+  state: DOWN
+0xfc6a1c030091fc00_38:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "38"
+  state: DOWN
+0xfc6a1c030091fc00_39:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "39"
+  state: DOWN
+0xfc6a1c030091fc00_40:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "40"
+  state: DOWN
+0xfc6a1c030091fc00_41:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "41"
+  state: DOWN
+0xfc6a1c030091fc00_42:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "42"
+  state: DOWN
+0xfc6a1c030091fc00_43:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "43"
+  state: DOWN
+0xfc6a1c030091fc00_44:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "44"
+  state: DOWN
+0xfc6a1c030091fc00_45:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "45"
+  state: DOWN
+0xfc6a1c030091fc00_46:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "46"
+  state: DOWN
+0xfc6a1c030091fc00_47:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "47"
+  state: DOWN
+0xfc6a1c030091fc00_48:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "48"
+  state: DOWN
+0xfc6a1c030091fc00_49:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "49"
+  state: DOWN
+0xfc6a1c030091fc00_50:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "50"
+  state: DOWN
+0xfc6a1c030091fc00_51:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "51"
+  state: DOWN
+0xfc6a1c030091fc00_52:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "52"
+  state: DOWN
+0xfc6a1c030091fc00_53:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "53"
+  state: DOWN
+0xfc6a1c030091fc00_54:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "54"
+  state: DOWN
+0xfc6a1c030091fc00_55:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "55"
+  state: DOWN
+0xfc6a1c030091fc00_56:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "56"
+  state: DOWN
+0xfc6a1c030091fc00_57:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "57"
+  state: DOWN
+0xfc6a1c030091fc00_58:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "58"
+  state: DOWN
+0xfc6a1c030091fc00_59:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "59"
+  state: DOWN
+0xfc6a1c030091fc00_60:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "60"
+  state: DOWN
+0xfc6a1c030091fc00_61:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "61"
+  state: DOWN
+0xfc6a1c030091fc00_62:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "62"
+  state: DOWN
+0xfc6a1c030091fc00_64:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "64"
+  state: DOWN

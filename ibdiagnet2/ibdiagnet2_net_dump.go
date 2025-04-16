@@ -5,10 +5,12 @@ import (
 	"infiniband_exporter/global"
 	"infiniband_exporter/log"
 	"infiniband_exporter/util"
+	"os"
 	"regexp"
 	"strings"
 
 	"github.com/prometheus/client_golang/prometheus"
+	"gopkg.in/yaml.v2"
 )
 
 var (
@@ -30,13 +32,15 @@ var (
 )
 
 type Dumper interface {
-	GetContent(filepath string) (*[]string, error)
-	ParseContent(blocks *[]string) (*[]NetDump, error)
-	UpdateMetrics(netDump *[]NetDump)
+	GetContent() (*[]string, error)
+	ParseContent() (*[]NetDump, error)
+	UpdateMetrics()
 }
 
 type LinkNetDump struct {
-	FilePath string
+	FilePath   string
+	ConfigPath string
+	GetConfig  bool
 }
 
 type NetDump struct {
@@ -54,8 +58,8 @@ func init() {
 	prometheus.MustRegister(netDumpLinkInfoGauge)
 }
 
-func (d *LinkNetDump) GetContent(filepath string) (*[]string, error) {
-	fileContent, err := util.ReadFileContent(filepath)
+func (d *LinkNetDump) GetContent() (*[]string, error) {
+	fileContent, err := util.ReadFileContent(d.FilePath)
 	if err != nil {
 		log.GetLogger().Error("read file error")
 	}
@@ -72,8 +76,14 @@ func (d *LinkNetDump) GetContent(filepath string) (*[]string, error) {
 	return &blocks, nil
 }
 
-func (d *LinkNetDump) ParseContent(blocks *[]string) (*[]NetDump, error) {
+func (d *LinkNetDump) ParseContent() (*[]NetDump, error) {
 	var netdumps []NetDump
+	configData := make(map[string]any, 0)
+	blocks, err := d.GetContent()
+	if err != nil {
+		log.GetLogger().Error("GetContent error")
+		return nil, err
+	}
 	for _, block := range *blocks {
 		switchExpr := `(?m)"(.*)",\s(\w+),\s(0x\w{16}),\sLID\s(\d+)`
 		switchMatch, err := regexp.Compile(switchExpr)
@@ -118,22 +128,66 @@ func (d *LinkNetDump) ParseContent(blocks *[]string) (*[]NetDump, error) {
 		}
 		subDownMatch := downMatch.FindAllStringSubmatch(block, -1)
 		for _, match := range subDownMatch {
+			var localGuid, localName, localPort string
+			remotePort, state := match[2], match[3]
+			linkMap, exists := util.GetValueFromCache(fmt.Sprintf("%s_%s", remoteGuid, remotePort))
+			if exists {
+				localGuidValue, exists := linkMap["localGuid"]
+				if exists {
+					localGuid = localGuidValue
+				}
+				localNameValue, exists := linkMap["localName"]
+				if exists {
+					localName = localNameValue
+				}
+				localPortValue, exists := linkMap["localPort"]
+				if exists {
+					localPort = localPortValue
+				}
+			}
 			netdump := NetDump{
 				remoteGuid: remoteGuid,
 				remoteName: remoteName,
-				remotePort: match[2],
-				state:      match[3],
-				localGuid:  "",
-				localName:  "", // TODO
-				localPort:  "",
+				remotePort: remotePort,
+				state:      state,
+				localGuid:  localGuid,
+				localName:  localName,
+				localPort:  localPort,
 			}
 			netdumps = append(netdumps, netdump)
+		}
+	}
+	if d.GetConfig == true {
+		for _, netdump := range netdumps {
+			configDataKey := fmt.Sprintf("%s_%s", netdump.remoteGuid, netdump.remotePort)
+			configData[configDataKey] = map[string]any{
+				"remoteName": netdump.remoteName,
+				"remoteGuid": netdump.remoteGuid,
+				"remotePort": netdump.remotePort,
+				"state":      netdump.state,
+				"localGuid":  netdump.localGuid,
+				"localName":  netdump.localName,
+				"localPort":  netdump.localPort,
+			}
+		}
+		yamlData, err := yaml.Marshal(&configData)
+		if err != nil {
+			log.GetLogger().Error("Yaml marshal error")
+		}
+		err = os.WriteFile(d.ConfigPath, yamlData, 0644)
+		if err != nil {
+			log.GetLogger().Error("Failed to write data into file")
 		}
 	}
 	return &netdumps, nil
 }
 
-func (d *LinkNetDump) UpdateMetrics(netDump *[]NetDump) {
+func (d *LinkNetDump) UpdateMetrics() {
+	netDump, err := d.ParseContent()
+	if err != nil {
+		log.GetLogger().Error("ParseContent error")
+		return
+	}
 	var value float64
 	for _, net := range *netDump {
 		netDumpLinkInfoCounter.WithLabelValues(
