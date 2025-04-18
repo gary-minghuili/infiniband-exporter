@@ -98,7 +98,7 @@ func (s *SyncSwitchData) SyncSwitchData() (bool, error) {
 		"file ibdiagnet upload ibdiagnet_output.tgz scp://%s:%s@%s%s",
 		s.HostUser, s.HostPassword, s.HostIpAddress, s.HostFilePath,
 	)
-	secondData := []byte(fmt.Sprintf(`{ "execution_type": "sync", "commands": ["%s"] }`, cmd))
+	secondData := []byte(fmt.Sprintf(`{ "execution_type": "sync", "commands": ["ibdiagnet","%s"] }`, cmd))
 	secondReq, err := http.NewRequest("POST", secondURL, bytes.NewBuffer(secondData))
 	if err != nil {
 		log.GetLogger().Error(fmt.Sprintf("Send second request error:%s", err))
