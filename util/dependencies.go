@@ -8,6 +8,7 @@ import (
 	"os"
 	"os/exec"
 	"reflect"
+	"regexp"
 	"slices"
 	"strings"
 	"sync"
@@ -20,7 +21,7 @@ var (
 	CacheLock sync.RWMutex
 )
 
-func GetFieldNames(i interface{}) []string {
+func GetFieldNames(i any) []string {
 	var fields []string
 	v := reflect.ValueOf(i)
 	if v.Kind() == reflect.Ptr {
@@ -97,4 +98,34 @@ func GetKeysFromCache(guid string) bool {
 		}
 	}
 	return slices.Contains(guids, guid)
+}
+
+func GetContent(filePath string, regexExpr string) (*[]string, error) {
+	fileContent, err := ReadFileContent(filePath)
+	if err != nil {
+		log.GetLogger().Error("read file error")
+		return nil, err
+	}
+	re := regexp.MustCompile(regexExpr)
+	indexes := re.FindAllStringIndex(fileContent, -1)
+	var blocks []string
+	for i, match := range indexes {
+		if i == len(indexes)-1 {
+			blocks = append(blocks, strings.TrimSpace(fileContent[match[0]:]))
+		} else {
+			blocks = append(blocks, strings.TrimSpace(fileContent[match[0]:indexes[i+1][0]]))
+		}
+	}
+	return &blocks, nil
+}
+
+func StringToBool(s string) (bool, error) {
+	switch strings.ToLower(strings.TrimSpace(s)) {
+	case "true", "1":
+		return true, nil
+	case "false", "0":
+		return false, nil
+	default:
+		return false, fmt.Errorf("invalid boolean string: %s", s)
+	}
 }

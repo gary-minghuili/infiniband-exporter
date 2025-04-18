@@ -7,7 +7,6 @@ import (
 	"infiniband_exporter/util"
 	"os"
 	"regexp"
-	"strings"
 
 	"github.com/prometheus/client_golang/prometheus"
 	"gopkg.in/yaml.v2"
@@ -32,7 +31,6 @@ var (
 )
 
 type Dumper interface {
-	GetContent() (*[]string, error)
 	ParseContent() (*[]NetDump, error)
 	UpdateMetrics()
 }
@@ -58,28 +56,10 @@ func init() {
 	prometheus.MustRegister(netDumpLinkInfoGauge)
 }
 
-func (d *LinkNetDump) GetContent() (*[]string, error) {
-	fileContent, err := util.ReadFileContent(d.FilePath)
-	if err != nil {
-		log.GetLogger().Error("read file error")
-	}
-	re := regexp.MustCompile(`(?m)(.*),\s(\w+),\s(0x\w{16}),\sLID\s(\d+)`)
-	indexes := re.FindAllStringIndex(fileContent, -1)
-	var blocks []string
-	for i, match := range indexes {
-		if i == len(indexes)-1 {
-			blocks = append(blocks, strings.TrimSpace(fileContent[match[0]:]))
-		} else {
-			blocks = append(blocks, strings.TrimSpace(fileContent[match[0]:indexes[i+1][0]]))
-		}
-	}
-	return &blocks, nil
-}
-
 func (d *LinkNetDump) ParseContent() (*[]NetDump, error) {
 	var netdumps []NetDump
 	configData := make(map[string]any, 0)
-	blocks, err := d.GetContent()
+	blocks, err := util.GetContent(d.FilePath, `(?m)(.*),\s(\w+),\s(0x\w{16}),\sLID\s(\d+)`)
 	if err != nil {
 		log.GetLogger().Error("GetContent error")
 		return nil, err

@@ -37,10 +37,8 @@ func NewInfinibandExporterCommand() *cobra.Command {
 				log.Fatalf("Failed to initialize logger: %v", err)
 			}
 			iblog.GetLogger().Info("Starting server......")
-			util.SetCache(filepath.Join(
-				fmt.Sprintf("%sconfig", WorkDir),
-				"config.yaml",
-			))
+			configPath := fmt.Sprintf("%sconfig", WorkDir)
+			util.SetCache(filepath.Join(configPath, "config.yaml"))
 			http.Handle("/metrics", http.HandlerFunc(MetricsHandler))
 			err = http.ListenAndServe(fmt.Sprintf("0.0.0.0:%d", HttpPort), nil)
 			if err != nil {
@@ -50,11 +48,12 @@ func NewInfinibandExporterCommand() *cobra.Command {
 			return nil
 		},
 	}
+
 	rootCmd.Flags().StringVarP(
 		&LogPath,
 		"log",
 		"l",
-		"/var/log/infiniband-exporter.log", "a string parameter",
+		"infiniband_exporter.log", "a string parameter",
 	)
 	rootCmd.Flags().IntVarP(
 		&HttpPort,
@@ -67,7 +66,7 @@ func NewInfinibandExporterCommand() *cobra.Command {
 		&RunMode,
 		"mode",
 		"m",
-		"prod",
+		"dev",
 		"an string parameter[dev prod]",
 	)
 	rootCmd.Flags().StringVarP(
@@ -88,6 +87,19 @@ func NewInfinibandExporterCommand() *cobra.Command {
 }
 
 func MetricsHandler(w http.ResponseWriter, r *http.Request) {
+	if RunMode == "prod" {
+		syncSwitchData := ibdiagnet2.SyncSwitchData{
+			IpAddress:     "",
+			User:          "",
+			Password:      "",
+			HostUser:      "",
+			HostPassword:  "",
+			HostIpAddress: "",
+			HostFilePath:  "",
+		}
+		var syncData ibdiagnet2.SyncData = &syncSwitchData
+		syncData.SyncSwitchData()
+	}
 	linkNetDump := ibdiagnet2.LinkNetDump{
 		FilePath: filepath.Join(
 			fmt.Sprintf("%sdata/ibdiagnet2", WorkDir),

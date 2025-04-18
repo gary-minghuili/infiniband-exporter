@@ -192,7 +192,7 @@
   state: DOWN
 0xb0cf0e0300d33fc0_33:
   localGuid: ""
-  localName: "DEMO"
+  localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
   remoteName: MF0;ib-switch-sequoia:MQM9700/U1

@@ -7,7 +7,6 @@ import (
 	"infiniband_exporter/util"
 	"regexp"
 	"strconv"
-	"strings"
 
 	"github.com/prometheus/client_golang/prometheus"
 )
@@ -383,7 +382,6 @@ var (
 )
 
 type Pmer interface {
-	GetContent() (*[]string, error)
 	UpdateMetrics()
 }
 
@@ -458,26 +456,9 @@ func init() {
 		prometheus.MustRegister(metric)
 	}
 }
-func (p *LinkPm) GetContent() (*[]string, error) {
-	fileContent, err := util.ReadFileContent(p.FilePath)
-	if err != nil {
-		log.GetLogger().Error("read file error")
-	}
-	re := regexp.MustCompile(`(?m)Port=(\d+)\sLid=(\w+)\sGUID=(\w{18})\sDevice=(\d+)\sPort\sName=(.*)`)
-	indexes := re.FindAllStringIndex(fileContent, -1)
-	var blocks []string
-	for i, match := range indexes {
-		if i == len(indexes)-1 {
-			blocks = append(blocks, strings.TrimSpace(fileContent[match[0]:]))
-		} else {
-			blocks = append(blocks, strings.TrimSpace(fileContent[match[0]:indexes[i+1][0]]))
-		}
-	}
-	return &blocks, nil
-}
 
 func (p *LinkPm) UpdateMetrics() {
-	blocks, err := p.GetContent()
+	blocks, err := util.GetContent(p.FilePath, `(?m)Port=(\d+)\sLid=(\w+)\sGUID=(\w{18})\sDevice=(\d+)\sPort\sName=(.*)`)
 	if err != nil {
 		log.GetLogger().Error("Get pm content error")
 	}

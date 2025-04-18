@@ -1,0 +1,14 @@
+default:
+  logPath: infiniband_exporter.log
+  httpPort: 9690
+  runMode: dev # dev or prod
+  workDir: /Users/xlmh/Code/github/infiniband_exporter/ 
+  getConfig: true
+syncData:
+  ipAddress: 10.4.101.1
+  user: "admin"
+  password: "Canopy@123456"
+  hostUser: "test"
+  hostPassword: "test1234"
+  hostIpAddress: "10.4.254.250"
+  hostFilePath: /home/test/ib.tgz
