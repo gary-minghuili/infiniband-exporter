@@ -95,7 +95,21 @@ func NewInfinibandExporterCommand() *cobra.Command {
 
 func MetricsHandler(w http.ResponseWriter, r *http.Request) {
 	if RunMode == "prod" {
-		SyncData.SyncSwitchData()
+		if _, err := SyncData.SyncSwitchData(); err != nil {
+			iblog.GetLogger().Error(fmt.Sprintf("SyncSwitchData error: %s", err))
+			return
+		} else {
+			_, err := util.ExecCmd(
+				"tar", "-xzvf", fmt.Sprintf("%s/data/ib.tgz", WorkDir), "-C", fmt.Sprintf("%s/data/ibdiagnet2", WorkDir),
+			)
+			if err != nil {
+				iblog.GetLogger().Error(fmt.Sprintf("tar zxvf  ib.tgz error: %s", err))
+				return
+			}
+
+		}
+	} else {
+		iblog.GetLogger().Info("RunMode is dev, no need to sync data")
 	}
 	linkNetDump := ibdiagnet2.LinkNetDump{
 		FilePath: filepath.Join(
