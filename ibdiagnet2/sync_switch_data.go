@@ -27,13 +27,13 @@ type SyncData interface {
 	SyncSwitchData() (bool, error)
 }
 type SyncSwitchData struct {
-	IpAddress     string
-	User          string
-	Password      string
-	HostUser      string
-	HostPassword  string
-	HostIpAddress string
-	HostFilePath  string
+	IpAddress     string `yaml:"ipAddress"`
+	User          string `yaml:"user"`
+	Password      string `yaml:"password"`
+	HostUser      string `yaml:"hostUser"`
+	HostPassword  string `yaml:"hostPassword"`
+	HostIpAddress string `yaml:"hostIpAddress"`
+	HostFilePath  string `yaml:"hostFilePath"`
 }
 
 // 定义与JSON响应对应的结构体

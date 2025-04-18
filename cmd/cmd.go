@@ -7,10 +7,12 @@ import (
 	"infiniband_exporter/util"
 	"log"
 	"net/http"
+	"os"
 	"path/filepath"
 
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"github.com/spf13/cobra"
+	"github.com/spf13/viper"
 )
 
 var (
@@ -19,6 +21,7 @@ var (
 	RunMode   string
 	WorkDir   string
 	GetConfig bool
+	SyncData  = &ibdiagnet2.SyncSwitchData{}
 )
 
 func NewInfinibandExporterCommand() *cobra.Command {
@@ -39,6 +42,10 @@ func NewInfinibandExporterCommand() *cobra.Command {
 			iblog.GetLogger().Info("Starting server......")
 			configPath := fmt.Sprintf("%sconfig", WorkDir)
 			util.SetCache(filepath.Join(configPath, "config.yaml"))
+			if RunMode == "prod" {
+				SyncData = GetSyncSwitchDataConfig()
+				iblog.GetLogger().Info(fmt.Sprintf("SyncSwitchData: %v", SyncData))
+			}
 			http.Handle("/metrics", http.HandlerFunc(MetricsHandler))
 			err = http.ListenAndServe(fmt.Sprintf("0.0.0.0:%d", HttpPort), nil)
 			if err != nil {
@@ -88,17 +95,7 @@ func NewInfinibandExporterCommand() *cobra.Command {
 
 func MetricsHandler(w http.ResponseWriter, r *http.Request) {
 	if RunMode == "prod" {
-		syncSwitchData := ibdiagnet2.SyncSwitchData{
-			IpAddress:     "",
-			User:          "",
-			Password:      "",
-			HostUser:      "",
-			HostPassword:  "",
-			HostIpAddress: "",
-			HostFilePath:  "",
-		}
-		var syncData ibdiagnet2.SyncData = &syncSwitchData
-		syncData.SyncSwitchData()
+		SyncData.SyncSwitchData()
 	}
 	linkNetDump := ibdiagnet2.LinkNetDump{
 		FilePath: filepath.Join(
@@ -125,4 +122,23 @@ func MetricsHandler(w http.ResponseWriter, r *http.Request) {
 	pmer.UpdateMetrics()
 
 	promhttp.Handler().ServeHTTP(w, r)
+}
+
+func GetSyncSwitchDataConfig() *ibdiagnet2.SyncSwitchData {
+	type Config struct {
+		SyncDataConfig ibdiagnet2.SyncSwitchData `yaml:"syncDataConfig"`
+	}
+	viper.SetConfigName("default")
+	viper.SetConfigType("yaml")
+	viper.AddConfigPath(fmt.Sprintf("%s/config", WorkDir))
+	if err := viper.ReadInConfig(); err != nil {
+		iblog.GetLogger().Error(fmt.Sprintf("Error reading sync data config file, %s", err))
+		os.Exit(1)
+	}
+	var config Config
+	if err := viper.Unmarshal(&config); err != nil {
+		iblog.GetLogger().Error(fmt.Sprintf("Unable to decode into struct, %v", err))
+		os.Exit(1)
+	}
+	return &config.SyncDataConfig
 }
