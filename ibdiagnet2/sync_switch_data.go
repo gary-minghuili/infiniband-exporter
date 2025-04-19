@@ -20,7 +20,7 @@ import (
 // 	hostUser      = "test"
 // 	hostPassword  = "test1234"
 // 	hostIpAddress = "10.4.254.250"
-// 	hostFilePath  = fmt.Sprintf("/home/%s/ib.tgz", hostUser)
+// 	hostFilePath  = "/home/test/ib.tgz"
 // )
 
 type SyncData interface {
@@ -36,7 +36,6 @@ type SyncSwitchData struct {
 	HostFilePath  string `yaml:"hostFilePath"`
 }
 
-// 定义与JSON响应对应的结构体
 type SyncResponse struct {
 	Results []SyncResult `json:"results"`
 }
@@ -76,10 +75,14 @@ func (s *SyncSwitchData) SyncSwitchData() (bool, error) {
 		log.GetLogger().Error(fmt.Sprintf("Send login request error:%s", err))
 		return false, err
 	}
-	defer resp.Body.Close()
+	defer func(Body io.ReadCloser) {
+		err := Body.Close()
+		if err != nil {
+			log.GetLogger().Error(fmt.Sprintf("Close response body error:%s", err))
+		}
+	}(resp.Body)
 	sessionCookie := ""
 	for _, cookie := range resp.Cookies() {
-		fmt.Println(cookie.Name)
 		if strings.HasPrefix(cookie.Name, "session") {
 			sessionCookie = fmt.Sprintf("%s=%s", cookie.Name, cookie.Value)
 			break
@@ -87,7 +90,7 @@ func (s *SyncSwitchData) SyncSwitchData() (bool, error) {
 	}
 
 	if sessionCookie == "" {
-		sessionMessage := "Not found session cookie"
+		sessionMessage := "not found session cookie"
 		log.GetLogger().Error(sessionMessage)
 		return false, errors.New(sessionMessage)
 	}
@@ -112,7 +115,12 @@ func (s *SyncSwitchData) SyncSwitchData() (bool, error) {
 		log.GetLogger().Error(fmt.Sprintf("Send second request error:%s", err))
 		return false, err
 	}
-	defer secondResp.Body.Close()
+	defer func(Body io.ReadCloser) {
+		err := Body.Close()
+		if err != nil {
+			log.GetLogger().Error(fmt.Sprintf("Close second response body error:%s", err))
+		}
+	}(secondResp.Body)
 
 	secondBody, err := io.ReadAll(secondResp.Body)
 	if err != nil {
@@ -121,7 +129,7 @@ func (s *SyncSwitchData) SyncSwitchData() (bool, error) {
 	}
 
 	var syncResponse SyncResponse
-	err = json.Unmarshal([]byte(secondBody), &syncResponse)
+	err = json.Unmarshal(secondBody, &syncResponse)
 	if err != nil {
 		log.GetLogger().Error(fmt.Sprintf("Unmarshal json error:%s", err))
 		return false, err

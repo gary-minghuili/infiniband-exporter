@@ -57,8 +57,8 @@ func init() {
 }
 
 func (d *LinkNetDump) ParseContent() (*[]NetDump, error) {
-	var netdumps []NetDump
-	configData := make(map[string]any, 0)
+	var netDumps []NetDump
+	configData := make(map[string]any)
 	blocks, err := util.GetContent(d.FilePath, `(?m)(.*),\s(\w+),\s(0x\w{16}),\sLID\s(\d+)`)
 	if err != nil {
 		log.GetLogger().Error("GetContent error")
@@ -98,7 +98,7 @@ func (d *LinkNetDump) ParseContent() (*[]NetDump, error) {
 				localName:  localName,
 				localPort:  "",
 			}
-			netdumps = append(netdumps, netdump)
+			netDumps = append(netDumps, netdump)
 		}
 		downExpr := `(\d+/\d+/\d+)\s+:\s+(\d+)\s+:\s+(\w+)\s+:\s+(\w+).*N/A.*`
 		downMatch, err := regexp.Compile(downExpr)
@@ -125,7 +125,7 @@ func (d *LinkNetDump) ParseContent() (*[]NetDump, error) {
 					localPort = localPortValue
 				}
 			}
-			netdump := NetDump{
+			netDump := NetDump{
 				remoteGuid: remoteGuid,
 				remoteName: remoteName,
 				remotePort: remotePort,
@@ -134,20 +134,20 @@ func (d *LinkNetDump) ParseContent() (*[]NetDump, error) {
 				localName:  localName,
 				localPort:  localPort,
 			}
-			netdumps = append(netdumps, netdump)
+			netDumps = append(netDumps, netDump)
 		}
 	}
 	if d.GetConfig == true {
-		for _, netdump := range netdumps {
-			configDataKey := fmt.Sprintf("%s_%s", netdump.remoteGuid, netdump.remotePort)
+		for _, netDump := range netDumps {
+			configDataKey := fmt.Sprintf("%s_%s", netDump.remoteGuid, netDump.remotePort)
 			configData[configDataKey] = map[string]any{
-				"remoteName": netdump.remoteName,
-				"remoteGuid": netdump.remoteGuid,
-				"remotePort": netdump.remotePort,
-				"state":      netdump.state,
-				"localGuid":  netdump.localGuid,
-				"localName":  netdump.localName,
-				"localPort":  netdump.localPort,
+				"remoteName": netDump.remoteName,
+				"remoteGuid": netDump.remoteGuid,
+				"remotePort": netDump.remotePort,
+				"state":      netDump.state,
+				"localGuid":  netDump.localGuid,
+				"localName":  netDump.localName,
+				"localPort":  netDump.localPort,
 			}
 		}
 		yamlData, err := yaml.Marshal(&configData)
@@ -159,7 +159,7 @@ func (d *LinkNetDump) ParseContent() (*[]NetDump, error) {
 			log.GetLogger().Error("Failed to write data into file")
 		}
 	}
-	return &netdumps, nil
+	return &netDumps, nil
 }
 
 func (d *LinkNetDump) UpdateMetrics() {

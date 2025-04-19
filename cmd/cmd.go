@@ -21,7 +21,7 @@ var (
 	RunMode   string
 	WorkDir   string
 	GetConfig bool
-	SyncData  = &ibdiagnet2.SyncSwitchData{}
+	SyncData  = new(ibdiagnet2.SyncSwitchData)
 )
 
 func NewInfinibandExporterCommand() *cobra.Command {
@@ -40,7 +40,7 @@ func NewInfinibandExporterCommand() *cobra.Command {
 				log.Fatalf("Failed to initialize logger: %v", err)
 			}
 			iblog.GetLogger().Info("Starting server......")
-			configPath := fmt.Sprintf("%sconfig", WorkDir)
+			configPath := fmt.Sprintf("%s/config", WorkDir)
 			util.SetCache(filepath.Join(configPath, "config.yaml"))
 			if RunMode == "prod" {
 				SyncData = GetSyncSwitchDataConfig()
@@ -80,7 +80,7 @@ func NewInfinibandExporterCommand() *cobra.Command {
 		&WorkDir,
 		"workdir",
 		"w",
-		"/Users/xlmh/Code/github/infiniband_exporter/",
+		"/Users/xlmh/Code/github/infiniband_exporter",
 		"an string parameter",
 	)
 	rootCmd.Flags().BoolVarP(
@@ -113,11 +113,11 @@ func MetricsHandler(w http.ResponseWriter, r *http.Request) {
 	}
 	linkNetDump := ibdiagnet2.LinkNetDump{
 		FilePath: filepath.Join(
-			fmt.Sprintf("%sdata/ibdiagnet2", WorkDir),
+			fmt.Sprintf("%s/data/ibdiagnet2", WorkDir),
 			"ibdiagnet2.net_dump",
 		),
 		ConfigPath: filepath.Join(
-			fmt.Sprintf("%sconfig", WorkDir),
+			fmt.Sprintf("%s/config", WorkDir),
 			"config.yaml",
 		),
 		GetConfig: GetConfig,
@@ -127,7 +127,7 @@ func MetricsHandler(w http.ResponseWriter, r *http.Request) {
 
 	linkPm := ibdiagnet2.LinkPm{
 		FilePath: filepath.Join(
-			fmt.Sprintf("%sdata/ibdiagnet2", WorkDir),
+			fmt.Sprintf("%s/data/ibdiagnet2", WorkDir),
 			"ibdiagnet2.pm",
 		),
 	}
