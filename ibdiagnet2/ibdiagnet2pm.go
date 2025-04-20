@@ -501,6 +501,7 @@ func (p *LinkPm) UpdateMetrics() {
 			dec, err := strconv.ParseInt(numberStr, 16, 64)
 			if err != nil {
 				log.GetLogger().Error(fmt.Sprintf("Parse error:%s", err))
+				//TODO
 				return 0
 			}
 			return float64(dec)

@@ -89,7 +89,7 @@ func (d *LinkNetDump) ParseContent() (*[]NetDump, error) {
 			} else {
 				localName = fmt.Sprintf(`%s %s`, match[13], match[14])
 			}
-			netdump := NetDump{
+			netDump := NetDump{
 				remoteGuid: remoteGuid,
 				remoteName: remoteName,
 				remotePort: match[2],
@@ -98,7 +98,7 @@ func (d *LinkNetDump) ParseContent() (*[]NetDump, error) {
 				localName:  localName,
 				localPort:  "",
 			}
-			netDumps = append(netDumps, netdump)
+			netDumps = append(netDumps, netDump)
 		}
 		downExpr := `(\d+/\d+/\d+)\s+:\s+(\d+)\s+:\s+(\w+)\s+:\s+(\w+).*N/A.*`
 		downMatch, err := regexp.Compile(downExpr)
