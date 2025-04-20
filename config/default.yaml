@@ -2,7 +2,7 @@ syncDataConfig:
   ipAddress: 10.4.101.1
   user: "admin"
   password: "Canopy@123456"
-  hostUser: "test"
-  hostPassword: "test1234"
+  hostUser: "canopy"
+  hostPassword: "canopy%401032"
   hostIpAddress: "10.4.254.250"
-  hostFilePath: /home/test/ib.tgz
+  hostFilePath: /home/canopy/monitoring/infiniband_exporter/data/ib.tgz

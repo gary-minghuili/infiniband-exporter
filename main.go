@@ -1,13 +1,13 @@
 package main
 
 import (
-	cmd "infiniband_exporter/cmd"
+	"infiniband_exporter/cmd"
 	"os"
 )
 
 func main() {
-	cmd := cmd.NewInfinibandExporterCommand()
-	if err := cmd.Execute(); err != nil {
+	command := cmd.NewInfinibandExporterCommand()
+	if err := command.Execute(); err != nil {
 		os.Exit(1)
 	}
 }
