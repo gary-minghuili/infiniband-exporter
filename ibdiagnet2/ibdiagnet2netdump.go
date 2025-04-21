@@ -75,30 +75,40 @@ func (d *LinkNetDump) ParseContent() (*[]NetDump, error) {
 		remoteName := subSwitchMatch[1]
 		remoteGuid := subSwitchMatch[3]
 		// remotePort := subSwitchMatch[4]
-		activeExpr := `\s+(\d+/\d+/\d+)\s+:\s(\d+)\s+:\s(\w+)\s+:\s+(\w+\s\w+)\s+:\s+(\d+)\s+:\s+(\d+\w+)\s+:\s+(\d+)\s+:\s+(\w+)\s+:\s+(.*)\s+:\s+(\w{18})\s+:\s+(\w+/\d+/\d+/\d+)\s+:\s+(\d+)\s+:\s+"(.*)\s(\w+)"`
-		activeMatch, err := regexp.Compile(activeExpr)
-		if err != nil {
-			log.GetLogger().Error("sub_switch_match error compiling regex")
-			return nil, err
+		activeExprs := []string{
+			`\s+(\d+/\d+/\d+)\s+:\s(\d+)\s+:\s(\w+)\s+:\s+(\w+\s\w+)\s+:\s+(\d+)\s+:\s+(\d+\w+)\s+:\s+(\d+)\s+:\s+(\w+)\s+:\s+(.*)\s+:\s+(\w{18})\s+:\s+(\w+/\d+/\d+/\d+)\s+:\s+(\d+)\s+:\s+"(.*)\s(\w+)"`,
+			`\s+(\d+/\d+/\d+)\s+:\s(\d+)\s+:\s(\w+)\s+:\s+(\w+\s\w+)\s+:\s+(\d+)\s+:\s+(\d+\w+)\s+:\s+(\d+)\s+:\s+(\w+)\s+:\s+(.*)\s+:\s+(\w{18})\s+:\s+(\d+/\d+/\d+)\s+:\s+(\d+)\s+:\s+"(.*)"`,
 		}
-		subActiveMatch := activeMatch.FindAllStringSubmatch(block, -1)
-		for _, match := range subActiveMatch {
-			var localName string
-			if value, exists := global.HcaMlxMap[match[14]]; exists {
-				localName = fmt.Sprintf(`%s %s`, match[13], value)
-			} else {
-				localName = fmt.Sprintf(`%s %s`, match[13], match[14])
+		for _, activeExpr := range activeExprs {
+			activeMatch, err := regexp.Compile(activeExpr)
+			if err != nil {
+				log.GetLogger().Error("sub_switch_match error compiling regex")
+				return nil, err
 			}
-			netDump := NetDump{
-				remoteGuid: remoteGuid,
-				remoteName: remoteName,
-				remotePort: match[2],
-				state:      match[3],
-				localGuid:  match[10],
-				localName:  localName,
-				localPort:  "",
+			subActiveMatch := activeMatch.FindAllStringSubmatch(block, -1)
+			for _, match := range subActiveMatch {
+				var localName string
+				fmt.Println("len match:", len(match))
+				if len(match) == 15 {
+					if value, exists := global.HcaMlxMap[match[14]]; exists {
+						localName = fmt.Sprintf(`%s %s`, match[13], value)
+					} else {
+						localName = fmt.Sprintf(`%s %s`, match[13], match[14])
+					}
+				} else {
+					localName = match[13]
+				}
+				netDump := NetDump{
+					remoteGuid: remoteGuid,
+					remoteName: remoteName,
+					remotePort: match[2],
+					state:      match[3],
+					localGuid:  match[10],
+					localName:  localName,
+					localPort:  "",
+				}
+				netDumps = append(netDumps, netDump)
 			}
-			netDumps = append(netDumps, netDump)
 		}
 		downExpr := `(\d+/\d+/\d+)\s+:\s+(\d+)\s+:\s+(\w+)\s+:\s+(\w+).*N/A.*`
 		downMatch, err := regexp.Compile(downExpr)
@@ -159,6 +169,7 @@ func (d *LinkNetDump) ParseContent() (*[]NetDump, error) {
 			log.GetLogger().Error("Failed to write data into file")
 		}
 	}
+	fmt.Println("len netDump:", len(netDumps))
 	return &netDumps, nil
 }
 
