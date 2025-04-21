@@ -61,14 +61,14 @@ func (d *LinkNetDump) ParseContent() (*[]NetDump, error) {
 	configData := make(map[string]any)
 	blocks, err := util.GetContent(d.FilePath, `(?m)(.*),\s(\w+),\s(0x\w{16}),\sLID\s(\d+)`)
 	if err != nil {
-		log.GetLogger().Error("GetContent error")
+		log.GetLogger().Error("Get content error")
 		return nil, err
 	}
 	for _, block := range *blocks {
 		switchExpr := `(?m)"(.*)",\s(\w+),\s(0x\w{16}),\sLID\s(\d+)`
 		switchMatch, err := regexp.Compile(switchExpr)
 		if err != nil {
-			log.GetLogger().Error("ReSwitch Error compiling regex")
+			log.GetLogger().Error("Switch error compiling regex")
 			return nil, err
 		}
 		subSwitchMatch := switchMatch.FindStringSubmatch(block)
@@ -82,13 +82,12 @@ func (d *LinkNetDump) ParseContent() (*[]NetDump, error) {
 		for _, activeExpr := range activeExprs {
 			activeMatch, err := regexp.Compile(activeExpr)
 			if err != nil {
-				log.GetLogger().Error("sub_switch_match error compiling regex")
+				log.GetLogger().Error("Sub switch match error compiling regex")
 				return nil, err
 			}
 			subActiveMatch := activeMatch.FindAllStringSubmatch(block, -1)
 			for _, match := range subActiveMatch {
 				var localName string
-				fmt.Println("len match:", len(match))
 				if len(match) == 15 {
 					if value, exists := global.HcaMlxMap[match[14]]; exists {
 						localName = fmt.Sprintf(`%s %s`, match[13], value)
@@ -113,7 +112,7 @@ func (d *LinkNetDump) ParseContent() (*[]NetDump, error) {
 		downExpr := `(\d+/\d+/\d+)\s+:\s+(\d+)\s+:\s+(\w+)\s+:\s+(\w+).*N/A.*`
 		downMatch, err := regexp.Compile(downExpr)
 		if err != nil {
-			log.GetLogger().Error("netdump down error compiling regex")
+			log.GetLogger().Error("Net dump down error compiling regex")
 			return nil, err
 		}
 		subDownMatch := downMatch.FindAllStringSubmatch(block, -1)
@@ -147,7 +146,7 @@ func (d *LinkNetDump) ParseContent() (*[]NetDump, error) {
 			netDumps = append(netDumps, netDump)
 		}
 	}
-	if d.GetConfig == true {
+	if d.GetConfig {
 		for _, netDump := range netDumps {
 			configDataKey := fmt.Sprintf("%s_%s", netDump.remoteGuid, netDump.remotePort)
 			configData[configDataKey] = map[string]any{
@@ -169,14 +168,13 @@ func (d *LinkNetDump) ParseContent() (*[]NetDump, error) {
 			log.GetLogger().Error("Failed to write data into file")
 		}
 	}
-	fmt.Println("len netDump:", len(netDumps))
 	return &netDumps, nil
 }
 
 func (d *LinkNetDump) UpdateMetrics() {
 	netDump, err := d.ParseContent()
 	if err != nil {
-		log.GetLogger().Error("ParseContent error")
+		log.GetLogger().Error("Parse content error")
 		return
 	}
 	var value float64

@@ -103,7 +103,7 @@ func GetKeysFromCache(guid string) bool {
 func GetContent(filePath string, regexExpr string) (*[]string, error) {
 	fileContent, err := ReadFileContent(filePath)
 	if err != nil {
-		log.GetLogger().Error("read file error")
+		log.GetLogger().Error("Read file error")
 		return nil, err
 	}
 	re := regexp.MustCompile(regexExpr)

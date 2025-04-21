@@ -1,3 +1,67 @@
+0xb0cf0e0300d33fc0_1:
+  localGuid: "0xfc6a1c030091cf00"
+  localName: Quantum-2 Mellanox Technologies
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "1"
+  state: ACT
+0xb0cf0e0300d33fc0_2:
+  localGuid: "0xfc6a1c03008a4dc0"
+  localName: Quantum-2 Mellanox Technologies
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "2"
+  state: ACT
+0xb0cf0e0300d33fc0_3:
+  localGuid: "0xb0cf0e0300e5b940"
+  localName: Quantum-2 Mellanox Technologies
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "3"
+  state: ACT
+0xb0cf0e0300d33fc0_4:
+  localGuid: "0xfc6a1c03008a5c00"
+  localName: Quantum-2 Mellanox Technologies
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "4"
+  state: ACT
+0xb0cf0e0300d33fc0_5:
+  localGuid: "0xfc6a1c030091cf40"
+  localName: Quantum-2 Mellanox Technologies
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "5"
+  state: ACT
+0xb0cf0e0300d33fc0_6:
+  localGuid: "0xfc6a1c030091f9c0"
+  localName: Quantum-2 Mellanox Technologies
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "6"
+  state: ACT
+0xb0cf0e0300d33fc0_7:
+  localGuid: "0xfc6a1c030091fc00"
+  localName: Quantum-2 Mellanox Technologies
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "7"
+  state: ACT
+0xb0cf0e0300d33fc0_8:
+  localGuid: "0xfc6a1c030091f600"
+  localName: Quantum-2 Mellanox Technologies
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d33fc0"
+  remoteName: MF0;ib-switch-sequoia:MQM9700/U1
+  remotePort: "8"
+  state: ACT
 0xb0cf0e0300d33fc0_9:
   localGuid: ""
   localName: ""
@@ -942,6 +1006,14 @@
   remoteName: Quantum-2 Mellanox Technologies
   remotePort: "62"
   state: DOWN
+0xb0cf0e0300e5b940_63:
+  localGuid: "0xb0cf0e0300d33fc0"
+  localName: MF0;ib-switch-sequoia:MQM9700/U1
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b940"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "63"
+  state: ACT
 0xb0cf0e0300e5b940_64:
   localGuid: ""
   localName: ""
@@ -1446,6 +1518,14 @@
   remoteName: Quantum-2 Mellanox Technologies
   remotePort: "62"
   state: DOWN
+0xfc6a1c03008a4dc0_63:
+  localGuid: "0xb0cf0e0300d33fc0"
+  localName: MF0;ib-switch-sequoia:MQM9700/U1
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a4dc0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "63"
+  state: ACT
 0xfc6a1c03008a4dc0_64:
   localGuid: ""
   localName: ""
@@ -1950,6 +2030,14 @@
   remoteName: Quantum-2 Mellanox Technologies
   remotePort: "62"
   state: DOWN
+0xfc6a1c03008a5c00_63:
+  localGuid: "0xb0cf0e0300d33fc0"
+  localName: MF0;ib-switch-sequoia:MQM9700/U1
+  localPort: ""
+  remoteGuid: "0xfc6a1c03008a5c00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "63"
+  state: ACT
 0xfc6a1c03008a5c00_64:
   localGuid: ""
   localName: ""
@@ -2454,6 +2542,14 @@
   remoteName: Quantum-2 Mellanox Technologies
   remotePort: "62"
   state: DOWN
+0xfc6a1c030091cf00_63:
+  localGuid: "0xb0cf0e0300d33fc0"
+  localName: MF0;ib-switch-sequoia:MQM9700/U1
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "63"
+  state: ACT
 0xfc6a1c030091cf00_64:
   localGuid: ""
   localName: ""
@@ -2958,6 +3054,14 @@
   remoteName: Quantum-2 Mellanox Technologies
   remotePort: "62"
   state: DOWN
+0xfc6a1c030091cf40_63:
+  localGuid: "0xb0cf0e0300d33fc0"
+  localName: MF0;ib-switch-sequoia:MQM9700/U1
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091cf40"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "63"
+  state: ACT
 0xfc6a1c030091cf40_64:
   localGuid: ""
   localName: ""
@@ -3462,6 +3566,14 @@
   remoteName: Quantum-2 Mellanox Technologies
   remotePort: "62"
   state: DOWN
+0xfc6a1c030091f9c0_63:
+  localGuid: "0xb0cf0e0300d33fc0"
+  localName: MF0;ib-switch-sequoia:MQM9700/U1
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f9c0"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "63"
+  state: ACT
 0xfc6a1c030091f9c0_64:
   localGuid: ""
   localName: ""
@@ -3966,6 +4078,14 @@
   remoteName: Quantum-2 Mellanox Technologies
   remotePort: "62"
   state: DOWN
+0xfc6a1c030091f600_63:
+  localGuid: "0xb0cf0e0300d33fc0"
+  localName: MF0;ib-switch-sequoia:MQM9700/U1
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091f600"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "63"
+  state: ACT
 0xfc6a1c030091f600_64:
   localGuid: ""
   localName: ""
@@ -4470,6 +4590,14 @@
   remoteName: Quantum-2 Mellanox Technologies
   remotePort: "62"
   state: DOWN
+0xfc6a1c030091fc00_63:
+  localGuid: "0xb0cf0e0300d33fc0"
+  localName: MF0;ib-switch-sequoia:MQM9700/U1
+  localPort: ""
+  remoteGuid: "0xfc6a1c030091fc00"
+  remoteName: Quantum-2 Mellanox Technologies
+  remotePort: "63"
+  state: ACT
 0xfc6a1c030091fc00_64:
   localGuid: ""
   localName: ""
