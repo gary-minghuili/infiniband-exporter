@@ -27,7 +27,7 @@
   localName: Quantum-2 Mellanox Technologies
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "4"
   state: ACT
 0xb0cf0e0300d33fc0_5:
@@ -67,7 +67,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "9"
   state: DOWN
 0xb0cf0e0300d33fc0_10:
@@ -75,7 +75,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "10"
   state: DOWN
 0xb0cf0e0300d33fc0_11:
@@ -83,7 +83,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "11"
   state: DOWN
 0xb0cf0e0300d33fc0_12:
@@ -91,7 +91,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "12"
   state: DOWN
 0xb0cf0e0300d33fc0_13:
@@ -99,7 +99,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "13"
   state: DOWN
 0xb0cf0e0300d33fc0_14:
@@ -107,7 +107,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "14"
   state: DOWN
 0xb0cf0e0300d33fc0_15:
@@ -115,7 +115,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "15"
   state: DOWN
 0xb0cf0e0300d33fc0_16:
@@ -123,7 +123,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "16"
   state: DOWN
 0xb0cf0e0300d33fc0_17:
@@ -131,7 +131,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "17"
   state: DOWN
 0xb0cf0e0300d33fc0_18:
@@ -139,7 +139,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "18"
   state: DOWN
 0xb0cf0e0300d33fc0_19:
@@ -147,7 +147,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "19"
   state: DOWN
 0xb0cf0e0300d33fc0_20:
@@ -155,7 +155,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "20"
   state: DOWN
 0xb0cf0e0300d33fc0_21:
@@ -163,7 +163,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "21"
   state: DOWN
 0xb0cf0e0300d33fc0_22:
@@ -171,7 +171,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "22"
   state: DOWN
 0xb0cf0e0300d33fc0_23:
@@ -179,7 +179,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "23"
   state: DOWN
 0xb0cf0e0300d33fc0_24:
@@ -187,7 +187,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "24"
   state: DOWN
 0xb0cf0e0300d33fc0_25:
@@ -195,7 +195,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "25"
   state: DOWN
 0xb0cf0e0300d33fc0_26:
@@ -203,7 +203,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "26"
   state: DOWN
 0xb0cf0e0300d33fc0_27:
@@ -211,7 +211,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "27"
   state: DOWN
 0xb0cf0e0300d33fc0_28:
@@ -219,7 +219,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "28"
   state: DOWN
 0xb0cf0e0300d33fc0_29:
@@ -227,7 +227,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "29"
   state: DOWN
 0xb0cf0e0300d33fc0_30:
@@ -235,7 +235,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "30"
   state: DOWN
 0xb0cf0e0300d33fc0_31:
@@ -243,7 +243,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "31"
   state: DOWN
 0xb0cf0e0300d33fc0_32:
@@ -251,7 +251,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "32"
   state: DOWN
 0xb0cf0e0300d33fc0_33:
@@ -259,7 +259,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "33"
   state: DOWN
 0xb0cf0e0300d33fc0_34:
@@ -267,7 +267,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "34"
   state: DOWN
 0xb0cf0e0300d33fc0_35:
@@ -275,7 +275,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "35"
   state: DOWN
 0xb0cf0e0300d33fc0_36:
@@ -283,7 +283,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "36"
   state: DOWN
 0xb0cf0e0300d33fc0_37:
@@ -291,7 +291,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "37"
   state: DOWN
 0xb0cf0e0300d33fc0_38:
@@ -299,7 +299,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "38"
   state: DOWN
 0xb0cf0e0300d33fc0_39:
@@ -307,7 +307,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "39"
   state: DOWN
 0xb0cf0e0300d33fc0_40:
@@ -315,7 +315,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "40"
   state: DOWN
 0xb0cf0e0300d33fc0_41:
@@ -323,7 +323,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "41"
   state: DOWN
 0xb0cf0e0300d33fc0_42:
@@ -331,7 +331,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "42"
   state: DOWN
 0xb0cf0e0300d33fc0_43:
@@ -339,7 +339,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "43"
   state: DOWN
 0xb0cf0e0300d33fc0_44:
@@ -347,7 +347,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "44"
   state: DOWN
 0xb0cf0e0300d33fc0_45:
@@ -355,7 +355,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "45"
   state: DOWN
 0xb0cf0e0300d33fc0_46:
@@ -363,7 +363,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "46"
   state: DOWN
 0xb0cf0e0300d33fc0_47:
@@ -371,7 +371,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "47"
   state: DOWN
 0xb0cf0e0300d33fc0_48:
@@ -379,7 +379,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "48"
   state: DOWN
 0xb0cf0e0300d33fc0_49:
@@ -387,7 +387,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "49"
   state: DOWN
 0xb0cf0e0300d33fc0_50:
@@ -395,7 +395,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "50"
   state: DOWN
 0xb0cf0e0300d33fc0_51:
@@ -403,7 +403,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "51"
   state: DOWN
 0xb0cf0e0300d33fc0_52:
@@ -411,7 +411,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "52"
   state: DOWN
 0xb0cf0e0300d33fc0_53:
@@ -419,7 +419,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "53"
   state: DOWN
 0xb0cf0e0300d33fc0_54:
@@ -427,7 +427,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "54"
   state: DOWN
 0xb0cf0e0300d33fc0_55:
@@ -435,7 +435,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "55"
   state: DOWN
 0xb0cf0e0300d33fc0_56:
@@ -443,7 +443,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "56"
   state: DOWN
 0xb0cf0e0300d33fc0_57:
@@ -451,7 +451,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "57"
   state: DOWN
 0xb0cf0e0300d33fc0_58:
@@ -459,7 +459,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "58"
   state: DOWN
 0xb0cf0e0300d33fc0_59:
@@ -467,7 +467,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "59"
   state: DOWN
 0xb0cf0e0300d33fc0_60:
@@ -475,7 +475,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "60"
   state: DOWN
 0xb0cf0e0300d33fc0_61:
@@ -483,7 +483,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "61"
   state: DOWN
 0xb0cf0e0300d33fc0_62:
@@ -491,7 +491,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "62"
   state: DOWN
 0xb0cf0e0300d33fc0_63:
@@ -499,7 +499,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "63"
   state: DOWN
 0xb0cf0e0300d33fc0_64:
@@ -507,7 +507,7 @@
   localName: ""
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
-  remoteName: ""
+  remoteName: "SPAN01"
   remotePort: "64"
   state: DOWN
 0xb0cf0e0300e5b940_1:

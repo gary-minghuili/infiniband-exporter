@@ -105,7 +105,7 @@ func (d *LinkNetDump) ParseContent() (*[]NetDump, error) {
 				}
 				netDump := NetDump{
 					remoteGuid: remoteGuid,
-					remoteName: remoteName,
+					remoteName: remoteNameMap[remoteGuid],
 					remotePort: match[2],
 					state:      match[3],
 					localGuid:  match[10],
@@ -127,6 +127,10 @@ func (d *LinkNetDump) ParseContent() (*[]NetDump, error) {
 			remotePort, state := match[2], match[3]
 			linkMap, exists := util.GetValueFromCache(fmt.Sprintf("%s_%s", remoteGuid, remotePort))
 			if exists {
+				remoteNameValue, exists := linkMap["remoteName"]
+				if exists {
+					remoteName = remoteNameValue
+				}
 				localGuidValue, exists := linkMap["localGuid"]
 				if exists {
 					localGuid = localGuidValue

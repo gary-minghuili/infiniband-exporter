@@ -473,18 +473,34 @@ func (p *LinkPm) UpdateMetrics() {
 		}
 		subSwitchCaMatch := switchCaMatch.FindStringSubmatch(block)
 		guid := subSwitchCaMatch[3]
+		port := subSwitchCaMatch[1]
 		exists := util.GetKeysFromCache(guid)
 		component := global.ComponentCa
+		name := subSwitchCaMatch[5]
 		if exists {
 			component = global.ComponentSw
+			linkMap, exists := util.GetValueFromCache(fmt.Sprintf("%s_%s", guid, port))
+			if exists {
+				remoteName, exists := linkMap["remoteName"]
+				if exists {
+					name = remoteName
+				}
+			}
+		} else {
+			for _, subMap := range util.Cache {
+				if subMap["localGuid"] == guid {
+					name = subMap["localName"]
+					break
+				}
+			}
 		}
 		pm := Pm{
 			component: component,
-			port:      subSwitchCaMatch[1],
+			port:      port,
 			lid:       subSwitchCaMatch[2],
 			guid:      guid,
 			device:    subSwitchCaMatch[4],
-			name:      subSwitchCaMatch[5],
+			name:      name,
 		}
 		getValue := func(regexStr string) (value float64) {
 			re := regexp.MustCompile(regexStr)

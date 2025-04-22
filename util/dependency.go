@@ -87,6 +87,7 @@ func GetValueFromCache(key string) (map[string]string, bool) {
 	val, exists := Cache[key]
 	return val, exists
 }
+
 func GetKeysFromCache(guid string) bool {
 	CacheLock.RLock()
 	defer CacheLock.RUnlock()
