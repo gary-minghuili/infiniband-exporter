@@ -64,6 +64,7 @@ func (d *LinkNetDump) ParseContent() (*[]NetDump, error) {
 		log.GetLogger().Error("Get content error")
 		return nil, err
 	}
+	remoteNameMap := make(map[string]string)
 	for _, block := range *blocks {
 		switchExpr := `(?m)"(.*)",\s(\w+),\s(0x\w{16}),\sLID\s(\d+)`
 		switchMatch, err := regexp.Compile(switchExpr)
@@ -93,6 +94,11 @@ func (d *LinkNetDump) ParseContent() (*[]NetDump, error) {
 						localName = fmt.Sprintf(`%s %s`, match[13], value)
 					} else {
 						localName = fmt.Sprintf(`%s %s`, match[13], match[14])
+					}
+					if remoteLeafName, exists := global.MlxLeafMap[match[14]]; exists {
+						if _, exists := remoteNameMap[remoteGuid]; !exists {
+							remoteNameMap[remoteGuid] = remoteLeafName
+						}
 					}
 				} else {
 					localName = match[13]
@@ -150,7 +156,7 @@ func (d *LinkNetDump) ParseContent() (*[]NetDump, error) {
 		for _, netDump := range netDumps {
 			configDataKey := fmt.Sprintf("%s_%s", netDump.remoteGuid, netDump.remotePort)
 			configData[configDataKey] = map[string]any{
-				"remoteName": netDump.remoteName,
+				"remoteName": remoteNameMap[netDump.remoteGuid],
 				"remoteGuid": netDump.remoteGuid,
 				"remotePort": netDump.remotePort,
 				"state":      netDump.state,
