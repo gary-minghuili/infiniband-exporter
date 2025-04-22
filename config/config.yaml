@@ -1,6 +1,6 @@
 0xb0cf0e0300d33fc0_1:
   localGuid: "0xfc6a1c030091cf00"
-  localName: Quantum-2 Mellanox Technologies
+  localName: LEAF01
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
   remoteName: "SPAN01"
@@ -8,7 +8,7 @@
   state: ACT
 0xb0cf0e0300d33fc0_2:
   localGuid: "0xfc6a1c03008a4dc0"
-  localName: Quantum-2 Mellanox Technologies
+  localName: LEAF02
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
   remoteName: "SPAN01"
@@ -16,7 +16,7 @@
   state: ACT
 0xb0cf0e0300d33fc0_3:
   localGuid: "0xb0cf0e0300e5b940"
-  localName: Quantum-2 Mellanox Technologies
+  localName: LEAF03
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
   remoteName: "SPAN01"
@@ -24,7 +24,7 @@
   state: ACT
 0xb0cf0e0300d33fc0_4:
   localGuid: "0xfc6a1c03008a5c00"
-  localName: Quantum-2 Mellanox Technologies
+  localName: LEAF04
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
   remoteName: "SPAN01"
@@ -32,7 +32,7 @@
   state: ACT
 0xb0cf0e0300d33fc0_5:
   localGuid: "0xfc6a1c030091cf40"
-  localName: Quantum-2 Mellanox Technologies
+  localName: LEAF05
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
   remoteName: "SPAN01"
@@ -40,7 +40,7 @@
   state: ACT
 0xb0cf0e0300d33fc0_6:
   localGuid: "0xfc6a1c030091f9c0"
-  localName: Quantum-2 Mellanox Technologies
+  localName: LEAF06
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
   remoteName: "SPAN01"
@@ -48,7 +48,7 @@
   state: ACT
 0xb0cf0e0300d33fc0_7:
   localGuid: "0xfc6a1c030091fc00"
-  localName: Quantum-2 Mellanox Technologies
+  localName: LEAF07
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
   remoteName: "SPAN01"
@@ -56,7 +56,7 @@
   state: ACT
 0xb0cf0e0300d33fc0_8:
   localGuid: "0xfc6a1c030091f600"
-  localName: Quantum-2 Mellanox Technologies
+  localName: LEAF08
   localPort: ""
   remoteGuid: "0xb0cf0e0300d33fc0"
   remoteName: "SPAN01"

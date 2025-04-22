@@ -41,7 +41,9 @@ func NewInfinibandExporterCommand() *cobra.Command {
 			}
 			iblog.GetLogger().Info("Starting server......")
 			configPath := fmt.Sprintf("%s/config", WorkDir)
-			util.SetCache(filepath.Join(configPath, "config.yaml"))
+			if !GetConfig {
+				util.SetCache(filepath.Join(configPath, "config.yaml"))
+			}
 			if RunMode == "prod" {
 				SyncData = GetSyncSwitchDataConfig()
 				iblog.GetLogger().Info(fmt.Sprintf("SyncSwitchData: %v", SyncData))

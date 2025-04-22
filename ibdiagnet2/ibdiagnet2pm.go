@@ -391,12 +391,18 @@ type LinkPm struct {
 }
 
 type Pm struct {
-	component string
-	port      string
-	lid       string
-	guid      string
-	device    string
-	name      string
+	//port       string
+	//lid        string
+	//guid       string
+	//device     string
+	//name       string
+	remoteGuid string
+	remoteName string
+	remotePort string
+	component  string
+	localGuid  string
+	localName  string
+	localPort  string
 }
 
 func init() {
@@ -474,33 +480,42 @@ func (p *LinkPm) UpdateMetrics() {
 		subSwitchCaMatch := switchCaMatch.FindStringSubmatch(block)
 		guid := subSwitchCaMatch[3]
 		port := subSwitchCaMatch[1]
-		exists := util.GetKeysFromCache(guid)
+		//name := subSwitchCaMatch[5]
+		var remoteGuid, remoteName, remotePort, localGuid, localName, localPort string
 		component := global.ComponentCa
-		name := subSwitchCaMatch[5]
+		exists := util.GetKeysFromCache(guid)
 		if exists {
 			component = global.ComponentSw
 			linkMap, exists := util.GetValueFromCache(fmt.Sprintf("%s_%s", guid, port))
 			if exists {
-				remoteName, exists := linkMap["remoteName"]
-				if exists {
-					name = remoteName
-				}
+				remoteGuid = guid
+				remoteName = linkMap["remoteName"]
+				remotePort = port
+				localGuid = linkMap["localGuid"]
+				localName = linkMap["localName"]
+				localPort = linkMap["localPort"]
 			}
 		} else {
-			for _, subMap := range util.Cache {
-				if subMap["localGuid"] == guid {
-					name = subMap["localName"]
+			for _, linkMap := range util.Cache {
+				if linkMap["localGuid"] == guid {
+					remoteGuid = guid
+					remoteName = linkMap["remoteName"]
+					remotePort = port
+					localGuid = linkMap["localGuid"]
+					localName = linkMap["localName"]
+					localPort = linkMap["localPort"]
 					break
 				}
 			}
 		}
 		pm := Pm{
-			component: component,
-			port:      port,
-			lid:       subSwitchCaMatch[2],
-			guid:      guid,
-			device:    subSwitchCaMatch[4],
-			name:      name,
+			remoteGuid: remoteGuid,
+			remoteName: remoteName,
+			remotePort: remotePort,
+			component:  component,
+			localGuid:  localGuid,
+			localName:  localName,
+			localPort:  localPort,
 		}
 		getValue := func(regexStr string) (value float64) {
 			re := regexp.MustCompile(regexStr)
@@ -522,158 +537,159 @@ func (p *LinkPm) UpdateMetrics() {
 			}
 			return float64(dec)
 		}
+		labelValues := []string{pm.remoteGuid, pm.remoteName, pm.remotePort, pm.component, pm.localGuid, pm.localName, pm.localPort}
 		linkDownGauge.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`link_down_counter=(\w+)`))
 		linkErrorRecoveryGauge.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`link_error_recovery_counter=(\w+)`))
 		symbolErrorCounter.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`symbol_error_counter=(\w+)`))
 		portRcvRemotePhysicalErrors.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`port_rcv_remote_physical_errors=(\w+)`))
 		portRcvErrors.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`port_rcv_errors=(\w+)`))
 		portXmitDiscard.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`port_xmit_discard=(\w+)`))
 		portRcvSwitchRelayErrors.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`port_rcv_switch_relay_errors=(\w+)`))
 		excessiveBufferErrors.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`excessive_buffer_errors=(\w+)`))
 		localLinkIntegrityErrors.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`local_link_integrity_errors=(\w+)`))
 		portRcvConstraintErrors.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`port_rcv_constraint_errors=(\w+)`))
 		portXmitConstraintErrors.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`port_xmit_constraint_errors=(\w+)`))
 		vl15Dropped.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`vl15_dropped=(\w+)`))
 		portXmitData.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`port_xmit_data=(\w+)`))
 		portRcvData.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`port_rcv_data=(\w+)`))
 		portXmitPkts.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`port_xmit_pkts=(\w+)`))
 		portRcvPkts.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`port_rcv_pkts=(\w+)`))
 		portXmitWait.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`port_xmit_wait=(\w+)`))
 		portXmitDataExtended.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`port_xmit_data_extended=(\w+)`))
 		portRcvDataExtended.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`port_rcv_data_extended=(\w+)`))
 		portXmitPktsExtended.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`port_xmit_pkts_extended=(\w+)`))
 		portRcvPktsExtended.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`port_rcv_pkts_extended=(\w+)`))
 		portUnicastXmitPkts.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`port_unicast_xmit_pkts=(\w+)`))
 		portUnicastRcvPkts.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`port_unicast_rcv_pkts=(\w+)`))
 		portMulticastXmitPkts.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`port_multicast_xmit_pkts=(\w+)`))
 		portMulticastRcvPkts.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`port_multicast_rcv_pkts=(\w+)`))
 		symbolErrorCounterExtended.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`symbol_error_counter_extended=(\w+)`))
 		linkErrorRecoveryCounterExtended.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`link_error_recovery_counter_extended=(\w+)`))
 		linkDownedCounterExtended.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`link_downed_counter_extended=(\w+)`))
 		portRcvErrorsExtended.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`port_rcv_errors_extended=(\w+)`))
 		portRcvRemotePhysicalErrorsExtended.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`port_rcv_remote_physical_errors_extended=(\w+)`))
 		portRcvSwitchRelayErrorsExtended.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`port_rcv_switch_relay_errors_extended=(\w+)`))
 		portXmitDiscardsExtended.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`port_xmit_discards_extended=(\w+)`))
 		portXmitConstraintErrorsExtended.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`port_xmit_constraint_errors_extended=(\w+)`))
 		portRcvConstraintErrorsExtended.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`port_rcv_constraint_errors_extended=(\w+)`))
 		localLinkIntegrityErrorsExtended.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`local_link_integrity_errors_extended=(\w+)`))
 		excessiveBufferOverrunErrorsExtended.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`excessive_buffer_overrun_errors_extended=(\w+)`))
 		vl15DroppedExtended.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`vl15_dropped_extended=(\w+)`))
 		portXmitWaitExtended.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`port_xmit_wait_extended=(\w+)`))
 		qp1DroppedExtended.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`qp1_dropped_extended=(\w+)`))
 		retransmissionPerSec.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`retransmission_per_sec=(\w+)`))
 		maxRetransmissionRate.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`max_retransmission_rate=(\w+)`))
 		portLocalPhysicalErrors.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`port_local_physical_errors=(\w+)`))
 		portMalformedPacketErrors.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`port_malformed_packet_errors=(\w+)`))
 		portBufferOverrunErrors.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`port_buffer_overrun_errors=(\w+)`))
 		portDlidMappingErrors.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`port_dlid_mapping_errors=(\w+)`))
 		portVlMappingErrors.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`port_vl_mapping_errors=(\w+)`))
 		portLoopingErrors.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`port_looping_errors=(\w+)`))
 		portInactiveDiscards.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`port_inactive_discards=(\w+)`))
 		portNeighborMtuDiscards.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`port_neighbor_mtu_discards=(\w+)`))
 		portSwLifetimeLimitDiscards.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`port_sw_lifetime_limit_discards=(\w+)`))
 		portSwHoqLifetimeLimitDiscards.
-			WithLabelValues(pm.component, pm.port, pm.lid, pm.guid, pm.device, pm.name).
+			WithLabelValues(labelValues...).
 			Set(getValue(`port_sw_hoq_lifetime_limit_discards=(\w+)`))
 	}
 }
