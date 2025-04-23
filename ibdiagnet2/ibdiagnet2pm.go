@@ -480,7 +480,7 @@ func (p *LinkPm) UpdateMetrics() {
 		subSwitchCaMatch := switchCaMatch.FindStringSubmatch(block)
 		guid := subSwitchCaMatch[3]
 		port := subSwitchCaMatch[1]
-		//name := subSwitchCaMatch[5]
+		name := subSwitchCaMatch[5]
 		var remoteGuid, remoteName, remotePort, localGuid, localName, localPort string
 		component := global.ComponentCa
 		exists := util.GetKeysFromCache(guid)
@@ -497,14 +497,16 @@ func (p *LinkPm) UpdateMetrics() {
 			}
 		} else {
 			for _, linkMap := range util.Cache {
+				remoteGuid = guid
+				remotePort = port
 				if linkMap["localGuid"] == guid {
-					remoteGuid = guid
 					remoteName = linkMap["remoteName"]
-					remotePort = port
 					localGuid = linkMap["localGuid"]
 					localName = linkMap["localName"]
 					localPort = linkMap["localPort"]
 					break
+				} else {
+					remoteName = name
 				}
 			}
 		}
