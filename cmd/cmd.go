@@ -102,7 +102,7 @@ func MetricsHandler(w http.ResponseWriter, r *http.Request) {
 			return
 		} else {
 			_, err := util.ExecCmd(
-				"tar", "-xzvf", fmt.Sprintf("%s/data/ib.tgz", WorkDir), "-C", fmt.Sprintf("%s/data/ibdiagnet2", WorkDir),
+				"tar", "-xzvf", fmt.Sprintf("%s/data/ib.tgz", WorkDir), "-C", fmt.Sprintf("%s/data", WorkDir),
 			)
 			if err != nil {
 				iblog.GetLogger().Error(fmt.Sprintf("tar zxvf  ib.tgz error: %s", err))
