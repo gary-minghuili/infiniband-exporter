@@ -77,7 +77,7 @@ func (d *LinkNetDump) ParseContent() (*[]NetDump, error) {
 		remoteGuid := subSwitchMatch[3]
 		// remotePort := subSwitchMatch[4]
 		activeExprs := []string{
-			`\s+(\d+/\d+/\d+)\s+:\s(\d+)\s+:\s(\w+)\s+:\s+(\w+\s\w+)\s+:\s+(\d+)\s+:\s+(\d+\w+)\s+:\s+(\d+)\s+:\s+(\w+)\s+:\s+(.*)\s+:\s+(\w{18})\s+:\s+(\w+/\d+/\d+/\d+)\s+:\s+(\d+)\s+:\s+"(.*)\s(\w+)"`,
+			`\s+(\d+/\d+/\d+)\s+:\s(\d+)\s+:\s(\w+)\s+:\s+(\w+\s\w+)\s+:\s+(\d+)\s+:\s+(\d+\w+)\s+:\s+(\d+)\s+:\s+(\w+)\s+:\s+(.*)\s+:\s+(\w{18})\s+:\s+(\w+/\d+/\d+/\d+)\s+:\s+(\d+)\s+:\s+"([\w-]+)\s([\w-]+)"`,
 			`\s+(\d+/\d+/\d+)\s+:\s(\d+)\s+:\s(\w+)\s+:\s+(\w+\s\w+)\s+:\s+(\d+)\s+:\s+(\d+\w+)\s+:\s+(\d+)\s+:\s+(\w+)\s+:\s+(.*)\s+:\s+(\w{18})\s+:\s+(\d+/\d+/\d+)\s+:\s+(\d+)\s+:\s+"(.*)"`,
 		}
 		for _, activeExpr := range activeExprs {
@@ -89,13 +89,15 @@ func (d *LinkNetDump) ParseContent() (*[]NetDump, error) {
 			subActiveMatch := activeMatch.FindAllStringSubmatch(block, -1)
 			for _, match := range subActiveMatch {
 				var localName string
+				leafKey := match[14]
 				if len(match) == 15 {
 					if value, exists := global.HcaMlxMap[match[14]]; exists {
+						leafKey = value
 						localName = fmt.Sprintf(`%s %s`, match[13], value)
 					} else {
 						localName = fmt.Sprintf(`%s %s`, match[13], match[14])
 					}
-					if remoteLeafName, exists := global.MlxLeafMap[match[14]]; exists {
+					if remoteLeafName, exists := global.MlxLeafMap[leafKey]; exists {
 						if _, exists := remoteNameMap[remoteGuid]; !exists {
 							remoteNameMap[remoteGuid] = remoteLeafName
 						}

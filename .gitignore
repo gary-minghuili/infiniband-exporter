@@ -26,3 +26,5 @@ go.work.sum
 infiniband_exporter
 *.log
 .idea
+./config/config.yaml
+./config/default.yaml

@@ -1,0 +1,9 @@
+syncDataConfig:
+  ipAddress: 10.1.97.208
+  user: "admin"
+  password: "Admin@123"
+  hostUser: "canopy"
+  hostPassword: "admin%401032"
+  hostIpAddress: "10.1.9.57"
+  hostFilePath: /home/canopy/monitoring/infiniband_exporter/data/ib.tgz
+

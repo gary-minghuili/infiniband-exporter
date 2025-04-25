@@ -1,0 +1,4608 @@
+0xb0cf0e0300d34100_1:
+  localGuid: "0xb0cf0e0300e5a0c0"
+  localName: "LEAF01" 
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "1"
+  state: ACT
+0xb0cf0e0300d34100_2:
+  localGuid: "0xb0cf0e0300e59a00"
+  localName: "LEAF02"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "2"
+  state: ACT
+0xb0cf0e0300d34100_3:
+  localGuid: "0xb0cf0e0300fa6240"
+  localName: "LEAF03"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "3"
+  state: ACT
+0xb0cf0e0300d34100_4:
+  localGuid: "0xb0cf0e0300e5a380"
+  localName: "LEAF04"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "4"
+  state: ACT
+0xb0cf0e0300d34100_5:
+  localGuid: "0xb0cf0e0300e59980"
+  localName: "LEAF05"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "5"
+  state: ACT
+0xb0cf0e0300d34100_6:
+  localGuid: "0xb0cf0e0300e59b80"
+  localName: "LEAF06"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "6"
+  state: ACT
+0xb0cf0e0300d34100_7:
+  localGuid: "0xb0cf0e0300e59b40"
+  localName: "LEAF07"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "7"
+  state: ACT
+0xb0cf0e0300d34100_8:
+  localGuid: "0xb0cf0e0300e5b480"
+  localName: "LEAF08"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "8"
+  state: ACT
+0xb0cf0e0300d34100_9:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "9"
+  state: DOWN
+0xb0cf0e0300d34100_10:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "10"
+  state: DOWN
+0xb0cf0e0300d34100_11:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "11"
+  state: DOWN
+0xb0cf0e0300d34100_12:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "12"
+  state: DOWN
+0xb0cf0e0300d34100_13:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "13"
+  state: DOWN
+0xb0cf0e0300d34100_14:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "14"
+  state: DOWN
+0xb0cf0e0300d34100_15:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "15"
+  state: DOWN
+0xb0cf0e0300d34100_16:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "16"
+  state: DOWN
+0xb0cf0e0300d34100_17:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "17"
+  state: DOWN
+0xb0cf0e0300d34100_18:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "18"
+  state: DOWN
+0xb0cf0e0300d34100_19:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "19"
+  state: DOWN
+0xb0cf0e0300d34100_20:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "20"
+  state: DOWN
+0xb0cf0e0300d34100_21:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "21"
+  state: DOWN
+0xb0cf0e0300d34100_22:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "22"
+  state: DOWN
+0xb0cf0e0300d34100_23:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "23"
+  state: DOWN
+0xb0cf0e0300d34100_24:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "24"
+  state: DOWN
+0xb0cf0e0300d34100_25:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "25"
+  state: DOWN
+0xb0cf0e0300d34100_26:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "26"
+  state: DOWN
+0xb0cf0e0300d34100_27:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "27"
+  state: DOWN
+0xb0cf0e0300d34100_28:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "28"
+  state: DOWN
+0xb0cf0e0300d34100_29:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "29"
+  state: DOWN
+0xb0cf0e0300d34100_30:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "30"
+  state: DOWN
+0xb0cf0e0300d34100_31:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "31"
+  state: DOWN
+0xb0cf0e0300d34100_32:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "32"
+  state: DOWN
+0xb0cf0e0300d34100_33:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "33"
+  state: DOWN
+0xb0cf0e0300d34100_34:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "34"
+  state: DOWN
+0xb0cf0e0300d34100_35:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "35"
+  state: DOWN
+0xb0cf0e0300d34100_36:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "36"
+  state: DOWN
+0xb0cf0e0300d34100_37:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "37"
+  state: DOWN
+0xb0cf0e0300d34100_38:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "38"
+  state: DOWN
+0xb0cf0e0300d34100_39:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "39"
+  state: DOWN
+0xb0cf0e0300d34100_40:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "40"
+  state: DOWN
+0xb0cf0e0300d34100_41:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "41"
+  state: DOWN
+0xb0cf0e0300d34100_42:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "42"
+  state: DOWN
+0xb0cf0e0300d34100_43:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "43"
+  state: DOWN
+0xb0cf0e0300d34100_44:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "44"
+  state: DOWN
+0xb0cf0e0300d34100_45:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "45"
+  state: DOWN
+0xb0cf0e0300d34100_46:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "46"
+  state: DOWN
+0xb0cf0e0300d34100_47:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "47"
+  state: DOWN
+0xb0cf0e0300d34100_48:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "48"
+  state: DOWN
+0xb0cf0e0300d34100_49:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "49"
+  state: DOWN
+0xb0cf0e0300d34100_50:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "50"
+  state: DOWN
+0xb0cf0e0300d34100_51:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "51"
+  state: DOWN
+0xb0cf0e0300d34100_52:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "52"
+  state: DOWN
+0xb0cf0e0300d34100_53:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "53"
+  state: DOWN
+0xb0cf0e0300d34100_54:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "54"
+  state: DOWN
+0xb0cf0e0300d34100_55:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "55"
+  state: DOWN
+0xb0cf0e0300d34100_56:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "56"
+  state: DOWN
+0xb0cf0e0300d34100_57:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "57"
+  state: DOWN
+0xb0cf0e0300d34100_58:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "58"
+  state: DOWN
+0xb0cf0e0300d34100_59:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "59"
+  state: DOWN
+0xb0cf0e0300d34100_60:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "60"
+  state: DOWN
+0xb0cf0e0300d34100_61:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "61"
+  state: DOWN
+0xb0cf0e0300d34100_62:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "62"
+  state: DOWN
+0xb0cf0e0300d34100_63:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "63"
+  state: DOWN
+0xb0cf0e0300d34100_64:
+  localGuid: ""
+  localName: "-"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300d34100"
+  remoteName: "SPAN01"
+  remotePort: "64"
+  state: DOWN
+0xb0cf0e0300e59980_1:
+  localGuid: "0x5c25730300909002"
+  localName: h1-1-gpu mlx5_2
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "1"
+  state: ACT
+0xb0cf0e0300e59980_2:
+  localGuid: "0x5c2573030090c972"
+  localName: h1-2-gpu mlx5_2
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "2"
+  state: ACT
+0xb0cf0e0300e59980_3:
+  localGuid: "0x5c2573030090c2b2"
+  localName: h1-3-gpu mlx5_2
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "3"
+  state: ACT
+0xb0cf0e0300e59980_4:
+  localGuid: ""
+  localName: "h1-4-gpu mlx5_2"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "4"
+  state: DOWN
+0xb0cf0e0300e59980_5:
+  localGuid: "0x5c2573030090c7ca"
+  localName: h1-5-gpu mlx5_2
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "5"
+  state: ACT
+0xb0cf0e0300e59980_6:
+  localGuid: "0x5c2573030090937a"
+  localName: h1-6-gpu mlx5_2
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "6"
+  state: ACT
+0xb0cf0e0300e59980_7:
+  localGuid: "0x5c25730300908122"
+  localName: h1-7-gpu mlx5_2
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "7"
+  state: ACT
+0xb0cf0e0300e59980_8:
+  localGuid: "0x5c25730300904362"
+  localName: h1-8-gpu mlx5_2
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "8"
+  state: ACT
+0xb0cf0e0300e59980_9:
+  localGuid: "0x5c257303000fce9c"
+  localName: h1-9-gpu mlx5_2
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "9"
+  state: ACT
+0xb0cf0e0300e59980_10:
+  localGuid: "0x5c25730300904772"
+  localName: h1-10-gpu mlx5_2
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "10"
+  state: ACT
+0xb0cf0e0300e59980_11:
+  localGuid: "0x5c257303009055ba"
+  localName: h1-11-gpu mlx5_2
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "11"
+  state: ACT
+0xb0cf0e0300e59980_12:
+  localGuid: "0x5c25730300a0cd22"
+  localName: h1-12-gpu mlx5_2
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "12"
+  state: ACT
+0xb0cf0e0300e59980_13:
+  localGuid: "0x5c257303000fcfcc"
+  localName: h1-13-gpu mlx5_2
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "13"
+  state: ACT
+0xb0cf0e0300e59980_14:
+  localGuid: "0x5c2573030090c4a2"
+  localName: h1-14-gpu mlx5_2
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "14"
+  state: ACT
+0xb0cf0e0300e59980_15:
+  localGuid: "0x5c2573030090cb6a"
+  localName: h1-15-gpu mlx5_2
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "15"
+  state: ACT
+0xb0cf0e0300e59980_16:
+  localGuid: "0x5c257303009047d2"
+  localName: h1-16-gpu mlx5_2
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "16"
+  state: ACT
+0xb0cf0e0300e59980_17:
+  localGuid: "0x5c25730300908d7a"
+  localName: h1-17-gpu mlx5_2
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "17"
+  state: ACT
+0xb0cf0e0300e59980_18:
+  localGuid: "0x5c257303000fc704"
+  localName: h1-18-gpu mlx5_2
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "18"
+  state: ACT
+0xb0cf0e0300e59980_19:
+  localGuid: "0x5c2573030090467a"
+  localName: h1-19-gpu mlx5_2
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "19"
+  state: ACT
+0xb0cf0e0300e59980_20:
+  localGuid: "0x5c25730300904132"
+  localName: h1-20-gpu mlx5_2
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "20"
+  state: ACT
+0xb0cf0e0300e59980_21:
+  localGuid: "0x5c2573030090922a"
+  localName: h1-21-gpu mlx5_2
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "21"
+  state: ACT
+0xb0cf0e0300e59980_22:
+  localGuid: "0x5c2573030090458a"
+  localName: h1-22-gpu mlx5_2
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "22"
+  state: ACT
+0xb0cf0e0300e59980_23:
+  localGuid: "0x5c2573030090bd82"
+  localName: h1-23-gpu mlx5_2
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "23"
+  state: ACT
+0xb0cf0e0300e59980_24:
+  localGuid: "0x5c25730300908c3a"
+  localName: h1-24-gpu mlx5_2
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "24"
+  state: ACT
+0xb0cf0e0300e59980_25:
+  localGuid: "0x5c2573030090c7d2"
+  localName: h1-25-gpu mlx5_2
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "25"
+  state: ACT
+0xb0cf0e0300e59980_26:
+  localGuid: "0x5c2573030090c6aa"
+  localName: h1-26-gpu mlx5_2
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "26"
+  state: ACT
+0xb0cf0e0300e59980_27:
+  localGuid: "0x5c257303000dacea"
+  localName: h1-27-gpu mlx5_2
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "27"
+  state: ACT
+0xb0cf0e0300e59980_28:
+  localGuid: "0x5c25730300103048"
+  localName: h1-28-gpu mlx5_2
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "28"
+  state: ACT
+0xb0cf0e0300e59980_29:
+  localGuid: "0x5c25730300909292"
+  localName: h1-29-gpu mlx5_2
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "29"
+  state: ACT
+0xb0cf0e0300e59980_30:
+  localGuid: "0x5c25730300a033ca"
+  localName: h1-30-gpu mlx5_2
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "30"
+  state: ACT
+0xb0cf0e0300e59980_31:
+  localGuid: "0x5c257303009055aa"
+  localName: h1-31-gpu mlx5_2
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "31"
+  state: ACT
+0xb0cf0e0300e59980_32:
+  localGuid: "0x5c25730300a0bafa"
+  localName: h1-32-gpu mlx5_2
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "32"
+  state: ACT
+0xb0cf0e0300e59980_33:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "33"
+  state: DOWN
+0xb0cf0e0300e59980_34:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "34"
+  state: DOWN
+0xb0cf0e0300e59980_35:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "35"
+  state: DOWN
+0xb0cf0e0300e59980_36:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "36"
+  state: DOWN
+0xb0cf0e0300e59980_37:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "37"
+  state: DOWN
+0xb0cf0e0300e59980_38:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "38"
+  state: DOWN
+0xb0cf0e0300e59980_39:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "39"
+  state: DOWN
+0xb0cf0e0300e59980_40:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "40"
+  state: DOWN
+0xb0cf0e0300e59980_41:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "41"
+  state: DOWN
+0xb0cf0e0300e59980_42:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "42"
+  state: DOWN
+0xb0cf0e0300e59980_43:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "43"
+  state: DOWN
+0xb0cf0e0300e59980_44:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "44"
+  state: DOWN
+0xb0cf0e0300e59980_45:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "45"
+  state: DOWN
+0xb0cf0e0300e59980_46:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "46"
+  state: DOWN
+0xb0cf0e0300e59980_47:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "47"
+  state: DOWN
+0xb0cf0e0300e59980_48:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "48"
+  state: DOWN
+0xb0cf0e0300e59980_49:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "49"
+  state: DOWN
+0xb0cf0e0300e59980_50:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "50"
+  state: DOWN
+0xb0cf0e0300e59980_51:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "51"
+  state: DOWN
+0xb0cf0e0300e59980_52:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "52"
+  state: DOWN
+0xb0cf0e0300e59980_53:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "53"
+  state: DOWN
+0xb0cf0e0300e59980_54:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "54"
+  state: DOWN
+0xb0cf0e0300e59980_55:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "55"
+  state: DOWN
+0xb0cf0e0300e59980_56:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "56"
+  state: DOWN
+0xb0cf0e0300e59980_57:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "57"
+  state: DOWN
+0xb0cf0e0300e59980_58:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "58"
+  state: DOWN
+0xb0cf0e0300e59980_59:
+  localGuid: "0xb0cf0e0300d34100"
+  localName: MF0;Cherry-management-IB:MQM9700/U1
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "59"
+  state: ACT
+0xb0cf0e0300e59980_60:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "60"
+  state: DOWN
+0xb0cf0e0300e59980_61:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "61"
+  state: DOWN
+0xb0cf0e0300e59980_62:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "62"
+  state: DOWN
+0xb0cf0e0300e59980_63:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "63"
+  state: DOWN
+0xb0cf0e0300e59980_64:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59980"
+  remoteName: LEAF05
+  remotePort: "64"
+  state: DOWN
+0xb0cf0e0300e59a00_1:
+  localGuid: "0x5c2573030090917a"
+  localName: h1-1-gpu mlx5_9
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "1"
+  state: ACT
+0xb0cf0e0300e59a00_2:
+  localGuid: "0x5c257303009045ca"
+  localName: h1-2-gpu mlx5_9
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "2"
+  state: ACT
+0xb0cf0e0300e59a00_3:
+  localGuid: "0x5c2573030090c58a"
+  localName: h1-3-gpu mlx5_9
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "3"
+  state: ACT
+0xb0cf0e0300e59a00_4:
+  localGuid: ""
+  localName: "h1-4-gpu mlx5_9"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "4"
+  state: DOWN
+0xb0cf0e0300e59a00_5:
+  localGuid: "0x5c25730300908d2a"
+  localName: h1-5-gpu mlx5_9
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "5"
+  state: ACT
+0xb0cf0e0300e59a00_6:
+  localGuid: "0x5c2573030090824a"
+  localName: h1-6-gpu mlx5_9
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "6"
+  state: ACT
+0xb0cf0e0300e59a00_7:
+  localGuid: "0x5c257303009081c2"
+  localName: h1-7-gpu mlx5_9
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "7"
+  state: ACT
+0xb0cf0e0300e59a00_8:
+  localGuid: "0x5c25730300908f6a"
+  localName: h1-8-gpu mlx5_9
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "8"
+  state: ACT
+0xb0cf0e0300e59a00_9:
+  localGuid: "0x5c257303000fce5c"
+  localName: h1-9-gpu mlx5_9
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "9"
+  state: ACT
+0xb0cf0e0300e59a00_10:
+  localGuid: "0x5c25730300904332"
+  localName: h1-10-gpu mlx5_9
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "10"
+  state: ACT
+0xb0cf0e0300e59a00_11:
+  localGuid: "0x5c25730300905052"
+  localName: h1-11-gpu mlx5_9
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "11"
+  state: ACT
+0xb0cf0e0300e59a00_12:
+  localGuid: "0x5c25730300a091a2"
+  localName: h1-12-gpu mlx5_9
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "12"
+  state: ACT
+0xb0cf0e0300e59a00_13:
+  localGuid: "0x5c257303000fcebc"
+  localName: h1-13-gpu mlx5_9
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "13"
+  state: ACT
+0xb0cf0e0300e59a00_14:
+  localGuid: "0x5c2573030090c0da"
+  localName: h1-14-gpu mlx5_9
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "14"
+  state: ACT
+0xb0cf0e0300e59a00_15:
+  localGuid: "0x5c25730300a0cc12"
+  localName: h1-15-gpu mlx5_9
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "15"
+  state: ACT
+0xb0cf0e0300e59a00_16:
+  localGuid: "0x5c2573030090478a"
+  localName: h1-16-gpu mlx5_9
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "16"
+  state: ACT
+0xb0cf0e0300e59a00_17:
+  localGuid: "0x5c2573030090c13a"
+  localName: h1-17-gpu mlx5_9
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "17"
+  state: ACT
+0xb0cf0e0300e59a00_18:
+  localGuid: "0x5c25730300103248"
+  localName: h1-18-gpu mlx5_9
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "18"
+  state: ACT
+0xb0cf0e0300e59a00_19:
+  localGuid: "0x5c2573030090915a"
+  localName: h1-19-gpu mlx5_9
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "19"
+  state: ACT
+0xb0cf0e0300e59a00_20:
+  localGuid: "0x5c2573030090403a"
+  localName: h1-20-gpu mlx5_9
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "20"
+  state: ACT
+0xb0cf0e0300e59a00_21:
+  localGuid: "0x5c257303009092aa"
+  localName: h1-21-gpu mlx5_9
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "21"
+  state: ACT
+0xb0cf0e0300e59a00_22:
+  localGuid: "0x5c2573030090911a"
+  localName: h1-22-gpu mlx5_9
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "22"
+  state: ACT
+0xb0cf0e0300e59a00_23:
+  localGuid: "0x5c2573030090406a"
+  localName: h1-23-gpu mlx5_9
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "23"
+  state: ACT
+0xb0cf0e0300e59a00_24:
+  localGuid: "0x5c25730300904542"
+  localName: h1-24-gpu mlx5_9
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "24"
+  state: ACT
+0xb0cf0e0300e59a00_25:
+  localGuid: "0x5c2573030090cb2a"
+  localName: h1-25-gpu mlx5_9
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "25"
+  state: ACT
+0xb0cf0e0300e59a00_26:
+  localGuid: "0x5c25730300904392"
+  localName: h1-26-gpu mlx5_9
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "26"
+  state: ACT
+0xb0cf0e0300e59a00_27:
+  localGuid: "0x5c257303001622a0"
+  localName: h1-27-gpu mlx5_9
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "27"
+  state: ACT
+0xb0cf0e0300e59a00_28:
+  localGuid: "0x5c2573030090c46a"
+  localName: h1-28-gpu mlx5_9
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "28"
+  state: ACT
+0xb0cf0e0300e59a00_29:
+  localGuid: "0x5c2573030090c882"
+  localName: h1-29-gpu mlx5_9
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "29"
+  state: ACT
+0xb0cf0e0300e59a00_30:
+  localGuid: "0x5c25730300a090da"
+  localName: h1-30-gpu mlx5_9
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "30"
+  state: ACT
+0xb0cf0e0300e59a00_31:
+  localGuid: "0x5c2573030090b842"
+  localName: h1-31-gpu mlx5_9
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "31"
+  state: ACT
+0xb0cf0e0300e59a00_32:
+  localGuid: "0x5c25730300a08402"
+  localName: h1-32-gpu mlx5_9
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "32"
+  state: ACT
+0xb0cf0e0300e59a00_33:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "33"
+  state: DOWN
+0xb0cf0e0300e59a00_34:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "34"
+  state: DOWN
+0xb0cf0e0300e59a00_35:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "35"
+  state: DOWN
+0xb0cf0e0300e59a00_36:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "36"
+  state: DOWN
+0xb0cf0e0300e59a00_37:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "37"
+  state: DOWN
+0xb0cf0e0300e59a00_38:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "38"
+  state: DOWN
+0xb0cf0e0300e59a00_39:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "39"
+  state: DOWN
+0xb0cf0e0300e59a00_40:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "40"
+  state: DOWN
+0xb0cf0e0300e59a00_41:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "41"
+  state: DOWN
+0xb0cf0e0300e59a00_42:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "42"
+  state: DOWN
+0xb0cf0e0300e59a00_43:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "43"
+  state: DOWN
+0xb0cf0e0300e59a00_44:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "44"
+  state: DOWN
+0xb0cf0e0300e59a00_45:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "45"
+  state: DOWN
+0xb0cf0e0300e59a00_46:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "46"
+  state: DOWN
+0xb0cf0e0300e59a00_47:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "47"
+  state: DOWN
+0xb0cf0e0300e59a00_48:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "48"
+  state: DOWN
+0xb0cf0e0300e59a00_49:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "49"
+  state: DOWN
+0xb0cf0e0300e59a00_50:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "50"
+  state: DOWN
+0xb0cf0e0300e59a00_51:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "51"
+  state: DOWN
+0xb0cf0e0300e59a00_52:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "52"
+  state: DOWN
+0xb0cf0e0300e59a00_53:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "53"
+  state: DOWN
+0xb0cf0e0300e59a00_54:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "54"
+  state: DOWN
+0xb0cf0e0300e59a00_55:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "55"
+  state: DOWN
+0xb0cf0e0300e59a00_56:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "56"
+  state: DOWN
+0xb0cf0e0300e59a00_57:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "57"
+  state: DOWN
+0xb0cf0e0300e59a00_58:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "58"
+  state: DOWN
+0xb0cf0e0300e59a00_59:
+  localGuid: "0xb0cf0e0300d34100"
+  localName: MF0;Cherry-management-IB:MQM9700/U1
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "59"
+  state: ACT
+0xb0cf0e0300e59a00_60:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "60"
+  state: DOWN
+0xb0cf0e0300e59a00_61:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "61"
+  state: DOWN
+0xb0cf0e0300e59a00_62:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "62"
+  state: DOWN
+0xb0cf0e0300e59a00_63:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "63"
+  state: DOWN
+0xb0cf0e0300e59a00_64:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59a00"
+  remoteName: LEAF02
+  remotePort: "64"
+  state: DOWN
+0xb0cf0e0300e59b40_1:
+  localGuid: "0x5c257303009043ea"
+  localName: h1-1-gpu mlx5_1
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "1"
+  state: ACT
+0xb0cf0e0300e59b40_2:
+  localGuid: "0x5c2573030090c9ea"
+  localName: h1-2-gpu mlx5_1
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "2"
+  state: ACT
+0xb0cf0e0300e59b40_3:
+  localGuid: "0x5c2573030090c6da"
+  localName: h1-3-gpu mlx5_1
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "3"
+  state: ACT
+0xb0cf0e0300e59b40_4:
+  localGuid: ""
+  localName: "h1-4-gpu mlx5_1"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "4"
+  state: DOWN
+0xb0cf0e0300e59b40_5:
+  localGuid: "0x5c257303009048aa"
+  localName: h1-5-gpu mlx5_1
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "5"
+  state: ACT
+0xb0cf0e0300e59b40_6:
+  localGuid: "0x5c25730300904082"
+  localName: h1-6-gpu mlx5_1
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "6"
+  state: ACT
+0xb0cf0e0300e59b40_7:
+  localGuid: "0x5c257303009034da"
+  localName: h1-7-gpu mlx5_1
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "7"
+  state: ACT
+0xb0cf0e0300e59b40_8:
+  localGuid: "0x5c25730300909162"
+  localName: h1-8-gpu mlx5_1
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "8"
+  state: ACT
+0xb0cf0e0300e59b40_9:
+  localGuid: "0x5c25730300102bd8"
+  localName: h1-9-gpu mlx5_1
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "9"
+  state: ACT
+0xb0cf0e0300e59b40_10:
+  localGuid: "0x5c2573030090c372"
+  localName: h1-10-gpu mlx5_1
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "10"
+  state: ACT
+0xb0cf0e0300e59b40_11:
+  localGuid: "0x5c257303009035da"
+  localName: h1-11-gpu mlx5_1
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "11"
+  state: ACT
+0xb0cf0e0300e59b40_12:
+  localGuid: "0x5c25730300a0925a"
+  localName: h1-12-gpu mlx5_1
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "12"
+  state: ACT
+0xb0cf0e0300e59b40_13:
+  localGuid: "0x5c257303000da7b2"
+  localName: h1-13-gpu mlx5_1
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "13"
+  state: ACT
+0xb0cf0e0300e59b40_14:
+  localGuid: "0x5c257303009041da"
+  localName: h1-14-gpu mlx5_1
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "14"
+  state: ACT
+0xb0cf0e0300e59b40_15:
+  localGuid: "0x5c257303009080ea"
+  localName: h1-15-gpu mlx5_1
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "15"
+  state: ACT
+0xb0cf0e0300e59b40_16:
+  localGuid: "0x5c2573030090cc5a"
+  localName: h1-16-gpu mlx5_1
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "16"
+  state: ACT
+0xb0cf0e0300e59b40_17:
+  localGuid: "0x5c2573030090c31a"
+  localName: h1-17-gpu mlx5_1
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "17"
+  state: ACT
+0xb0cf0e0300e59b40_18:
+  localGuid: "0x5c25730300102b90"
+  localName: h1-18-gpu mlx5_1
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "18"
+  state: ACT
+0xb0cf0e0300e59b40_19:
+  localGuid: "0x5c257303009093e2"
+  localName: h1-19-gpu mlx5_1
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "19"
+  state: ACT
+0xb0cf0e0300e59b40_20:
+  localGuid: "0x5c2573030090c02a"
+  localName: h1-20-gpu mlx5_1
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "20"
+  state: ACT
+0xb0cf0e0300e59b40_21:
+  localGuid: "0x5c257303009092ba"
+  localName: h1-21-gpu mlx5_1
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "21"
+  state: ACT
+0xb0cf0e0300e59b40_22:
+  localGuid: "0x5c25730300904582"
+  localName: h1-22-gpu mlx5_1
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "22"
+  state: ACT
+0xb0cf0e0300e59b40_23:
+  localGuid: "0x5c2573030090bfe2"
+  localName: h1-23-gpu mlx5_1
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "23"
+  state: ACT
+0xb0cf0e0300e59b40_24:
+  localGuid: "0x5c2573030090ccba"
+  localName: h1-24-gpu mlx5_1
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "24"
+  state: ACT
+0xb0cf0e0300e59b40_25:
+  localGuid: "0x5c2573030090c93a"
+  localName: h1-25-gpu mlx5_1
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "25"
+  state: ACT
+0xb0cf0e0300e59b40_26:
+  localGuid: "0x5c2573030090b9aa"
+  localName: h1-26-gpu mlx5_1
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "26"
+  state: ACT
+0xb0cf0e0300e59b40_27:
+  localGuid: "0x5c257303000fcf34"
+  localName: h1-27-gpu mlx5_1
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "27"
+  state: ACT
+0xb0cf0e0300e59b40_28:
+  localGuid: "0x9c63c0030002b71a"
+  localName: h1-28-gpu mlx5_1
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "28"
+  state: ACT
+0xb0cf0e0300e59b40_29:
+  localGuid: "0x5c2573030090926a"
+  localName: h1-29-gpu mlx5_1
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "29"
+  state: ACT
+0xb0cf0e0300e59b40_30:
+  localGuid: "0x5c25730300a07b62"
+  localName: h1-30-gpu mlx5_1
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "30"
+  state: ACT
+0xb0cf0e0300e59b40_31:
+  localGuid: "0x5c25730300a032a2"
+  localName: h1-31-gpu mlx5_1
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "31"
+  state: ACT
+0xb0cf0e0300e59b40_32:
+  localGuid: "0x5c25730300a083c2"
+  localName: h1-32-gpu mlx5_1
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "32"
+  state: ACT
+0xb0cf0e0300e59b40_33:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "33"
+  state: DOWN
+0xb0cf0e0300e59b40_34:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "34"
+  state: DOWN
+0xb0cf0e0300e59b40_35:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "35"
+  state: DOWN
+0xb0cf0e0300e59b40_36:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "36"
+  state: DOWN
+0xb0cf0e0300e59b40_37:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "37"
+  state: DOWN
+0xb0cf0e0300e59b40_38:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "38"
+  state: DOWN
+0xb0cf0e0300e59b40_39:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "39"
+  state: DOWN
+0xb0cf0e0300e59b40_40:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "40"
+  state: DOWN
+0xb0cf0e0300e59b40_41:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "41"
+  state: DOWN
+0xb0cf0e0300e59b40_42:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "42"
+  state: DOWN
+0xb0cf0e0300e59b40_43:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "43"
+  state: DOWN
+0xb0cf0e0300e59b40_44:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "44"
+  state: DOWN
+0xb0cf0e0300e59b40_45:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "45"
+  state: DOWN
+0xb0cf0e0300e59b40_46:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "46"
+  state: DOWN
+0xb0cf0e0300e59b40_47:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "47"
+  state: DOWN
+0xb0cf0e0300e59b40_48:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "48"
+  state: DOWN
+0xb0cf0e0300e59b40_49:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "49"
+  state: DOWN
+0xb0cf0e0300e59b40_50:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "50"
+  state: DOWN
+0xb0cf0e0300e59b40_51:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "51"
+  state: DOWN
+0xb0cf0e0300e59b40_52:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "52"
+  state: DOWN
+0xb0cf0e0300e59b40_53:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "53"
+  state: DOWN
+0xb0cf0e0300e59b40_54:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "54"
+  state: DOWN
+0xb0cf0e0300e59b40_55:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "55"
+  state: DOWN
+0xb0cf0e0300e59b40_56:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "56"
+  state: DOWN
+0xb0cf0e0300e59b40_57:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "57"
+  state: DOWN
+0xb0cf0e0300e59b40_58:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "58"
+  state: DOWN
+0xb0cf0e0300e59b40_59:
+  localGuid: "0xb0cf0e0300d34100"
+  localName: MF0;Cherry-management-IB:MQM9700/U1
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "59"
+  state: ACT
+0xb0cf0e0300e59b40_60:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "60"
+  state: DOWN
+0xb0cf0e0300e59b40_61:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "61"
+  state: DOWN
+0xb0cf0e0300e59b40_62:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "62"
+  state: DOWN
+0xb0cf0e0300e59b40_63:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "63"
+  state: DOWN
+0xb0cf0e0300e59b40_64:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b40"
+  remoteName: LEAF07
+  remotePort: "64"
+  state: DOWN
+0xb0cf0e0300e59b80_1:
+  localGuid: "0x5c25730300909012"
+  localName: h1-1-gpu mlx5_0
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "1"
+  state: ACT
+0xb0cf0e0300e59b80_2:
+  localGuid: "0x5c257303009045a2"
+  localName: h1-2-gpu mlx5_0
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "2"
+  state: ACT
+0xb0cf0e0300e59b80_3:
+  localGuid: "0x5c2573030090428a"
+  localName: h1-3-gpu mlx5_0
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "3"
+  state: ACT
+0xb0cf0e0300e59b80_4:
+  localGuid: ""
+  localName: "h1-4-gpu mlx5_0"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "4"
+  state: DOWN
+0xb0cf0e0300e59b80_5:
+  localGuid: "0x5c2573030090490a"
+  localName: h1-5-gpu mlx5_0
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "5"
+  state: ACT
+0xb0cf0e0300e59b80_6:
+  localGuid: "0x5c2573030090cc12"
+  localName: h1-6-gpu mlx5_0
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "6"
+  state: ACT
+0xb0cf0e0300e59b80_7:
+  localGuid: "0x5c257303009081a2"
+  localName: h1-7-gpu mlx5_0
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "7"
+  state: ACT
+0xb0cf0e0300e59b80_8:
+  localGuid: "0x5c2573030090c642"
+  localName: h1-8-gpu mlx5_0
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "8"
+  state: ACT
+0xb0cf0e0300e59b80_9:
+  localGuid: "0x5c257303000da1da"
+  localName: h1-9-gpu mlx5_0
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "9"
+  state: ACT
+0xb0cf0e0300e59b80_10:
+  localGuid: "0x5c25730300908de2"
+  localName: h1-10-gpu mlx5_0
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "10"
+  state: ACT
+0xb0cf0e0300e59b80_11:
+  localGuid: "0x5c25730300a08eca"
+  localName: h1-11-gpu mlx5_0
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "11"
+  state: ACT
+0xb0cf0e0300e59b80_12:
+  localGuid: "0x5c25730300a0332a"
+  localName: h1-12-gpu mlx5_0
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "12"
+  state: ACT
+0xb0cf0e0300e59b80_13:
+  localGuid: "0x5c257303000fd17c"
+  localName: h1-13-gpu mlx5_0
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "13"
+  state: ACT
+0xb0cf0e0300e59b80_14:
+  localGuid: "0x5c25730300908eda"
+  localName: h1-14-gpu mlx5_0
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "14"
+  state: ACT
+0xb0cf0e0300e59b80_15:
+  localGuid: "0x5c25730300a08eba"
+  localName: h1-15-gpu mlx5_0
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "15"
+  state: ACT
+0xb0cf0e0300e59b80_16:
+  localGuid: "0x5c25730300904852"
+  localName: h1-16-gpu mlx5_0
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "16"
+  state: ACT
+0xb0cf0e0300e59b80_17:
+  localGuid: "0x5c257303009091ca"
+  localName: h1-17-gpu mlx5_0
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "17"
+  state: ACT
+0xb0cf0e0300e59b80_18:
+  localGuid: "0x5c257303001ccbe8"
+  localName: h1-18-gpu mlx5_0
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "18"
+  state: ACT
+0xb0cf0e0300e59b80_19:
+  localGuid: "0x5c257303009048ba"
+  localName: h1-19-gpu mlx5_0
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "19"
+  state: ACT
+0xb0cf0e0300e59b80_20:
+  localGuid: "0x5c2573030090b882"
+  localName: h1-20-gpu mlx5_0
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "20"
+  state: ACT
+0xb0cf0e0300e59b80_21:
+  localGuid: "0x5c2573030090c99a"
+  localName: h1-21-gpu mlx5_0
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "21"
+  state: ACT
+0xb0cf0e0300e59b80_22:
+  localGuid: "0x5c257303009045d2"
+  localName: h1-22-gpu mlx5_0
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "22"
+  state: ACT
+0xb0cf0e0300e59b80_23:
+  localGuid: "0x5c25730300908a02"
+  localName: h1-23-gpu mlx5_0
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "23"
+  state: ACT
+0xb0cf0e0300e59b80_24:
+  localGuid: "0x5c2573030090c7c2"
+  localName: h1-24-gpu mlx5_0
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "24"
+  state: ACT
+0xb0cf0e0300e59b80_25:
+  localGuid: "0x5c2573030090c29a"
+  localName: h1-25-gpu mlx5_0
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "25"
+  state: ACT
+0xb0cf0e0300e59b80_26:
+  localGuid: "0x5c2573030090b7d2"
+  localName: h1-26-gpu mlx5_0
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "26"
+  state: ACT
+0xb0cf0e0300e59b80_27:
+  localGuid: "0x5c257303000fcd7c"
+  localName: h1-27-gpu mlx5_0
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "27"
+  state: ACT
+0xb0cf0e0300e59b80_28:
+  localGuid: "0x5c25730300102c98"
+  localName: h1-28-gpu mlx5_0
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "28"
+  state: ACT
+0xb0cf0e0300e59b80_29:
+  localGuid: "0x5c2573030090472a"
+  localName: h1-29-gpu mlx5_0
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "29"
+  state: ACT
+0xb0cf0e0300e59b80_30:
+  localGuid: "0x5c257303009054fa"
+  localName: h1-30-gpu mlx5_0
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "30"
+  state: ACT
+0xb0cf0e0300e59b80_31:
+  localGuid: "0x5c25730300a090ea"
+  localName: h1-31-gpu mlx5_0
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "31"
+  state: ACT
+0xb0cf0e0300e59b80_32:
+  localGuid: "0x5c25730300a083ca"
+  localName: h1-32-gpu mlx5_0
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "32"
+  state: ACT
+0xb0cf0e0300e59b80_33:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "33"
+  state: DOWN
+0xb0cf0e0300e59b80_34:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "34"
+  state: DOWN
+0xb0cf0e0300e59b80_35:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "35"
+  state: DOWN
+0xb0cf0e0300e59b80_36:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "36"
+  state: DOWN
+0xb0cf0e0300e59b80_37:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "37"
+  state: DOWN
+0xb0cf0e0300e59b80_38:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "38"
+  state: DOWN
+0xb0cf0e0300e59b80_39:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "39"
+  state: DOWN
+0xb0cf0e0300e59b80_40:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "40"
+  state: DOWN
+0xb0cf0e0300e59b80_41:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "41"
+  state: DOWN
+0xb0cf0e0300e59b80_42:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "42"
+  state: DOWN
+0xb0cf0e0300e59b80_43:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "43"
+  state: DOWN
+0xb0cf0e0300e59b80_44:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "44"
+  state: DOWN
+0xb0cf0e0300e59b80_45:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "45"
+  state: DOWN
+0xb0cf0e0300e59b80_46:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "46"
+  state: DOWN
+0xb0cf0e0300e59b80_47:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "47"
+  state: DOWN
+0xb0cf0e0300e59b80_48:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "48"
+  state: DOWN
+0xb0cf0e0300e59b80_49:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "49"
+  state: DOWN
+0xb0cf0e0300e59b80_50:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "50"
+  state: DOWN
+0xb0cf0e0300e59b80_51:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "51"
+  state: DOWN
+0xb0cf0e0300e59b80_52:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "52"
+  state: DOWN
+0xb0cf0e0300e59b80_53:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "53"
+  state: DOWN
+0xb0cf0e0300e59b80_54:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "54"
+  state: DOWN
+0xb0cf0e0300e59b80_55:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "55"
+  state: DOWN
+0xb0cf0e0300e59b80_56:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "56"
+  state: DOWN
+0xb0cf0e0300e59b80_57:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "57"
+  state: DOWN
+0xb0cf0e0300e59b80_58:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "58"
+  state: DOWN
+0xb0cf0e0300e59b80_59:
+  localGuid: "0xb0cf0e0300d34100"
+  localName: MF0;Cherry-management-IB:MQM9700/U1
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "59"
+  state: ACT
+0xb0cf0e0300e59b80_60:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "60"
+  state: DOWN
+0xb0cf0e0300e59b80_61:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "61"
+  state: DOWN
+0xb0cf0e0300e59b80_62:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "62"
+  state: DOWN
+0xb0cf0e0300e59b80_63:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "63"
+  state: DOWN
+0xb0cf0e0300e59b80_64:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e59b80"
+  remoteName: LEAF06
+  remotePort: "64"
+  state: DOWN
+0xb0cf0e0300e5a0c0_1:
+  localGuid: "0x5c2573030090c6ca"
+  localName: h1-1-gpu mlx5_8
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "1"
+  state: ACT
+0xb0cf0e0300e5a0c0_2:
+  localGuid: "0x5c257303009093d2"
+  localName: h1-2-gpu mlx5_8
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "2"
+  state: ACT
+0xb0cf0e0300e5a0c0_3:
+  localGuid: "0x5c25730300904372"
+  localName: h1-3-gpu mlx5_8
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "3"
+  state: ACT
+0xb0cf0e0300e5a0c0_4:
+  localGuid: ""
+  localName: "h1-4-gpu mlx5_8"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "4"
+  state: DOWN
+0xb0cf0e0300e5a0c0_5:
+  localGuid: "0x5c2573030090905a"
+  localName: h1-5-gpu mlx5_8
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "5"
+  state: ACT
+0xb0cf0e0300e5a0c0_6:
+  localGuid: "0x5c2573030090bf52"
+  localName: h1-6-gpu mlx5_8
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "6"
+  state: ACT
+0xb0cf0e0300e5a0c0_7:
+  localGuid: "0x5c25730300908032"
+  localName: h1-7-gpu mlx5_8
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "7"
+  state: ACT
+0xb0cf0e0300e5a0c0_8:
+  localGuid: "0x5c2573030090918a"
+  localName: h1-8-gpu mlx5_8
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "8"
+  state: ACT
+0xb0cf0e0300e5a0c0_9:
+  localGuid: "0x5c257303000fcf0c"
+  localName: h1-9-gpu mlx5_8
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "9"
+  state: ACT
+0xb0cf0e0300e5a0c0_10:
+  localGuid: "0x5c2573030090439a"
+  localName: h1-10-gpu mlx5_8
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "10"
+  state: ACT
+0xb0cf0e0300e5a0c0_11:
+  localGuid: "0x5c25730300a0b9e2"
+  localName: h1-11-gpu mlx5_8
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "11"
+  state: ACT
+0xb0cf0e0300e5a0c0_12:
+  localGuid: "0x5c25730300a0333a"
+  localName: h1-12-gpu mlx5_8
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "12"
+  state: ACT
+0xb0cf0e0300e5a0c0_13:
+  localGuid: "0x5c257303000fc24c"
+  localName: h1-13-gpu mlx5_8
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "13"
+  state: ACT
+0xb0cf0e0300e5a0c0_14:
+  localGuid: "0x5c2573030090c462"
+  localName: h1-14-gpu mlx5_8
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "14"
+  state: ACT
+0xb0cf0e0300e5a0c0_15:
+  localGuid: "0x5c25730300a0cbca"
+  localName: h1-15-gpu mlx5_8
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "15"
+  state: ACT
+0xb0cf0e0300e5a0c0_16:
+  localGuid: "0x5c2573030090c20a"
+  localName: h1-16-gpu mlx5_8
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "16"
+  state: ACT
+0xb0cf0e0300e5a0c0_17:
+  localGuid: "0x5c25730300908dc2"
+  localName: h1-17-gpu mlx5_8
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "17"
+  state: ACT
+0xb0cf0e0300e5a0c0_18:
+  localGuid: "0x5c257303000fcfc4"
+  localName: h1-18-gpu mlx5_8
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "18"
+  state: ACT
+0xb0cf0e0300e5a0c0_19:
+  localGuid: "0x5c25730300904652"
+  localName: h1-19-gpu mlx5_8
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "19"
+  state: ACT
+0xb0cf0e0300e5a0c0_20:
+  localGuid: "0x5c25730300908b7a"
+  localName: h1-20-gpu mlx5_8
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "20"
+  state: ACT
+0xb0cf0e0300e5a0c0_21:
+  localGuid: "0x5c2573030090432a"
+  localName: h1-21-gpu mlx5_8
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "21"
+  state: ACT
+0xb0cf0e0300e5a0c0_22:
+  localGuid: "0x5c2573030090caf2"
+  localName: h1-22-gpu mlx5_8
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "22"
+  state: ACT
+0xb0cf0e0300e5a0c0_23:
+  localGuid: "0x5c25730300903fca"
+  localName: h1-23-gpu mlx5_8
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "23"
+  state: ACT
+0xb0cf0e0300e5a0c0_24:
+  localGuid: "0x5c2573030090c1ea"
+  localName: h1-24-gpu mlx5_8
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "24"
+  state: ACT
+0xb0cf0e0300e5a0c0_25:
+  localGuid: "0x5c25730300904202"
+  localName: h1-25-gpu mlx5_8
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "25"
+  state: ACT
+0xb0cf0e0300e5a0c0_26:
+  localGuid: "0x5c2573030090bba2"
+  localName: h1-26-gpu mlx5_8
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "26"
+  state: ACT
+0xb0cf0e0300e5a0c0_27:
+  localGuid: "0x5c25730300102938"
+  localName: h1-27-gpu mlx5_8
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "27"
+  state: ACT
+0xb0cf0e0300e5a0c0_28:
+  localGuid: "0x5c25730300908162"
+  localName: h1-28-gpu mlx5_8
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "28"
+  state: ACT
+0xb0cf0e0300e5a0c0_29:
+  localGuid: "0x5c25730300904642"
+  localName: h1-29-gpu mlx5_8
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "29"
+  state: ACT
+0xb0cf0e0300e5a0c0_30:
+  localGuid: "0x5c25730300905612"
+  localName: h1-30-gpu mlx5_8
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "30"
+  state: ACT
+0xb0cf0e0300e5a0c0_31:
+  localGuid: "0x5c25730300a03382"
+  localName: h1-31-gpu mlx5_8
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "31"
+  state: ACT
+0xb0cf0e0300e5a0c0_32:
+  localGuid: "0x5c25730300a0c322"
+  localName: h1-32-gpu mlx5_8
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "32"
+  state: ACT
+0xb0cf0e0300e5a0c0_33:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "33"
+  state: DOWN
+0xb0cf0e0300e5a0c0_34:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "34"
+  state: DOWN
+0xb0cf0e0300e5a0c0_35:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "35"
+  state: DOWN
+0xb0cf0e0300e5a0c0_36:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "36"
+  state: DOWN
+0xb0cf0e0300e5a0c0_37:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "37"
+  state: DOWN
+0xb0cf0e0300e5a0c0_38:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "38"
+  state: DOWN
+0xb0cf0e0300e5a0c0_39:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "39"
+  state: DOWN
+0xb0cf0e0300e5a0c0_40:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "40"
+  state: DOWN
+0xb0cf0e0300e5a0c0_41:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "41"
+  state: DOWN
+0xb0cf0e0300e5a0c0_42:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "42"
+  state: DOWN
+0xb0cf0e0300e5a0c0_43:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "43"
+  state: DOWN
+0xb0cf0e0300e5a0c0_44:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "44"
+  state: DOWN
+0xb0cf0e0300e5a0c0_45:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "45"
+  state: DOWN
+0xb0cf0e0300e5a0c0_46:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "46"
+  state: DOWN
+0xb0cf0e0300e5a0c0_47:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "47"
+  state: DOWN
+0xb0cf0e0300e5a0c0_48:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "48"
+  state: DOWN
+0xb0cf0e0300e5a0c0_49:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "49"
+  state: DOWN
+0xb0cf0e0300e5a0c0_50:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "50"
+  state: DOWN
+0xb0cf0e0300e5a0c0_51:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "51"
+  state: DOWN
+0xb0cf0e0300e5a0c0_52:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "52"
+  state: DOWN
+0xb0cf0e0300e5a0c0_53:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "53"
+  state: DOWN
+0xb0cf0e0300e5a0c0_54:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "54"
+  state: DOWN
+0xb0cf0e0300e5a0c0_55:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "55"
+  state: DOWN
+0xb0cf0e0300e5a0c0_56:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "56"
+  state: DOWN
+0xb0cf0e0300e5a0c0_57:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "57"
+  state: DOWN
+0xb0cf0e0300e5a0c0_58:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "58"
+  state: DOWN
+0xb0cf0e0300e5a0c0_59:
+  localGuid: "0xb0cf0e0300d34100"
+  localName: MF0;Cherry-management-IB:MQM9700/U1
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "59"
+  state: ACT
+0xb0cf0e0300e5a0c0_60:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "60"
+  state: DOWN
+0xb0cf0e0300e5a0c0_61:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "61"
+  state: DOWN
+0xb0cf0e0300e5a0c0_62:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "62"
+  state: DOWN
+0xb0cf0e0300e5a0c0_63:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "63"
+  state: DOWN
+0xb0cf0e0300e5a0c0_64:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a0c0"
+  remoteName: LEAF01
+  remotePort: "64"
+  state: DOWN
+0xb0cf0e0300e5a380_1:
+  localGuid: "0x5c257303009048a2"
+  localName: h1-1-gpu mlx5_11
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "1"
+  state: ACT
+0xb0cf0e0300e5a380_2:
+  localGuid: "0x5c25730300909112"
+  localName: h1-2-gpu mlx5_11
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "2"
+  state: ACT
+0xb0cf0e0300e5a380_3:
+  localGuid: "0x5c2573030090c632"
+  localName: h1-3-gpu mlx5_11
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "3"
+  state: ACT
+0xb0cf0e0300e5a380_4:
+  localGuid: ""
+  localName: "h1-3-gpu mlx5_11"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "4"
+  state: DOWN
+0xb0cf0e0300e5a380_5:
+  localGuid: "0x5c2573030090900a"
+  localName: h1-5-gpu mlx5_11
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "5"
+  state: ACT
+0xb0cf0e0300e5a380_6:
+  localGuid: "0x5c2573030090cd0a"
+  localName: h1-6-gpu mlx5_11
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "6"
+  state: ACT
+0xb0cf0e0300e5a380_7:
+  localGuid: "0x5c25730300907f0a"
+  localName: h1-7-gpu mlx5_11
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "7"
+  state: ACT
+0xb0cf0e0300e5a380_8:
+  localGuid: "0x5c2573030090ccb2"
+  localName: h1-8-gpu mlx5_11
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "8"
+  state: ACT
+0xb0cf0e0300e5a380_9:
+  localGuid: "0x5c257303000fcda4"
+  localName: h1-9-gpu mlx5_11
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "9"
+  state: ACT
+0xb0cf0e0300e5a380_10:
+  localGuid: "0x5c25730300908bea"
+  localName: h1-10-gpu mlx5_11
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "10"
+  state: ACT
+0xb0cf0e0300e5a380_11:
+  localGuid: "0x5c25730300a090ca"
+  localName: h1-11-gpu mlx5_11
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "11"
+  state: ACT
+0xb0cf0e0300e5a380_12:
+  localGuid: "0x5c25730300a0321a"
+  localName: h1-12-gpu mlx5_11
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "12"
+  state: ACT
+0xb0cf0e0300e5a380_13:
+  localGuid: "0x5c25730300102cc8"
+  localName: h1-13-gpu mlx5_11
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "13"
+  state: ACT
+0xb0cf0e0300e5a380_14:
+  localGuid: "0x5c257303009040ba"
+  localName: h1-14-gpu mlx5_11
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "14"
+  state: ACT
+0xb0cf0e0300e5a380_15:
+  localGuid: "0x5c257303000fcf8c"
+  localName: h1-15-gpu mlx5_11
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "15"
+  state: ACT
+0xb0cf0e0300e5a380_16:
+  localGuid: "0x5c2573030090489a"
+  localName: h1-16-gpu mlx5_11
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "16"
+  state: ACT
+0xb0cf0e0300e5a380_17:
+  localGuid: "0x5c257303009048b2"
+  localName: h1-17-gpu mlx5_11
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "17"
+  state: ACT
+0xb0cf0e0300e5a380_18:
+  localGuid: "0x5c257303000d9ffa"
+  localName: h1-18-gpu mlx5_11
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "18"
+  state: ACT
+0xb0cf0e0300e5a380_19:
+  localGuid: "0x5c2573030090465a"
+  localName: h1-19-gpu mlx5_11
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "19"
+  state: ACT
+0xb0cf0e0300e5a380_20:
+  localGuid: "0x5c25730300908c1a"
+  localName: h1-20-gpu mlx5_11
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "20"
+  state: ACT
+0xb0cf0e0300e5a380_21:
+  localGuid: "0x5c25730300904782"
+  localName: h1-21-gpu mlx5_11
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "21"
+  state: ACT
+0xb0cf0e0300e5a380_22:
+  localGuid: "0x5c2573030090c9b2"
+  localName: h1-22-gpu mlx5_11
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "22"
+  state: ACT
+0xb0cf0e0300e5a380_23:
+  localGuid: "0x5c257303009089a2"
+  localName: h1-23-gpu mlx5_11
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "23"
+  state: ACT
+0xb0cf0e0300e5a380_24:
+  localGuid: "0x5c257303009048da"
+  localName: h1-24-gpu mlx5_11
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "24"
+  state: ACT
+0xb0cf0e0300e5a380_25:
+  localGuid: "0x5c2573030090c382"
+  localName: h1-25-gpu mlx5_11
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "25"
+  state: ACT
+0xb0cf0e0300e5a380_26:
+  localGuid: "0x5c25730300903552"
+  localName: h1-26-gpu mlx5_11
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "26"
+  state: ACT
+0xb0cf0e0300e5a380_27:
+  localGuid: "0x5c25730300102cd0"
+  localName: h1-27-gpu mlx5_11
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "27"
+  state: ACT
+0xb0cf0e0300e5a380_28:
+  localGuid: "0x5c25730300908ef2"
+  localName: h1-28-gpu mlx5_11
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "28"
+  state: ACT
+0xb0cf0e0300e5a380_29:
+  localGuid: "0x5c257303009091ea"
+  localName: h1-29-gpu mlx5_11
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "29"
+  state: ACT
+0xb0cf0e0300e5a380_30:
+  localGuid: "0x5c25730300905502"
+  localName: h1-30-gpu mlx5_11
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "30"
+  state: ACT
+0xb0cf0e0300e5a380_31:
+  localGuid: "0x5c25730300a032da"
+  localName: h1-31-gpu mlx5_11
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "31"
+  state: ACT
+0xb0cf0e0300e5a380_32:
+  localGuid: "0x5c2573030090c8ea"
+  localName: h1-32-gpu mlx5_11
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "32"
+  state: ACT
+0xb0cf0e0300e5a380_33:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "33"
+  state: DOWN
+0xb0cf0e0300e5a380_34:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "34"
+  state: DOWN
+0xb0cf0e0300e5a380_35:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "35"
+  state: DOWN
+0xb0cf0e0300e5a380_36:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "36"
+  state: DOWN
+0xb0cf0e0300e5a380_37:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "37"
+  state: DOWN
+0xb0cf0e0300e5a380_38:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "38"
+  state: DOWN
+0xb0cf0e0300e5a380_39:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "39"
+  state: DOWN
+0xb0cf0e0300e5a380_40:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "40"
+  state: DOWN
+0xb0cf0e0300e5a380_41:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "41"
+  state: DOWN
+0xb0cf0e0300e5a380_42:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "42"
+  state: DOWN
+0xb0cf0e0300e5a380_43:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "43"
+  state: DOWN
+0xb0cf0e0300e5a380_44:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "44"
+  state: DOWN
+0xb0cf0e0300e5a380_45:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "45"
+  state: DOWN
+0xb0cf0e0300e5a380_46:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "46"
+  state: DOWN
+0xb0cf0e0300e5a380_47:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "47"
+  state: DOWN
+0xb0cf0e0300e5a380_48:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "48"
+  state: DOWN
+0xb0cf0e0300e5a380_49:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "49"
+  state: DOWN
+0xb0cf0e0300e5a380_50:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "50"
+  state: DOWN
+0xb0cf0e0300e5a380_51:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "51"
+  state: DOWN
+0xb0cf0e0300e5a380_52:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "52"
+  state: DOWN
+0xb0cf0e0300e5a380_53:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "53"
+  state: DOWN
+0xb0cf0e0300e5a380_54:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "54"
+  state: DOWN
+0xb0cf0e0300e5a380_55:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "55"
+  state: DOWN
+0xb0cf0e0300e5a380_56:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "56"
+  state: DOWN
+0xb0cf0e0300e5a380_57:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "57"
+  state: DOWN
+0xb0cf0e0300e5a380_58:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "58"
+  state: DOWN
+0xb0cf0e0300e5a380_59:
+  localGuid: "0xb0cf0e0300d34100"
+  localName: MF0;Cherry-management-IB:MQM9700/U1
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "59"
+  state: ACT
+0xb0cf0e0300e5a380_60:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "60"
+  state: DOWN
+0xb0cf0e0300e5a380_61:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "61"
+  state: DOWN
+0xb0cf0e0300e5a380_62:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "62"
+  state: DOWN
+0xb0cf0e0300e5a380_63:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "63"
+  state: DOWN
+0xb0cf0e0300e5a380_64:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5a380"
+  remoteName: LEAF04
+  remotePort: "64"
+  state: DOWN
+0xb0cf0e0300e5b480_1:
+  localGuid: "0x5c257303009093aa"
+  localName: h1-1-gpu mlx5_3
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "1"
+  state: ACT
+0xb0cf0e0300e5b480_2:
+  localGuid: "0x5c2573030090cd42"
+  localName: h1-2-gpu mlx5_3
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "2"
+  state: ACT
+0xb0cf0e0300e5b480_3:
+  localGuid: "0x5c2573030090c622"
+  localName: h1-3-gpu mlx5_3
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "3"
+  state: ACT
+0xb0cf0e0300e5b480_4:
+  localGuid: ""
+  localName: "h1-4-gpu mlx5_3"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "4"
+  state: DOWN
+0xb0cf0e0300e5b480_5:
+  localGuid: "0x5c2573030090c6a2"
+  localName: h1-5-gpu mlx5_3
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "5"
+  state: ACT
+0xb0cf0e0300e5b480_6:
+  localGuid: "0x5c257303009047ca"
+  localName: h1-6-gpu mlx5_3
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "6"
+  state: ACT
+0xb0cf0e0300e5b480_7:
+  localGuid: "0x5c25730300903572"
+  localName: h1-7-gpu mlx5_3
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "7"
+  state: ACT
+0xb0cf0e0300e5b480_8:
+  localGuid: "0x5c2573030090cbe2"
+  localName: h1-8-gpu mlx5_3
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "8"
+  state: ACT
+0xb0cf0e0300e5b480_9:
+  localGuid: "0x5c257303000fceac"
+  localName: h1-9-gpu mlx5_3
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "9"
+  state: ACT
+0xb0cf0e0300e5b480_10:
+  localGuid: "0x5c25730300908dba"
+  localName: h1-10-gpu mlx5_3
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "10"
+  state: ACT
+0xb0cf0e0300e5b480_11:
+  localGuid: "0x5c2573030090cbb2"
+  localName: h1-11-gpu mlx5_3
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "11"
+  state: ACT
+0xb0cf0e0300e5b480_12:
+  localGuid: "0x5c25730300a0326a"
+  localName: h1-12-gpu mlx5_3
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "12"
+  state: ACT
+0xb0cf0e0300e5b480_13:
+  localGuid: "0x5c257303001ccbc0"
+  localName: h1-13-gpu mlx5_3
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "13"
+  state: ACT
+0xb0cf0e0300e5b480_14:
+  localGuid: "0x5c25730300908eb2"
+  localName: h1-14-gpu mlx5_3
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "14"
+  state: ACT
+0xb0cf0e0300e5b480_15:
+  localGuid: "0x5c25730300103060"
+  localName: h1-15-gpu mlx5_3
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "15"
+  state: ACT
+0xb0cf0e0300e5b480_16:
+  localGuid: "0x5c25730300908c8a"
+  localName: h1-16-gpu mlx5_3
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "16"
+  state: ACT
+0xb0cf0e0300e5b480_17:
+  localGuid: "0x5c25730300904322"
+  localName: h1-17-gpu mlx5_3
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "17"
+  state: ACT
+0xb0cf0e0300e5b480_18:
+  localGuid: "0x5c257303000fcd84"
+  localName: h1-18-gpu mlx5_3
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "18"
+  state: ACT
+0xb0cf0e0300e5b480_19:
+  localGuid: "0x5c2573030090cae2"
+  localName: h1-19-gpu mlx5_3
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "19"
+  state: ACT
+0xb0cf0e0300e5b480_20:
+  localGuid: "0x5c25730300908b92"
+  localName: h1-20-gpu mlx5_3
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "20"
+  state: ACT
+0xb0cf0e0300e5b480_21:
+  localGuid: "0x5c25730300904792"
+  localName: h1-21-gpu mlx5_3
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "21"
+  state: ACT
+0xb0cf0e0300e5b480_22:
+  localGuid: "0x5c257303009045b2"
+  localName: h1-22-gpu mlx5_3
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "22"
+  state: ACT
+0xb0cf0e0300e5b480_23:
+  localGuid: "0x5c257303009045f2"
+  localName: h1-23-gpu mlx5_3
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "23"
+  state: ACT
+0xb0cf0e0300e5b480_24:
+  localGuid: "0x5c25730300908d02"
+  localName: h1-24-gpu mlx5_3
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "24"
+  state: ACT
+0xb0cf0e0300e5b480_25:
+  localGuid: "0x5c2573030090c6b2"
+  localName: h1-25-gpu mlx5_3
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "25"
+  state: ACT
+0xb0cf0e0300e5b480_26:
+  localGuid: "0x5c2573030090c64a"
+  localName: h1-26-gpu mlx5_3
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "26"
+  state: ACT
+0xb0cf0e0300e5b480_27:
+  localGuid: "0x5c25730300102bd0"
+  localName: h1-27-gpu mlx5_3
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "27"
+  state: ACT
+0xb0cf0e0300e5b480_28:
+  localGuid: "0x5c2573030090c4d2"
+  localName: h1-28-gpu mlx5_3
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "28"
+  state: ACT
+0xb0cf0e0300e5b480_29:
+  localGuid: "0x5c2573030090474a"
+  localName: h1-29-gpu mlx5_3
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "29"
+  state: ACT
+0xb0cf0e0300e5b480_30:
+  localGuid: "0x5c25730300905512"
+  localName: h1-30-gpu mlx5_3
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "30"
+  state: ACT
+0xb0cf0e0300e5b480_31:
+  localGuid: "0x5c25730300a0cd42"
+  localName: h1-31-gpu mlx5_3
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "31"
+  state: ACT
+0xb0cf0e0300e5b480_32:
+  localGuid: "0x5c25730300a0c0aa"
+  localName: h1-32-gpu mlx5_3
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "32"
+  state: ACT
+0xb0cf0e0300e5b480_33:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "33"
+  state: DOWN
+0xb0cf0e0300e5b480_34:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "34"
+  state: DOWN
+0xb0cf0e0300e5b480_35:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "35"
+  state: DOWN
+0xb0cf0e0300e5b480_36:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "36"
+  state: DOWN
+0xb0cf0e0300e5b480_37:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "37"
+  state: DOWN
+0xb0cf0e0300e5b480_38:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "38"
+  state: DOWN
+0xb0cf0e0300e5b480_39:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "39"
+  state: DOWN
+0xb0cf0e0300e5b480_40:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "40"
+  state: DOWN
+0xb0cf0e0300e5b480_41:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "41"
+  state: DOWN
+0xb0cf0e0300e5b480_42:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "42"
+  state: DOWN
+0xb0cf0e0300e5b480_43:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "43"
+  state: DOWN
+0xb0cf0e0300e5b480_44:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "44"
+  state: DOWN
+0xb0cf0e0300e5b480_45:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "45"
+  state: DOWN
+0xb0cf0e0300e5b480_46:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "46"
+  state: DOWN
+0xb0cf0e0300e5b480_47:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "47"
+  state: DOWN
+0xb0cf0e0300e5b480_48:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "48"
+  state: DOWN
+0xb0cf0e0300e5b480_49:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "49"
+  state: DOWN
+0xb0cf0e0300e5b480_50:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "50"
+  state: DOWN
+0xb0cf0e0300e5b480_51:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "51"
+  state: DOWN
+0xb0cf0e0300e5b480_52:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "52"
+  state: DOWN
+0xb0cf0e0300e5b480_53:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "53"
+  state: DOWN
+0xb0cf0e0300e5b480_54:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "54"
+  state: DOWN
+0xb0cf0e0300e5b480_55:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "55"
+  state: DOWN
+0xb0cf0e0300e5b480_56:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "56"
+  state: DOWN
+0xb0cf0e0300e5b480_57:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "57"
+  state: DOWN
+0xb0cf0e0300e5b480_58:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "58"
+  state: DOWN
+0xb0cf0e0300e5b480_59:
+  localGuid: "0xb0cf0e0300d34100"
+  localName: MF0;Cherry-management-IB:MQM9700/U1
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "59"
+  state: ACT
+0xb0cf0e0300e5b480_60:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "60"
+  state: DOWN
+0xb0cf0e0300e5b480_61:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "61"
+  state: DOWN
+0xb0cf0e0300e5b480_62:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "62"
+  state: DOWN
+0xb0cf0e0300e5b480_63:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "63"
+  state: DOWN
+0xb0cf0e0300e5b480_64:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300e5b480"
+  remoteName: LEAF08
+  remotePort: "64"
+  state: DOWN
+0xb0cf0e0300fa6240_1:
+  localGuid: "0x5c257303009045c2"
+  localName: h1-1-gpu mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "1"
+  state: ACT
+0xb0cf0e0300fa6240_2:
+  localGuid: "0x5c2573030090927a"
+  localName: h1-2-gpu mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "2"
+  state: ACT
+0xb0cf0e0300fa6240_3:
+  localGuid: "0x5c2573030090ba0a"
+  localName: h1-3-gpu mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "3"
+  state: ACT
+0xb0cf0e0300fa6240_4:
+  localGuid: ""
+  localName: "h1-4-gpu mlx5_10"
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "4"
+  state: DOWN
+0xb0cf0e0300fa6240_5:
+  localGuid: "0x5c2573030090c2ba"
+  localName: h1-5-gpu mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "5"
+  state: ACT
+0xb0cf0e0300fa6240_6:
+  localGuid: "0x5c257303009089aa"
+  localName: h1-6-gpu mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "6"
+  state: ACT
+0xb0cf0e0300fa6240_7:
+  localGuid: "0x5c2573030090806a"
+  localName: h1-7-gpu mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "7"
+  state: ACT
+0xb0cf0e0300fa6240_8:
+  localGuid: "0x5c257303009091da"
+  localName: h1-8-gpu mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "8"
+  state: ACT
+0xb0cf0e0300fa6240_9:
+  localGuid: "0x5c257303001029b0"
+  localName: h1-9-gpu mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "9"
+  state: ACT
+0xb0cf0e0300fa6240_10:
+  localGuid: "0x5c25730300908fe2"
+  localName: h1-10-gpu mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "10"
+  state: ACT
+0xb0cf0e0300fa6240_11:
+  localGuid: "0x5c257303009091e2"
+  localName: h1-11-gpu mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "11"
+  state: ACT
+0xb0cf0e0300fa6240_12:
+  localGuid: "0x5c25730300a0cc82"
+  localName: h1-12-gpu mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "12"
+  state: ACT
+0xb0cf0e0300fa6240_13:
+  localGuid: "0x5c257303000da82a"
+  localName: h1-13-gpu mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "13"
+  state: ACT
+0xb0cf0e0300fa6240_14:
+  localGuid: "0x5c2573030090c4ea"
+  localName: h1-14-gpu mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "14"
+  state: ACT
+0xb0cf0e0300fa6240_15:
+  localGuid: "0x5c25730300a0cc0a"
+  localName: h1-15-gpu mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "15"
+  state: ACT
+0xb0cf0e0300fa6240_16:
+  localGuid: "0x5c2573030090cbd2"
+  localName: h1-16-gpu mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "16"
+  state: ACT
+0xb0cf0e0300fa6240_17:
+  localGuid: "0x5c25730300908ca2"
+  localName: h1-17-gpu mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "17"
+  state: ACT
+0xb0cf0e0300fa6240_18:
+  localGuid: "0x5c257303000fd08c"
+  localName: h1-18-gpu mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "18"
+  state: ACT
+0xb0cf0e0300fa6240_19:
+  localGuid: "0x5c257303009045ea"
+  localName: h1-19-gpu mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "19"
+  state: ACT
+0xb0cf0e0300fa6240_20:
+  localGuid: "0x5c25730300904032"
+  localName: h1-20-gpu mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "20"
+  state: ACT
+0xb0cf0e0300fa6240_21:
+  localGuid: "0x5c257303009092d2"
+  localName: h1-21-gpu mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "21"
+  state: ACT
+0xb0cf0e0300fa6240_22:
+  localGuid: "0x5c25730300909122"
+  localName: h1-22-gpu mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "22"
+  state: ACT
+0xb0cf0e0300fa6240_23:
+  localGuid: "0x5c25730300904062"
+  localName: h1-23-gpu mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "23"
+  state: ACT
+0xb0cf0e0300fa6240_24:
+  localGuid: "0x5c25730300904552"
+  localName: h1-24-gpu mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "24"
+  state: ACT
+0xb0cf0e0300fa6240_25:
+  localGuid: "0x5c2573030090402a"
+  localName: h1-25-gpu mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "25"
+  state: ACT
+0xb0cf0e0300fa6240_26:
+  localGuid: "0x5c257303009042b2"
+  localName: h1-26-gpu mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "26"
+  state: ACT
+0xb0cf0e0300fa6240_27:
+  localGuid: "0x5c25730300102ae0"
+  localName: h1-27-gpu mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "27"
+  state: ACT
+0xb0cf0e0300fa6240_28:
+  localGuid: "0x5c257303000d923a"
+  localName: h1-28-gpu mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "28"
+  state: ACT
+0xb0cf0e0300fa6240_29:
+  localGuid: "0x5c2573030090ca72"
+  localName: h1-29-gpu mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "29"
+  state: ACT
+0xb0cf0e0300fa6240_30:
+  localGuid: "0x5c25730300a03322"
+  localName: h1-30-gpu mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "30"
+  state: ACT
+0xb0cf0e0300fa6240_31:
+  localGuid: "0x5c25730300a0800a"
+  localName: h1-31-gpu mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "31"
+  state: ACT
+0xb0cf0e0300fa6240_32:
+  localGuid: "0x5c25730300a0c0b2"
+  localName: h1-32-gpu mlx5_10
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "32"
+  state: ACT
+0xb0cf0e0300fa6240_33:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "33"
+  state: DOWN
+0xb0cf0e0300fa6240_34:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "34"
+  state: DOWN
+0xb0cf0e0300fa6240_35:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "35"
+  state: DOWN
+0xb0cf0e0300fa6240_36:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "36"
+  state: DOWN
+0xb0cf0e0300fa6240_37:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "37"
+  state: DOWN
+0xb0cf0e0300fa6240_38:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "38"
+  state: DOWN
+0xb0cf0e0300fa6240_39:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "39"
+  state: DOWN
+0xb0cf0e0300fa6240_40:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "40"
+  state: DOWN
+0xb0cf0e0300fa6240_41:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "41"
+  state: DOWN
+0xb0cf0e0300fa6240_42:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "42"
+  state: DOWN
+0xb0cf0e0300fa6240_43:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "43"
+  state: DOWN
+0xb0cf0e0300fa6240_44:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "44"
+  state: DOWN
+0xb0cf0e0300fa6240_45:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "45"
+  state: DOWN
+0xb0cf0e0300fa6240_46:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "46"
+  state: DOWN
+0xb0cf0e0300fa6240_47:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "47"
+  state: DOWN
+0xb0cf0e0300fa6240_48:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "48"
+  state: DOWN
+0xb0cf0e0300fa6240_49:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "49"
+  state: DOWN
+0xb0cf0e0300fa6240_50:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "50"
+  state: DOWN
+0xb0cf0e0300fa6240_51:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "51"
+  state: DOWN
+0xb0cf0e0300fa6240_52:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "52"
+  state: DOWN
+0xb0cf0e0300fa6240_53:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "53"
+  state: DOWN
+0xb0cf0e0300fa6240_54:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "54"
+  state: DOWN
+0xb0cf0e0300fa6240_55:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "55"
+  state: DOWN
+0xb0cf0e0300fa6240_56:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "56"
+  state: DOWN
+0xb0cf0e0300fa6240_57:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "57"
+  state: DOWN
+0xb0cf0e0300fa6240_58:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "58"
+  state: DOWN
+0xb0cf0e0300fa6240_59:
+  localGuid: "0xb0cf0e0300d34100"
+  localName: MF0;Cherry-management-IB:MQM9700/U1
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "59"
+  state: ACT
+0xb0cf0e0300fa6240_60:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "60"
+  state: DOWN
+0xb0cf0e0300fa6240_61:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "61"
+  state: DOWN
+0xb0cf0e0300fa6240_62:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "62"
+  state: DOWN
+0xb0cf0e0300fa6240_63:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "63"
+  state: DOWN
+0xb0cf0e0300fa6240_64:
+  localGuid: ""
+  localName: ""
+  localPort: ""
+  remoteGuid: "0xb0cf0e0300fa6240"
+  remoteName: LEAF03
+  remotePort: "64"
+  state: DOWN
