@@ -44,7 +44,7 @@ func NewInfinibandExporterCommand() *cobra.Command {
 			if !GetConfig {
 				util.SetCache(filepath.Join(configPath, "config.yaml"))
 			}
-			if RunMode == "prod" {
+			if RunMode == "local" {
 				SyncData = GetSyncSwitchDataConfig()
 				iblog.GetLogger().Info(fmt.Sprintf("SyncSwitchData: %v", SyncData))
 			}
@@ -76,7 +76,7 @@ func NewInfinibandExporterCommand() *cobra.Command {
 		"mode",
 		"m",
 		"dev",
-		"an string parameter[dev prod]",
+		"an string parameter[local|agent|dev]",
 	)
 	rootCmd.Flags().StringVarP(
 		&WorkDir,
@@ -96,7 +96,8 @@ func NewInfinibandExporterCommand() *cobra.Command {
 }
 
 func MetricsHandler(w http.ResponseWriter, r *http.Request) {
-	if RunMode == "prod" {
+	switch RunMode {
+	case "local":
 		if _, err := SyncData.SyncSwitchData(); err != nil {
 			iblog.GetLogger().Error(fmt.Sprintf("SyncSwitchData error: %s", err))
 			return
@@ -110,7 +111,22 @@ func MetricsHandler(w http.ResponseWriter, r *http.Request) {
 			}
 
 		}
-	} else {
+	case "agent":
+		_, err := util.ExecCmd(
+			"ibdiagnet",
+		)
+		if err != nil {
+			iblog.GetLogger().Error(fmt.Sprintf("ibdiagent exec error: %s", err))
+			return
+		}
+		_, err = util.ExecCmd(
+			"cp", "-Rf", "/var/tmp/ibdiagnet2", fmt.Sprintf("%s/data/", WorkDir),
+		)
+		if err != nil {
+			iblog.GetLogger().Error(fmt.Sprintf("ibdiagent exec error: %s", err))
+			return
+		}
+	default:
 		iblog.GetLogger().Info("RunMode is dev, no need to sync data")
 	}
 	linkNetDump := ibdiagnet2.LinkNetDump{
