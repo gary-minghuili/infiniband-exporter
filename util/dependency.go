@@ -88,7 +88,7 @@ func GetValueFromCache(key string) (map[string]string, bool) {
 	return val, exists
 }
 
-func GetKeysFromCache(guid string) bool {
+func GetKeysFromCache(guid string) ([]string, bool) {
 	CacheLock.RLock()
 	defer CacheLock.RUnlock()
 	var guids []string
@@ -98,7 +98,10 @@ func GetKeysFromCache(guid string) bool {
 			guids = append(guids, keySplits[0])
 		}
 	}
-	return slices.Contains(guids, guid)
+	if guid == "" {
+		return guids, false
+	}
+	return guids, slices.Contains(guids, guid)
 }
 
 func GetContent(filePath string, regexExpr string) (*[]string, error) {
@@ -129,4 +132,18 @@ func StringToBool(s string) (bool, error) {
 	default:
 		return false, fmt.Errorf("invalid boolean string: %s", s)
 	}
+}
+
+func DifferenceSlice[T comparable](a, b []T) []T {
+	elementMap := make(map[T]struct{})
+	for _, item := range b {
+		elementMap[item] = struct{}{}
+	}
+	var diff []T
+	for _, item := range a {
+		if _, found := elementMap[item]; !found {
+			diff = append(diff, item)
+		}
+	}
+	return diff
 }

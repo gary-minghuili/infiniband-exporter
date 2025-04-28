@@ -9,6 +9,7 @@ import (
 	"regexp"
 
 	"github.com/prometheus/client_golang/prometheus"
+	"golang.org/x/exp/maps"
 	"gopkg.in/yaml.v2"
 )
 
@@ -25,6 +26,13 @@ var (
 		prometheus.GaugeOpts{
 			Name: "infiniband_link_info_state",
 			Help: "Gauge infiniband link info",
+		},
+		netDumpLabels,
+	)
+	netDumpSwitchInfoGauge = prometheus.NewGaugeVec(
+		prometheus.GaugeOpts{
+			Name: "infiniband_switch_info_state",
+			Help: "Gauge infiniband switch info",
 		},
 		netDumpLabels,
 	)
@@ -54,6 +62,7 @@ type NetDump struct {
 func init() {
 	prometheus.MustRegister(netDumpLinkInfoCounter)
 	prometheus.MustRegister(netDumpLinkInfoGauge)
+	prometheus.MustRegister(netDumpSwitchInfoGauge)
 }
 
 func (d *LinkNetDump) ParseContent() (*[]NetDump, error) {
@@ -192,7 +201,11 @@ func (d *LinkNetDump) UpdateMetrics() {
 		return
 	}
 	var value float64
+	netDumpSwitchs := make(map[string]string, 0)
 	for _, net := range *netDump {
+		if _, exists := netDumpSwitchs[net.remoteGuid]; !exists {
+			netDumpSwitchs[net.remoteGuid] = net.remoteName
+		}
 		netDumpLinkInfoCounter.WithLabelValues(
 			net.remoteGuid,
 			net.remoteName,
@@ -217,5 +230,21 @@ func (d *LinkNetDump) UpdateMetrics() {
 			net.localName,
 			net.localPort,
 		).Set(value)
+	}
+	netDumpSwitchsFromCache, _ := util.GetKeysFromCache("")
+	diffSwitchs := util.DifferenceSlice(netDumpSwitchsFromCache, maps.Keys(netDumpSwitchs))
+	for _, remoteGuid := range diffSwitchs {
+		if linkMap, exists := util.GetValueFromCache(fmt.Sprintf("%s_1", remoteGuid)); exists {
+			netDumpSwitchInfoGauge.WithLabelValues(
+				remoteGuid, linkMap["remoteName"], "-",
+				"DOWN",
+				"-", "-", "-").
+				Set(0)
+		}
+	}
+	for remoteGuid, remoteName := range netDumpSwitchs {
+		netDumpSwitchInfoGauge.WithLabelValues(
+			remoteGuid, remoteName, "-", "UP", "-", "-", "-").
+			Set(1)
 	}
 }

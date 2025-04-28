@@ -483,7 +483,7 @@ func (p *LinkPm) UpdateMetrics() {
 		name := subSwitchCaMatch[5]
 		var remoteGuid, remoteName, remotePort, localGuid, localName, localPort string
 		component := global.ComponentCa
-		exists := util.GetKeysFromCache(guid)
+		_, exists := util.GetKeysFromCache(guid)
 		if exists {
 			component = global.ComponentSw
 			linkMap, exists := util.GetValueFromCache(fmt.Sprintf("%s_%s", guid, port))
