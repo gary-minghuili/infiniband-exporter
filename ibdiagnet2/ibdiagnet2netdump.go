@@ -85,11 +85,11 @@ func (d *LinkNetDump) ParseContent() (*[]NetDump, error) {
 		remoteName := subSwitchMatch[1]
 		remoteGuid := subSwitchMatch[3]
 		// remotePort := subSwitchMatch[4]
-		activeExprs := []string{
+		activeExprSlice := []string{
 			`\s+(\d+/\d+/\d+)\s+:\s(\d+)\s+:\s(\w+)\s+:\s+(\w+\s\w+)\s+:\s+(\d+)\s+:\s+(\d+\w+)\s+:\s+(\d+)\s+:\s+(\w+)\s+:\s+(.*)\s+:\s+(\w{18})\s+:\s+(\w+/\d+/\d+/\d+)\s+:\s+(\d+)\s+:\s+"([\w-]+)\s([\w-]+)"`,
 			`\s+(\d+/\d+/\d+)\s+:\s(\d+)\s+:\s(\w+)\s+:\s+(\w+\s\w+)\s+:\s+(\d+)\s+:\s+(\d+\w+)\s+:\s+(\d+)\s+:\s+(\w+)\s+:\s+(.*)\s+:\s+(\w{18})\s+:\s+(\d+/\d+/\d+)\s+:\s+(\d+)\s+:\s+"(.*)"`,
 		}
-		for _, activeExpr := range activeExprs {
+		for _, activeExpr := range activeExprSlice {
 			activeMatch, err := regexp.Compile(activeExpr)
 			if err != nil {
 				log.GetLogger().Error("Sub switch match error compiling regex")
@@ -195,16 +195,19 @@ func (d *LinkNetDump) ParseContent() (*[]NetDump, error) {
 }
 
 func (d *LinkNetDump) UpdateMetrics() {
+	netDumpLinkInfoCounter.Reset()
+	netDumpLinkInfoGauge.Reset()
+	netDumpSwitchInfoGauge.Reset()
 	netDump, err := d.ParseContent()
 	if err != nil {
 		log.GetLogger().Error("Parse content error")
 		return
 	}
 	var value float64
-	netDumpSwitchs := make(map[string]string, 0)
+	netDumpSwitches := make(map[string]string)
 	for _, net := range *netDump {
-		if _, exists := netDumpSwitchs[net.remoteGuid]; !exists {
-			netDumpSwitchs[net.remoteGuid] = net.remoteName
+		if _, exists := netDumpSwitches[net.remoteGuid]; !exists {
+			netDumpSwitches[net.remoteGuid] = net.remoteName
 		}
 		netDumpLinkInfoCounter.WithLabelValues(
 			net.remoteGuid,
@@ -231,9 +234,9 @@ func (d *LinkNetDump) UpdateMetrics() {
 			net.localPort,
 		).Set(value)
 	}
-	netDumpSwitchsFromCache, _ := util.GetKeysFromCache("")
-	diffSwitchs := util.DifferenceSlice(netDumpSwitchsFromCache, maps.Keys(netDumpSwitchs))
-	for _, remoteGuid := range diffSwitchs {
+	netDumpSwitchesFromCache, _ := util.GetKeysFromCache("")
+	diffSwitches := util.DifferenceSlice(netDumpSwitchesFromCache, maps.Keys(netDumpSwitches))
+	for _, remoteGuid := range diffSwitches {
 		if linkMap, exists := util.GetValueFromCache(fmt.Sprintf("%s_1", remoteGuid)); exists {
 			netDumpSwitchInfoGauge.WithLabelValues(
 				remoteGuid, linkMap["remoteName"], "-",
@@ -242,7 +245,7 @@ func (d *LinkNetDump) UpdateMetrics() {
 				Set(0)
 		}
 	}
-	for remoteGuid, remoteName := range netDumpSwitchs {
+	for remoteGuid, remoteName := range netDumpSwitches {
 		netDumpSwitchInfoGauge.WithLabelValues(
 			remoteGuid, remoteName, "-", "UP", "-", "-", "-").
 			Set(1)
