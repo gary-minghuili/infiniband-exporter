@@ -47,6 +47,7 @@ type LinkNetDump struct {
 	FilePath   string
 	ConfigPath string
 	GetConfig  bool
+	IsMapName  bool
 }
 
 type NetDump struct {
@@ -99,14 +100,12 @@ func (d *LinkNetDump) ParseContent() (*[]NetDump, error) {
 			for _, match := range subActiveMatch {
 				var localName string
 				if len(match) == 15 {
-					leafKey := match[14]
-					if value, exists := global.HcaMlxMap[match[14]]; exists {
-						leafKey = value
-						localName = fmt.Sprintf(`%s %s`, match[13], value)
-					} else {
-						localName = fmt.Sprintf(`%s %s`, match[13], match[14])
+					hcaOrMlxKey, hostName := match[14], match[13]
+					if value, exists := global.HcaMlxMap[hcaOrMlxKey]; exists {
+						hcaOrMlxKey = value
 					}
-					if remoteLeafName, exists := global.MlxLeafMap[leafKey]; exists {
+					localName = fmt.Sprintf(`%s %s`, hostName, hcaOrMlxKey)
+					if remoteLeafName, exists := global.MlxLeafMap[hcaOrMlxKey]; exists {
 						if _, exists := remoteNameMap[remoteGuid]; !exists {
 							remoteNameMap[remoteGuid] = remoteLeafName
 						}
@@ -114,9 +113,12 @@ func (d *LinkNetDump) ParseContent() (*[]NetDump, error) {
 				} else {
 					localName = match[13]
 				}
+				if d.IsMapName {
+					remoteName = remoteNameMap[remoteGuid]
+				}
 				netDump := NetDump{
 					remoteGuid: remoteGuid,
-					remoteName: remoteNameMap[remoteGuid],
+					remoteName: remoteName,
 					remotePort: match[2],
 					state:      match[3],
 					localGuid:  match[10],
@@ -173,7 +175,7 @@ func (d *LinkNetDump) ParseContent() (*[]NetDump, error) {
 		for _, netDump := range netDumps {
 			configDataKey := fmt.Sprintf("%s_%s", netDump.remoteGuid, netDump.remotePort)
 			configData[configDataKey] = map[string]any{
-				"remoteName": remoteNameMap[netDump.remoteGuid],
+				"remoteName": netDump.remoteName,
 				"remoteGuid": netDump.remoteGuid,
 				"remotePort": netDump.remotePort,
 				"state":      netDump.state,

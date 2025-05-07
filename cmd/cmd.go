@@ -21,6 +21,7 @@ var (
 	RunMode   string
 	WorkDir   string
 	GetConfig bool
+	IsMapName bool
 	SyncData  = new(ibdiagnet2.SyncSwitchData)
 )
 
@@ -33,8 +34,9 @@ func NewInfinibandExporterCommand() *cobra.Command {
 			HttpPort, _ = cmd.Flags().GetInt("port")
 			LogPath, _ = cmd.Flags().GetString("log")
 			RunMode, _ = cmd.Flags().GetString("mode")
-			WorkDir, _ = cmd.Flags().GetString("workdir")
-			GetConfig, _ = cmd.Flags().GetBool("getconfig")
+			WorkDir, _ = cmd.Flags().GetString("workDir")
+			GetConfig, _ = cmd.Flags().GetBool("getConfig")
+			IsMapName, _ = cmd.Flags().GetBool("isMapName")
 			err := iblog.InitLogger(LogPath)
 			if err != nil {
 				log.Fatalf("Failed to initialize logger: %v", err)
@@ -80,15 +82,22 @@ func NewInfinibandExporterCommand() *cobra.Command {
 	)
 	rootCmd.Flags().StringVarP(
 		&WorkDir,
-		"workdir",
+		"workDir",
 		"w",
-		"/Users/xlmh/Code/github/infiniband_exporter",
+		"./",
 		"an string parameter",
 	)
 	rootCmd.Flags().BoolVarP(
 		&GetConfig,
-		"getconfig",
+		"getConfig",
 		"g",
+		false,
+		"an bool parameter",
+	)
+	rootCmd.Flags().BoolVarP(
+		&IsMapName,
+		"isMapName",
+		"i",
 		false,
 		"an bool parameter",
 	)
@@ -139,6 +148,7 @@ func MetricsHandler(w http.ResponseWriter, r *http.Request) {
 			"config.yaml",
 		),
 		GetConfig: GetConfig,
+		IsMapName: IsMapName,
 	}
 	var dumper ibdiagnet2.Dumper = &linkNetDump
 	dumper.UpdateMetrics()
